@@ -20,7 +20,7 @@ jobs:
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@v1
+        uses: x-actions/python3-cisctl@v1.0.0
         env:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
