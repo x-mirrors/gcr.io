@@ -1,0 +1,2 @@
+k8s.gcr.io/scheduler-plugins/controller
+k8s.gcr.io/scheduler-plugins/kube-scheduler
