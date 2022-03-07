@@ -1,4 +1,4 @@
-Google Containers Registry coredns Mirrors [last sync 2022-03-07 22:47:34]
+Google Containers Registry coredns Mirrors [last sync 2022-03-07 22:55:25]
 -------
 
 [![coredns](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml)
@@ -24,8 +24,8 @@ Total of 2's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | coredns | 30 | - | 2022-03-07 22:47:34 |
-| 2 |  | 1 | - | 2022-03-07 22:47:34 |
+| 1 | coredns | 30 | - | 2022-03-07 22:55:25 |
+| 2 |  | 1 | - | 2022-03-07 22:55:25 |
 
 Support
 -------
