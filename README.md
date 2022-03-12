@@ -1,31 +1,32 @@
-Google Containers Registry coredns Mirrors [last sync 2022-03-11 23:12:38]
+Google Containers Registry metallb Mirrors [last sync 2022-03-12 10:13:56]
 -------
 
-[![coredns](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml)
+[![metallb](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml)
 
-Repository Address: [https://hub.docker.com/u/gcmirrors/](https://hub.docker.com/u/gcmirrors/)
+Repository Address: [https://hub.docker.com/u/quayiometallb/](https://hub.docker.com/u/quayiometallb/)
 
 Useage
 -------
 
 From gcr.io:
 ```bash
-docker pull coredns/hyperkube:v1.9.6
+docker pull metallb/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
 ```bash
-docker pull gcmirrors/hyperkube:v1.9.6
+docker pull quayiometallb/hyperkube:v1.9.6
 ```
 
-Total of 2's k8s.gcr.io images
+Total of 3's quay.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | coredns | 30 | - | 2022-03-11 23:12:38 |
-| 2 |  | 1 | - | 2022-03-11 23:12:38 |
+| 1 | controller | 1 | - | 2022-03-12 10:13:38 |
+| 2 | speaker | 1 | - | 2022-03-12 10:13:39 |
+| 3 |  | 1 | - | 2022-03-12 10:13:56 |
 
 Support
 -------
