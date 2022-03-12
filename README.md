@@ -1,4 +1,4 @@
-Google Containers Registry coredns Mirrors [last sync 2022-03-12 10:13:40]
+Google Containers Registry coredns Mirrors [last sync 2022-03-12 13:18:10]
 -------
 
 [![coredns](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/coredns.yml)
@@ -18,14 +18,13 @@ From docker hub Mirrors:
 docker pull gcmirrors/hyperkube:v1.9.6
 ```
 
-Total of 2's k8s.gcr.io images
+Total of 1's k8s.gcr.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | coredns | 30 | - | 2022-03-12 10:13:40 |
-| 2 |  | 1 | - | 2022-03-12 10:13:40 |
+| 1 | coredns | 10 | - | 2022-03-12 13:18:10 |
 
 Support
 -------
