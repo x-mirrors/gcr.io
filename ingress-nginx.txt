@@ -1,0 +1,9 @@
+k8s.gcr.io/ingress-nginx/controller
+k8s.gcr.io/ingress-nginx/e2e-test-cfssl
+k8s.gcr.io/ingress-nginx/e2e-test-echo
+k8s.gcr.io/ingress-nginx/e2e-test-fastcgi-helloserver
+k8s.gcr.io/ingress-nginx/e2e-test-httpbin
+k8s.gcr.io/ingress-nginx/e2e-test-runner
+k8s.gcr.io/ingress-nginx/kube-webhook-certgen
+k8s.gcr.io/ingress-nginx/nginx
+k8s.gcr.io/ingress-nginx/nginx-errors

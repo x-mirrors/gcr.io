@@ -1,0 +1,2 @@
+quay.io/metallb/controller
+quay.io/metallb/speaker
