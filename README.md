@@ -1,4 +1,4 @@
-Google Containers Registry metallb Mirrors [last sync 2022-03-12 11:09:48]
+Google Containers Registry metallb Mirrors [last sync 2022-03-13 00:45:23]
 -------
 
 [![metallb](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml)
@@ -18,15 +18,14 @@ From docker hub Mirrors:
 docker pull quayiometallb/hyperkube:v1.9.6
 ```
 
-Total of 3's quay.io images
+Total of 2's quay.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | controller | 1 | - | 2022-03-12 11:09:48 |
-| 2 | speaker | 1 | - | 2022-03-12 11:09:48 |
-| 3 |  | 1 | - | 2022-03-12 11:09:48 |
+| 1 | controller | 409 | - | 2022-03-13 00:45:23 |
+| 2 | speaker | 404 | - | 2022-03-13 00:45:23 |
 
 Support
 -------
