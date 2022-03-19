@@ -1,0 +1,4 @@
+quay.io/coreos/coreos-installer
+quay.io/coreos/etcd
+quay.io/coreos/flannel
+quay.io/coreos/tectonic-console-builder
