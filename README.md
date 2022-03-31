@@ -23,6 +23,12 @@ sync google/quay container registry images to hub.docker.com
 | quay.io/metallb | [quayiometallb](https://hub.docker.com/u/quayiometallb) | [![quayiometallb](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/metallb.yml) |
 | quay.io/coreos | [qcoreos](https://hub.docker.com/u/qcoreos) | [![quay.io/coreos](https://github.com/x-mirrors/gcr.io/actions/workflows/qcoreos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/qcoreos.yml) |
 
+- Knative
+
+| gcr.io/knative-releases/knative.dev/_f_/cmd/_n_ | [gcrioknative](https://hub.docker.com/u/gcrioknative) | [![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/knative.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/knative.yml) |
+
+replace `gcr.io/knative-releases/knative.dev/serving/cmd/activator` to `gcrioknative/serving-activator`
+
 ## sync request
 
 - create issue in this repo
@@ -37,7 +43,11 @@ gcloud container images list --repository k8s.gcr.io/scheduler-plugins
 gcloud container images list --repository k8s.gcr.io/ingress-nginx
 gcloud container images list --repository k8s.gcr.io/coredns
 gcloud container images list --project ml-pipeline
+gcloud container images list --repository k8s.gcr.io/autoscaling
+gcloud container images list --repository k8s.gcr.io/metrics-server
+
 gcloud container images list --repository gcr.io/google-samples
+for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do echo $i/cmd;  gcloud container images list --repository $i/cmd; done > knative.txt
 ```
 
 quay image from : https://quay.io/search?q=coreos
