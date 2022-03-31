@@ -2,7 +2,7 @@ name: k8s
 
 on:
   schedule:
-    - cron: '* 8 * * *'
+    - cron: '* */8 * * *'
   push:
       branches:
         - main
@@ -31,7 +31,7 @@ jobs:
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xianbinxie"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
-          LOG_LEVEL: "INFO"
+          LOG_LEVEL: "DEBUG"
 
       - name: Public result to github
         uses: x-actions/git-push@v1
