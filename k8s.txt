@@ -14,7 +14,8 @@ k8s.gcr.io/alpine-with-bash
 k8s.gcr.io/apisnoop
 k8s.gcr.io/apparmor-loader
 k8s.gcr.io/artifact-promoter
-k8s.gcr.io/autoscaling
+# see autoscaling.txt
+# k8s.gcr.io/autoscaling
 k8s.gcr.io/build-image
 k8s.gcr.io/busybox
 k8s.gcr.io/cadvisor
@@ -214,7 +215,8 @@ k8s.gcr.io/hyperkube-arm
 k8s.gcr.io/hyperkube-arm64
 k8s.gcr.io/hyperkube-ppc64le
 k8s.gcr.io/hyperkube-s390x
-k8s.gcr.io/infra-tools
+# set infra-tools.txt
+# k8s.gcr.io/infra-tools
 k8s.gcr.io/ingress-gce-404-server-with-metrics-amd64
 k8s.gcr.io/ingress-gce-glbc-amd64
 k8s.gcr.io/ingressconformance
@@ -365,12 +367,13 @@ k8s.gcr.io/logexporter
 k8s.gcr.io/logs-generator
 k8s.gcr.io/managed-certificate-controller
 k8s.gcr.io/metadata-proxy
-k8s.gcr.io/metrics-server
-k8s.gcr.io/metrics-server-amd64
-k8s.gcr.io/metrics-server-arm
-k8s.gcr.io/metrics-server-arm64
-k8s.gcr.io/metrics-server-ppc64le
-k8s.gcr.io/metrics-server-s390x
+# see metrics-server.txt
+# k8s.gcr.io/metrics-server
+# k8s.gcr.io/metrics-server-amd64
+# k8s.gcr.io/metrics-server-arm
+# k8s.gcr.io/metrics-server-arm64
+# k8s.gcr.io/metrics-server-ppc64le
+# k8s.gcr.io/metrics-server-s390x
 k8s.gcr.io/minikube-nvidia-driver-installer
 k8s.gcr.io/mongodb-install
 k8s.gcr.io/mounttest

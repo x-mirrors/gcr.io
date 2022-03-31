@@ -1,0 +1,6 @@
+k8s.gcr.io/metrics-server/metrics-server
+k8s.gcr.io/metrics-server/metrics-server-amd64
+k8s.gcr.io/metrics-server/metrics-server-arm
+k8s.gcr.io/metrics-server/metrics-server-arm64
+k8s.gcr.io/metrics-server/metrics-server-ppc64le
+k8s.gcr.io/metrics-server/metrics-server-s390x
