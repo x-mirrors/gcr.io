@@ -1,0 +1,4 @@
+gcr.io/kaniko-project/debug
+gcr.io/kaniko-project/demo
+gcr.io/kaniko-project/executor
+gcr.io/kaniko-project/warmer

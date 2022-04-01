@@ -17,9 +17,9 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/ping
 gcr.io/knative-releases/knative.dev/eventing/cmd/sources_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/sugar_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/upgrade
-gcr.io/knative-releases/knative.dev/eventing/cmd/v0.16
-gcr.io/knative-releases/knative.dev/eventing/cmd/v0.17
-gcr.io/knative-releases/knative.dev/eventing/cmd/v0.22
+# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.16
+# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.17
+# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.22
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing/cmd/websocketsource
 gcr.io/knative-releases/knative.dev/eventing-autoscaler-keda/cmd/controller

@@ -25,6 +25,8 @@ sync google/quay container registry images to hub.docker.com
 
 - Knative
 
+|  GCR | Docker | Status |
+| ------------ | ------------ | ------------ |
 | gcr.io/knative-releases/knative.dev/_f_/cmd/_n_ | [gcrioknative](https://hub.docker.com/u/gcrioknative) | [![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/knative.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/knative.yml) |
 
 replace `gcr.io/knative-releases/knative.dev/serving/cmd/activator` to `gcrioknative/serving-activator`
@@ -34,7 +36,7 @@ replace `gcr.io/knative-releases/knative.dev/serving/cmd/activator` to `gcriokna
 - create issue in this repo
 - send request to `me@xiexianbin.cn`
 
-## generates
+## generates image lists
 
 ```
 # gcloud container images list --project google-containers
@@ -45,13 +47,21 @@ gcloud container images list --repository k8s.gcr.io/coredns
 gcloud container images list --project ml-pipeline
 gcloud container images list --repository k8s.gcr.io/autoscaling
 gcloud container images list --repository k8s.gcr.io/metrics-server
-
 gcloud container images list --repository gcr.io/google-samples
-for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do echo $i/cmd;  gcloud container images list --repository $i/cmd; done > knative.txt
+
+# knative.txt
+for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do gcloud container images list --repository $i/cmd; done > knative.txt
+
+# tekton.txt
+for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > tekton.txt
 ```
 
-quay image from : https://quay.io/search?q=coreos
+quay image from :
+- https://quay.io/search?q=coreos
+- https://quay.io/api/v1/repository?last_modified=true&namespace=coreos&popularity=true&public=true&quota=false
 
 ## ref
 
 - https://github.com/kubernetes/k8s.io/blob/main/k8s.gcr.io/Vanity-Domain-Flip.md
+- old mirrors code https://github.com/x-mirrors/gcmirrors
+- build your own mirrors use [python3-cisctl](https://github.com/x-actions/python3-cisctl/)
