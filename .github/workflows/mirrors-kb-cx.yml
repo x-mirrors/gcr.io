@@ -1,0 +1,57 @@
+name: mirrors-kb-cx
+
+on: [push]
+
+jobs:
+  mirrors-kb-cx:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Cancel previous runs on the same branch
+        if: ${{ !env.ACT }}
+        uses: styfle/cancel-workflow-action@0.7.0
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/checkout@v2
+        if: ${{ !env.ACT }}
+        with:
+          ref: 'main'
+          token: '${{ secrets.GITHUB_TOKEN }}'
+
+      - name: Checkout gcr.io
+        uses: actions/checkout@v2
+        with:
+          repository: kbcx/gcr.io
+          ref: 'main'
+          path: gcr.io
+
+      - name: go-gcrmirrors
+        uses: x-actions/go-gcrmirrors@v0.1.1
+        env:
+          sourceDir: 'gcr.io'
+          publicDir: '/github/workspace/public'
+
+      - name: Sync code to CDN
+        uses: x-actions/go-sync@v1.1.1
+        env:
+          CDNTYPE: 'aliyun'
+          ACCESSKEYID: ${{ secrets.ACCESSKEYID }}
+          ACCESSKEYSECRET: ${{ secrets.ACCESSKEYSECRET }}
+          ENDPOINT: 'oss-cn-shanghai.aliyuncs.com'
+          BUCKETNAME: 'mirrors-kb-cx'
+          CACHEFILE: '/github/workspace/mirrors-kb-cx.json'
+          EXCLUDE: '.git'
+          SUB_DIR: 'public'
+
+      - name: Sending Dingtalk Message
+        uses: x-actions/dingtalk@v2
+        env:
+          DINGTALK_ACCESS_TOKEN: ${{ secrets.DINGTALK_ACCESS_TOKEN }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          MSGTYPE: markdown
+          TITLE: "mirrors.kb.cx json Build Done"
+          TEXT: |
+            # mirrors.kb.cx json
+            > [mirrors.kb.cx](https://mirrors.kb.cx)
+            > Build Done. ^_^
