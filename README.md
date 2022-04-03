@@ -2,6 +2,8 @@
 
 sync google/quay container registry images to hub.docker.com
 
+search which image mirrors online: https://mirrors.kb.cx
+
 - GCR
 
 |  GCR | Docker | Status |
@@ -15,6 +17,7 @@ sync google/quay container registry images to hub.docker.com
 | k8s.gcr.io/metrics-server | [k8sgcriometricsserver](https://hub.docker.com/u/k8sgcriometricsserver) | [![k8sgcriometricsserver](https://github.com/x-mirrors/gcr.io/actions/workflows/metrics-server.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/metrics-server.yml) |
 | gcr.io/ml-pipeline | [gcriomlpipeline](https://hub.docker.com/u/gcriomlpipeline) | [![gcriomlpipeline](https://github.com/x-mirrors/gcr.io/actions/workflows/ml-pipeline.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/ml-pipeline.yml) |
 | gcr.io/google-samples | [gcriogooglesamples](https://hub.docker.com/u/gcriogooglesamples) | [![gcriogooglesamples](https://github.com/x-mirrors/gcr.io/actions/workflows/google-samples.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/google-samples.yml) |
+| gcr.io/tekton-releases/github.com/tektoncd/_f_/cmd/_n_ | [gcriotekton](https://hub.docker.com/u/gcriotekton) | [![gcriotekton](https://github.com/x-mirrors/gcr.io/actions/workflows/tekton.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/tekton.yml) |
 
 - Quay
 
@@ -60,8 +63,10 @@ quay image from :
 - https://quay.io/search?q=coreos
 - https://quay.io/api/v1/repository?last_modified=true&namespace=coreos&popularity=true&public=true&quota=false
 
+- https://github.com/kubernetes/k8s.io/blob/main/k8s.gcr.io/Vanity-Domain-Flip.md
+
 ## ref
 
-- https://github.com/kubernetes/k8s.io/blob/main/k8s.gcr.io/Vanity-Domain-Flip.md
-- old mirrors code https://github.com/x-mirrors/gcmirrors
+- [old mirrors repo](https://github.com/x-mirrors/gcmirrors)
+- [mirror workflow/Kubernetes gcr/quay 镜像同步和国内加速介绍](https://www.xiexianbin.cn/open-sources/google-container-registry-mirrors/)
 - build your own mirrors use [python3-cisctl](https://github.com/x-actions/python3-cisctl/)

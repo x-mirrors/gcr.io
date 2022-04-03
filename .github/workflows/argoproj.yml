@@ -1,0 +1,42 @@
+name: argoproj
+
+on:
+  schedule:
+    - cron: '* 10 * * *'
+  push:
+      branches:
+        - main
+
+jobs:
+  argoproj:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout result branch
+        uses: actions/checkout@v2
+        with:
+          repository: kbcx/gcr.io
+          ref: 'argoproj'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: gcr.io
+
+      - name: Container Images Sync
+        uses: x-actions/python3-cisctl@main
+        env:
+          GIT_ORG: "kbcx"
+          GIT_REPO: "gcr.io"
+          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/kbcx/gcr.io/main/argoproj.txt"
+          DEST_REPO: "docker.io/quayioargoproj"
+          SRC_TRANSPORT: "docker"
+          DEST_TRANSPORT: "docker"
+          DEST_TRANSPORT_USER: "xmirrors"
+          DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
+
+      - name: Public result to github
+        uses: x-actions/git-push@v1
+        env:
+          GITHUB_EMAIL: 'me@xiexianbin.cn'
+          GITHUB_USERNAME: 'xiexianbin'
+          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/kbcx/gcr.io.git
+          PUBLISH_BRANCH: 'argoproj'
+          PUBLISH_DIR: 'gcr.io'

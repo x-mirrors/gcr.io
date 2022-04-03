@@ -1,6 +1,11 @@
 name: mirrors-kb-cx
 
-on: [push]
+on:
+  schedule:
+    - cron: '0 8 * * 1'
+  push:
+      branches:
+        - main
 
 jobs:
   mirrors-kb-cx:
@@ -29,8 +34,8 @@ jobs:
       - name: go-gcrmirrors
         uses: x-actions/go-gcrmirrors@v0.1.1
         env:
-          sourceDir: 'gcr.io'
-          publicDir: '/github/workspace/public'
+          SOURCE_DIR: 'gcr.io'
+          PUBLIC_DIR: '/github/workspace/public'
 
       - name: Sync code to CDN
         uses: x-actions/go-sync@v1.1.1

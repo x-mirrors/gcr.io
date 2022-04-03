@@ -1,0 +1,15 @@
+quay.io/argoproj/argo-eventbus
+quay.io/argoproj/argo-events
+quay.io/argoproj/argo-rollouts
+quay.io/argoproj/argocd
+quay.io/argoproj/argocd-applicationset
+quay.io/argoproj/argocli
+quay.io/argoproj/argoexec
+quay.io/argoproj/eventbus-controller
+quay.io/argoproj/events-webhook
+quay.io/argoproj/eventsource
+quay.io/argoproj/eventsource-controller
+quay.io/argoproj/kubectl-argo-rollouts
+quay.io/argoproj/sensor
+quay.io/argoproj/sensor-controller
+quay.io/argoproj/workflow-controller
