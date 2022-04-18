@@ -1,4 +1,4 @@
-Google Containers Registry ml-pipeline Mirrors [last sync 2022-04-17 13:28:04]
+Google Containers Registry ml-pipeline Mirrors [last sync 2022-04-18 12:30:14]
 -------
 
 [![ml-pipeline](https://github.com/x-mirrors/gcr.io/actions/workflows/ml-pipeline.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/ml-pipeline.yml)
@@ -24,66 +24,66 @@ Total of 60's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | api-server | 135 | - | 2022-04-17 13:27:55 |
-| 2 | application-crd-controller | 3 | - | 2022-04-17 13:27:55 |
-| 3 | argoexec | 16 | - | 2022-04-17 13:27:55 |
-| 4 | argoui | 1 | - | 2022-04-17 13:27:55 |
-| 5 | bootstrapper | 27 | - | 2022-04-17 13:27:55 |
-| 6 | busybox | 1 | - | 2022-04-17 13:27:55 |
-| 7 | cache-deployer | 56 | - | 2022-04-17 13:27:56 |
-| 8 | cache-server | 56 | - | 2022-04-17 13:27:56 |
-| 9 | cloud-solutions-group | 1 | - | 2022-04-17 13:27:56 |
-| 10 | dummy | 1 | - | 2022-04-17 13:27:56 |
-| 11 | envoy | 3 | - | 2022-04-17 13:27:56 |
-| 12 | frontend | 134 | - | 2022-04-17 13:27:56 |
-| 13 | gcp-launcher | 2 | - | 2022-04-17 13:27:57 |
-| 14 | google | 1 | - | 2022-04-17 13:27:57 |
-| 15 | google-cloud | 1 | - | 2022-04-17 13:27:57 |
-| 16 | google-cloud-pipeline-components | 27 | - | 2022-04-17 13:27:57 |
-| 17 | inverse-proxy-agent | 97 | - | 2022-04-17 13:27:57 |
-| 18 | kfp-launcher | 17 | - | 2022-04-17 13:27:57 |
-| 19 | kubeflow | 1 | - | 2022-04-17 13:27:57 |
-| 20 | marketplace-k8s-app-tools | 1 | - | 2022-04-17 13:27:58 |
-| 21 | metadata-envoy | 49 | - | 2022-04-17 13:27:58 |
-| 22 | metadata-writer | 69 | - | 2022-04-17 13:27:58 |
-| 23 | minio | 3 | - | 2022-04-17 13:27:58 |
-| 24 | mirrors | 1 | - | 2022-04-17 13:27:58 |
-| 25 | ml-pipeline-dataflow-tf-predict | 57 | - | 2022-04-17 13:27:59 |
-| 26 | ml-pipeline-dataflow-tfdv | 51 | - | 2022-04-17 13:27:59 |
-| 27 | ml-pipeline-dataflow-tfma | 58 | - | 2022-04-17 13:27:59 |
-| 28 | ml-pipeline-dataflow-tft | 56 | - | 2022-04-17 13:27:59 |
-| 29 | ml-pipeline-dataproc-analyze | 91 | - | 2022-04-17 13:27:59 |
-| 30 | ml-pipeline-dataproc-create-cluster | 91 | - | 2022-04-17 13:27:59 |
-| 31 | ml-pipeline-dataproc-delete-cluster | 91 | - | 2022-04-17 13:28:00 |
-| 32 | ml-pipeline-dataproc-predict | 91 | - | 2022-04-17 13:28:00 |
-| 33 | ml-pipeline-dataproc-train | 91 | - | 2022-04-17 13:28:00 |
-| 34 | ml-pipeline-dataproc-transform | 91 | - | 2022-04-17 13:28:00 |
-| 35 | ml-pipeline-dataproc-xgboost | 1 | - | 2022-04-17 13:28:00 |
-| 36 | ml-pipeline-gcp | 79 | - | 2022-04-17 13:28:00 |
-| 37 | ml-pipeline-kubeflow-deployer | 126 | - | 2022-04-17 13:28:01 |
-| 38 | ml-pipeline-kubeflow-tf | 64 | - | 2022-04-17 13:28:01 |
-| 39 | ml-pipeline-kubeflow-tf-trainer | 121 | - | 2022-04-17 13:28:01 |
-| 40 | ml-pipeline-kubeflow-tf-trainer-gpu | 102 | - | 2022-04-17 13:28:01 |
-| 41 | ml-pipeline-kubeflow-tfjob | 63 | - | 2022-04-17 13:28:01 |
-| 42 | ml-pipeline-kubeflow-trainer | 4 | - | 2022-04-17 13:28:01 |
-| 43 | ml-pipeline-local-confusion-matrix | 125 | - | 2022-04-17 13:28:02 |
-| 44 | ml-pipeline-local-roc | 129 | - | 2022-04-17 13:28:02 |
-| 45 | model-evaluation | 2 | - | 2022-04-17 13:28:02 |
-| 46 | multi-user-stage-1 | 1 | - | 2022-04-17 13:28:02 |
-| 47 | mysql | 4 | - | 2022-04-17 13:28:02 |
-| 48 | patched-tfx | 1 | - | 2022-04-17 13:28:02 |
-| 49 | persistenceagent | 130 | - | 2022-04-17 13:28:02 |
-| 50 | persistentagent | 3 | - | 2022-04-17 13:28:03 |
-| 51 | resnet-deploy | 37 | - | 2022-04-17 13:28:03 |
-| 52 | resnet-preprocess | 38 | - | 2022-04-17 13:28:03 |
-| 53 | resnet-train | 40 | - | 2022-04-17 13:28:03 |
-| 54 | scheduledworkflow | 130 | - | 2022-04-17 13:28:03 |
-| 55 | test-worker | 1 | - | 2022-04-17 13:28:03 |
-| 56 | tfx | 2 | - | 2022-04-17 13:28:04 |
-| 57 | tfx-mmlp | 13 | - | 2022-04-17 13:28:04 |
-| 58 | viewer-crd-controller | 104 | - | 2022-04-17 13:28:04 |
-| 59 | visualization-server | 87 | - | 2022-04-17 13:28:04 |
-| 60 | workflow-controller | 16 | - | 2022-04-17 13:28:04 |
+| 1 | api-server | 135 | - | 2022-04-18 12:29:54 |
+| 2 | application-crd-controller | 3 | - | 2022-04-18 12:29:54 |
+| 3 | argoexec | 16 | - | 2022-04-18 12:29:55 |
+| 4 | argoui | 1 | - | 2022-04-18 12:29:55 |
+| 5 | bootstrapper | 27 | - | 2022-04-18 12:29:55 |
+| 6 | busybox | 1 | - | 2022-04-18 12:29:55 |
+| 7 | cache-deployer | 56 | - | 2022-04-18 12:29:56 |
+| 8 | cache-server | 56 | - | 2022-04-18 12:29:56 |
+| 9 | cloud-solutions-group | 1 | - | 2022-04-18 12:29:56 |
+| 10 | dummy | 1 | - | 2022-04-18 12:29:56 |
+| 11 | envoy | 3 | - | 2022-04-18 12:29:57 |
+| 12 | frontend | 134 | - | 2022-04-18 12:29:57 |
+| 13 | gcp-launcher | 2 | - | 2022-04-18 12:29:57 |
+| 14 | google | 1 | - | 2022-04-18 12:29:58 |
+| 15 | google-cloud | 1 | - | 2022-04-18 12:29:58 |
+| 16 | google-cloud-pipeline-components | 27 | - | 2022-04-18 12:29:58 |
+| 17 | inverse-proxy-agent | 97 | - | 2022-04-18 12:29:59 |
+| 18 | kfp-launcher | 17 | - | 2022-04-18 12:29:59 |
+| 19 | kubeflow | 1 | - | 2022-04-18 12:29:59 |
+| 20 | marketplace-k8s-app-tools | 1 | - | 2022-04-18 12:29:59 |
+| 21 | metadata-envoy | 49 | - | 2022-04-18 12:30:00 |
+| 22 | metadata-writer | 69 | - | 2022-04-18 12:30:00 |
+| 23 | minio | 3 | - | 2022-04-18 12:30:00 |
+| 24 | mirrors | 1 | - | 2022-04-18 12:30:00 |
+| 25 | ml-pipeline-dataflow-tf-predict | 57 | - | 2022-04-18 12:30:01 |
+| 26 | ml-pipeline-dataflow-tfdv | 51 | - | 2022-04-18 12:30:06 |
+| 27 | ml-pipeline-dataflow-tfma | 58 | - | 2022-04-18 12:30:06 |
+| 28 | ml-pipeline-dataflow-tft | 56 | - | 2022-04-18 12:30:06 |
+| 29 | ml-pipeline-dataproc-analyze | 91 | - | 2022-04-18 12:30:06 |
+| 30 | ml-pipeline-dataproc-create-cluster | 91 | - | 2022-04-18 12:30:06 |
+| 31 | ml-pipeline-dataproc-delete-cluster | 91 | - | 2022-04-18 12:30:06 |
+| 32 | ml-pipeline-dataproc-predict | 91 | - | 2022-04-18 12:30:06 |
+| 33 | ml-pipeline-dataproc-train | 91 | - | 2022-04-18 12:30:06 |
+| 34 | ml-pipeline-dataproc-transform | 91 | - | 2022-04-18 12:30:06 |
+| 35 | ml-pipeline-dataproc-xgboost | 1 | - | 2022-04-18 12:30:07 |
+| 36 | ml-pipeline-gcp | 79 | - | 2022-04-18 12:30:07 |
+| 37 | ml-pipeline-kubeflow-deployer | 126 | - | 2022-04-18 12:30:07 |
+| 38 | ml-pipeline-kubeflow-tf | 64 | - | 2022-04-18 12:30:07 |
+| 39 | ml-pipeline-kubeflow-tf-trainer | 121 | - | 2022-04-18 12:30:08 |
+| 40 | ml-pipeline-kubeflow-tf-trainer-gpu | 102 | - | 2022-04-18 12:30:08 |
+| 41 | ml-pipeline-kubeflow-tfjob | 63 | - | 2022-04-18 12:30:08 |
+| 42 | ml-pipeline-kubeflow-trainer | 4 | - | 2022-04-18 12:30:08 |
+| 43 | ml-pipeline-local-confusion-matrix | 125 | - | 2022-04-18 12:30:09 |
+| 44 | ml-pipeline-local-roc | 129 | - | 2022-04-18 12:30:09 |
+| 45 | model-evaluation | 2 | - | 2022-04-18 12:30:09 |
+| 46 | multi-user-stage-1 | 1 | - | 2022-04-18 12:30:10 |
+| 47 | mysql | 4 | - | 2022-04-18 12:30:10 |
+| 48 | patched-tfx | 1 | - | 2022-04-18 12:30:10 |
+| 49 | persistenceagent | 130 | - | 2022-04-18 12:30:10 |
+| 50 | persistentagent | 3 | - | 2022-04-18 12:30:11 |
+| 51 | resnet-deploy | 37 | - | 2022-04-18 12:30:11 |
+| 52 | resnet-preprocess | 38 | - | 2022-04-18 12:30:11 |
+| 53 | resnet-train | 40 | - | 2022-04-18 12:30:11 |
+| 54 | scheduledworkflow | 130 | - | 2022-04-18 12:30:12 |
+| 55 | test-worker | 1 | - | 2022-04-18 12:30:12 |
+| 56 | tfx | 2 | - | 2022-04-18 12:30:12 |
+| 57 | tfx-mmlp | 13 | - | 2022-04-18 12:30:13 |
+| 58 | viewer-crd-controller | 104 | - | 2022-04-18 12:30:13 |
+| 59 | visualization-server | 87 | - | 2022-04-18 12:30:13 |
+| 60 | workflow-controller | 16 | - | 2022-04-18 12:30:13 |
 
 Support
 -------
