@@ -1,0 +1,12 @@
+# https://quay.io/api/v1/organization/ceph
+quay.io/ceph/ceph
+quay.io/ceph/cn-core
+quay.io/ceph/csi-cephfs
+quay.io/ceph/csi-rbd
+quay.io/ceph/ceph-grafana
+quay.io/ceph/ceph-amd64
+quay.io/ceph/ceph-arm64
+quay.io/ceph/daemon-base
+quay.io/ceph/daemon
+quay.io/ceph/keepalived
+quay.io/ceph/haproxy
