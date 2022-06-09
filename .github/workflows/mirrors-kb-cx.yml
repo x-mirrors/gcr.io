@@ -43,7 +43,7 @@ jobs:
           CDNTYPE: 'aliyun'
           ACCESSKEYID: ${{ secrets.ACCESSKEYID }}
           ACCESSKEYSECRET: ${{ secrets.ACCESSKEYSECRET }}
-          ENDPOINT: 'oss-cn-shanghai.aliyuncs.com'
+          ENDPOINT: 'oss-cn-hongkong.aliyuncs.com'
           BUCKETNAME: 'mirrors-kb-cx'
           CACHEFILE: '/github/workspace/mirrors-kb-cx.json'
           EXCLUDE: '.git'
