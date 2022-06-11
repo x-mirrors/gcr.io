@@ -37,17 +37,19 @@ jobs:
           SOURCE_DIR: 'gcr.io'
           PUBLIC_DIR: '/github/workspace/public'
 
-      - name: Sync code to CDN
-        uses: x-actions/go-sync@v1.1.1
-        env:
-          CDNTYPE: 'aliyun'
-          ACCESSKEYID: ${{ secrets.ACCESSKEYID }}
-          ACCESSKEYSECRET: ${{ secrets.ACCESSKEYSECRET }}
-          ENDPOINT: 'oss-cn-hongkong.aliyuncs.com'
-          BUCKETNAME: 'mirrors-kb-cx'
-          CACHEFILE: '/github/workspace/mirrors-kb-cx.json'
-          EXCLUDE: '.git'
-          SUB_DIR: 'public'
+      - name: Sync Code to CDN
+        uses: x-actions/go-sync@v1.2.0
+        with:
+          debug: 'true'
+          provider: 'aliyun'
+          access_key: ${{ secrets.ACCESSKEYID }}
+          access_secret: ${{ secrets.ACCESSKEYSECRET }}
+          endpoint: 'oss-cn-hongkong.aliyuncs.com'
+          bucket: 'mirrors-kb-cx'
+          source: '/github/workspace/public'
+          cache: '/tmp/mirrors-kb-cx.json'
+          exclude: '.git,.DS_Store'
+          delete_objects: 'false'
 
       - name: Sending Dingtalk Message
         uses: x-actions/dingtalk@v2
