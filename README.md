@@ -1,4 +1,4 @@
-Google Containers Registry argoproj Mirrors [last sync 2022-06-24 10:39:03]
+Google Containers Registry argoproj Mirrors [last sync 2022-06-24 10:49:51]
 -------
 
 [![argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/argoproj.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/argoproj.yml)
@@ -24,21 +24,21 @@ Total of 15's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | argo-eventbus | 4 | - | 2022-06-24 10:38:49 |
-| 2 | argo-events | 24 | - | 2022-06-24 10:38:49 |
-| 3 | argo-rollouts | 50 | - | 2022-06-24 10:38:49 |
-| 4 | argocd | 176 | - | 2022-06-24 10:38:49 |
-| 5 | argocd-applicationset | 6 | - | 2022-06-24 10:38:49 |
-| 6 | argocli | 839 | - | 2022-06-24 10:38:55 |
-| 7 | argoexec | 1094 | - | 2022-06-24 10:38:56 |
-| 8 | eventbus-controller | 20 | - | 2022-06-24 10:38:56 |
-| 9 | events-webhook | 8 | - | 2022-06-24 10:38:56 |
-| 10 | eventsource | 18 | - | 2022-06-24 10:38:56 |
-| 11 | eventsource-controller | 18 | - | 2022-06-24 10:38:56 |
-| 12 | kubectl-argo-rollouts | 22 | - | 2022-06-24 10:38:57 |
-| 13 | sensor | 53 | - | 2022-06-24 10:38:57 |
-| 14 | sensor-controller | 56 | - | 2022-06-24 10:38:57 |
-| 15 | workflow-controller | 861 | - | 2022-06-24 10:39:03 |
+| 1 | argo-eventbus | 4 | - | 2022-06-24 10:49:22 |
+| 2 | argo-events | 24 | - | 2022-06-24 10:49:22 |
+| 3 | argo-rollouts | 50 | - | 2022-06-24 10:49:23 |
+| 4 | argocd | 176 | - | 2022-06-24 10:49:24 |
+| 5 | argocd-applicationset | 6 | - | 2022-06-24 10:49:24 |
+| 6 | argocli | 839 | - | 2022-06-24 10:49:29 |
+| 7 | argoexec | 1094 | - | 2022-06-24 10:49:51 |
+| 8 | eventbus-controller | 20 | - | 2022-06-24 10:49:51 |
+| 9 | events-webhook | 8 | - | 2022-06-24 10:49:51 |
+| 10 | eventsource | 18 | - | 2022-06-24 10:49:51 |
+| 11 | eventsource-controller | 18 | - | 2022-06-24 10:49:51 |
+| 12 | kubectl-argo-rollouts | 22 | - | 2022-06-24 10:49:51 |
+| 13 | sensor | 53 | - | 2022-06-24 10:49:51 |
+| 14 | sensor-controller | 56 | - | 2022-06-24 10:49:51 |
+| 15 | workflow-controller | 861 | - | 2022-06-24 10:49:51 |
 
 Support
 -------
