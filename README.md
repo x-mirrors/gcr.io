@@ -1,4 +1,4 @@
-Google Containers Registry scheduler-plugins Mirrors [last sync 2022-07-28 14:35:49]
+Google Containers Registry scheduler-plugins Mirrors [last sync 2022-07-28 14:48:01]
 -------
 
 [![scheduler-plugins](https://github.com/x-mirrors/gcr.io/actions/workflows/scheduler-plugins.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/scheduler-plugins.yml)
@@ -24,8 +24,8 @@ Total of 2's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | controller | 7 | - | 2022-07-28 14:35:49 |
-| 2 | kube-scheduler | 8 | - | 2022-07-28 14:35:49 |
+| 1 | controller | 7 | - | 2022-07-28 14:48:00 |
+| 2 | kube-scheduler | 8 | - | 2022-07-28 14:48:01 |
 
 Support
 -------
