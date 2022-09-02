@@ -32,7 +32,7 @@ jobs:
           path: gcr.io
 
       - name: go-gcrmirrors
-        uses: x-actions/go-gcrmirrors@v0.1.1
+        uses: x-actions/go-gcrmirrors@v0.1.2
         env:
           SOURCE_DIR: 'gcr.io'
           PUBLIC_DIR: '/github/workspace/public'

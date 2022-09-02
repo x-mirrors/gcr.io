@@ -25,7 +25,7 @@ jobs:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/coredns.txt"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/coredns.txt"
           DEST_REPO: "docker.io/gcmirrors"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
