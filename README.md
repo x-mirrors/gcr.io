@@ -1,6 +1,6 @@
 # gcr.io
 
-利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和[云原生]](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
+利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和[云原生](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
 
 已同步进行在线查询地址：https://mirrors.kb.cx
 
