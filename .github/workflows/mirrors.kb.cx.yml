@@ -1,4 +1,4 @@
-name: mirrors-kb-cx
+name: mirrors.kb.cx
 
 on:
   schedule:
