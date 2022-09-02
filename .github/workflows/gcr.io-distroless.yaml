@@ -1,21 +1,21 @@
-name: k8s.gcr.io
+name: gcr.io/distroless
 
 on:
   schedule:
-    - cron: '* */8 * * *'
+    - cron: '* 0 * * *'
   push:
       branches:
         - main
 
 jobs:
-  k8s:
+  distroless:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
           repository: x-mirrors/gcr.io
-          ref: 'k8s'
+          ref: 'distroless'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
@@ -25,13 +25,12 @@ jobs:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/k8s.txt"
-          DEST_REPO: "docker.io/gcmirrors"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/distroless.txt"
+          DEST_REPO: "docker.io/gcriodistroless"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
-          DEST_TRANSPORT_USER: "xianbinxie"
+          DEST_TRANSPORT_USER: "xactions"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
-          LOG_LEVEL: "DEBUG"
 
       - name: Public result to github
         uses: x-actions/git-push@v1
@@ -39,5 +38,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'k8s'
+          PUBLISH_BRANCH: 'distroless'
           PUBLISH_DIR: 'gcr.io'

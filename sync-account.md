@@ -3,6 +3,7 @@
 
 | Source     | Project           | Docker                   | Sync Account | Sync Time | Status |
 | :----------- | ------------------- | :------------------------- | :------------- | ----------- | :------- |
+| gcr.io     | distroless    | gcriodistroless       | xmirror   | 0         |        |
 | gcr.io     | google-samples    | gcriogooglesamples       | xiexianbin   | 0         |        |
 | gcr.io     | kaniko-project    | gcriokaniko              | xmirrors     | 2         |        |
 | gcr.io     | knative-releases  | gcrioknative             | xmirrors     | 4         |        |

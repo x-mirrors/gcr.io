@@ -1,4 +1,4 @@
-name: gcr.io/knative-release
+name: gcr.io/knative-releases
 
 on:
   schedule:

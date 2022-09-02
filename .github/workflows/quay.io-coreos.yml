@@ -1,4 +1,4 @@
-name: quay.io/qcoreos
+name: quay.io/coreos
 
 on:
   schedule:
