@@ -27,7 +27,7 @@ jobs:
       - name: Checkout gcr.io
         uses: actions/checkout@v2
         with:
-          repository: kbcx/gcr.io
+          repository: x-mirrors/gcr.io
           ref: 'main'
           path: gcr.io
 

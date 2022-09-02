@@ -1,32 +1,32 @@
-name: google-samples
+name: k8s.gcr.io/ingress-nginx
 
 on:
   schedule:
-    - cron: '* 4 * * *'
+    - cron: '* 6 * * *'
   push:
       branches:
         - main
 
 jobs:
-  google-samples:
+  ingress-nginx:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
           repository: x-mirrors/gcr.io
-          ref: 'google-samples'
+          ref: 'ingress-nginx'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@main
+        uses: x-actions/python3-cisctl@v1
         env:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/google-samples.txt"
-          DEST_REPO: "docker.io/gcriogooglesamples"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/ingress-nginx.txt"
+          DEST_REPO: "docker.io/k8sgcrioingressnginx"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xiexianbin"
@@ -38,5 +38,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'google-samples'
+          PUBLISH_BRANCH: 'ingress-nginx'
           PUBLISH_DIR: 'gcr.io'

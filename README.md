@@ -53,7 +53,7 @@ gcloud container images list --repository k8s.gcr.io/metrics-server
 gcloud container images list --repository gcr.io/google-samples
 
 # knative.txt
-for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do gcloud container images list --repository $i/cmd; done > knative.txt
+for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do gcloud container images list --repository $i/cmd; done > gcr.io/knative-releases.txt
 
 # tekton.txt
 for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > tekton.txt
@@ -70,3 +70,4 @@ quay image from :
 - [old mirrors repo](https://github.com/x-mirrors/gcmirrors)
 - [mirror workflow/Kubernetes gcr/quay 镜像同步和国内加速介绍](https://www.xiexianbin.cn/open-sources/google-container-registry-mirrors/)
 - build your own mirrors use [python3-cisctl](https://github.com/x-actions/python3-cisctl/)
+- kubernetes v1.25 容器注册服务由 k8s.gcr.io 迁移到 registry.k8s.io

@@ -1,35 +1,35 @@
-name: argoproj
+name: quay.io/ceph
 
 on:
   schedule:
-    - cron: '* 10 * * *'
+    - cron: '* 18 * * *'
   push:
       branches:
         - main
 
 jobs:
-  argoproj:
+  ceph:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
-          repository: kbcx/gcr.io
-          ref: 'argoproj'
+          repository: x-mirrors/gcr.io
+          ref: 'ceph'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@main
+        uses: x-actions/python3-cisctl@v1
         env:
-          GIT_ORG: "kbcx"
+          GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/kbcx/gcr.io/main/argoproj.txt"
-          DEST_REPO: "docker.io/quayioargoproj"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/quay.io/ceph.txt"
+          DEST_REPO: "docker.io/quayioceph"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
-          DEST_TRANSPORT_USER: "xmirrors"
+          DEST_TRANSPORT_USER: "xiexianbin"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
 
       - name: Public result to github
@@ -37,6 +37,6 @@ jobs:
         env:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
-          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/kbcx/gcr.io.git
-          PUBLISH_BRANCH: 'argoproj'
+          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
+          PUBLISH_BRANCH: 'ceph'
           PUBLISH_DIR: 'gcr.io'

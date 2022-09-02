@@ -1,4 +1,4 @@
-name: metallb
+name: quay.io/argoproj
 
 on:
   schedule:
@@ -8,28 +8,28 @@ on:
         - main
 
 jobs:
-  metallb:
+  argoproj:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
           repository: x-mirrors/gcr.io
-          ref: 'metallb'
+          ref: 'argoproj'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@main
+        uses: x-actions/python3-cisctl@v1
         env:
-          GIT_ORG: "x-mirrors"
+          GIT_ORG: "kbcx"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/metallb.txt"
-          DEST_REPO: "docker.io/quayiometallb"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/quay.io/argoproj.txt"
+          DEST_REPO: "docker.io/quayioargoproj"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
-          DEST_TRANSPORT_USER: "xiexianbin"
+          DEST_TRANSPORT_USER: "xmirrors"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
 
       - name: Public result to github
@@ -38,5 +38,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'metallb'
+          PUBLISH_BRANCH: 'argoproj'
           PUBLISH_DIR: 'gcr.io'

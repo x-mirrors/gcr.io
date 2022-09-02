@@ -1,32 +1,32 @@
-name: kaniko-project
+name: k8s.gcr.io/autoscaling
 
 on:
   schedule:
-    - cron: '* 6 * * *'
+    - cron: '* 4 * * *'
   push:
       branches:
         - main
 
 jobs:
-  kaniko-project:
+  autoscaling:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
-          repository: kbcx/gcr.io
-          ref: 'kaniko-project'
+          repository: x-mirrors/gcr.io
+          ref: 'autoscaling'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@main
+        uses: x-actions/python3-cisctl@v1
         env:
-          GIT_ORG: "kbcx"
+          GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/kbcx/gcr.io/main/kaniko-project.txt"
-          DEST_REPO: "docker.io/gcriokaniko"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/autoscaling.txt"
+          DEST_REPO: "docker.io/k8sgcrioautoscaling"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xmirrors"
@@ -37,6 +37,6 @@ jobs:
         env:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
-          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/kbcx/gcr.io.git
-          PUBLISH_BRANCH: 'kaniko-project'
+          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
+          PUBLISH_BRANCH: 'autoscaling'
           PUBLISH_DIR: 'gcr.io'

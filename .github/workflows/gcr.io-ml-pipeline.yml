@@ -1,32 +1,32 @@
-name: ceph
+name: gcr.io/ml-pipeline
 
 on:
   schedule:
-    - cron: '* 18 * * *'
+    - cron: '* 6 * * *'
   push:
       branches:
         - main
 
 jobs:
-  ceph:
+  ml-pipeline:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
           repository: x-mirrors/gcr.io
-          ref: 'ceph'
+          ref: 'ml-pipeline'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@main
+        uses: x-actions/python3-cisctl@v1
         env:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/ceph.txt"
-          DEST_REPO: "docker.io/quayioceph"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/ml-pipeline.txt"
+          DEST_REPO: "docker.io/gcriomlpipeline"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xiexianbin"
@@ -38,5 +38,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'ceph'
+          PUBLISH_BRANCH: ml-pipeline
           PUBLISH_DIR: 'gcr.io'
