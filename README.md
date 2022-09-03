@@ -1,10 +1,10 @@
 # gcr.io
 
-利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和[云原生](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
+利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和 [云原生](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
 
-已同步进行在线查询地址：https://mirrors.kb.cx
+已同步镜像在线查询：https://mirrors.kb.cx
 
-## Which Images Syncing
+## 已同步镜像
 
 使用示例，将原来的 `gcr.io/knative-releases/knative.dev/serving/cmd/activator` 替换为 `gcrioknative/serving-activator`
 
@@ -15,7 +15,7 @@
 | gcr.io/distroless | [gcriodistroless](https://hub.docker.com/u/gcriodistroless) | [![gcriodistroless](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml) |
 | gcr.io/google-samples | [gcriogooglesamples](https://hub.docker.com/u/gcriogooglesamples) | [![gcriogooglesamples](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml) |
 | gcr.io/kaniko-project | [gcriokaniko](https://hub.docker.com/u/gcriokaniko) | [![gcriokaniko](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml) |
-| gcr.io/knative-releases/knative.dev/_f_/cmd/_n_ | [gcrioknative](https://hub.docker.com/u/gcrioknative) | [![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io--releasesknative.yml) |
+| gcr.io/knative-releases/knative.dev/_f_/cmd/_n_ | [gcrioknative](https://hub.docker.com/u/gcrioknative) | [![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml) |
 | gcr.io/ml-pipeline | [gcriomlpipeline](https://hub.docker.com/u/gcriomlpipeline) | [![gcriomlpipeline](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml) |
 | gcr.io/tekton-releases/github.com/tektoncd/_f_/cmd/_n_ | [gcriotekton](https://hub.docker.com/u/gcriotekton) | [![gcriotekton](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml) |
 
