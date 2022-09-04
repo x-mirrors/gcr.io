@@ -1,6 +1,13 @@
 name: gcr.io/ml-pipeline
 
 on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'run action reason'
+        required: false
+        type: string
+        default: 'manually test'
   schedule:
     - cron: '* 6 * * *'
   push:
