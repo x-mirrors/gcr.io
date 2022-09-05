@@ -1,4 +1,4 @@
-Google Containers Registry tekton-releases Mirrors [last sync 2022-09-05 08:21:43]
+Google Containers Registry tekton-releases Mirrors [last sync 2022-09-05 08:44:19]
 -------
 
 [![tekton-releases](https://github.com/x-mirrors/gcr.io/actions/workflows/tekton-releases.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/tekton-releases.yml)
@@ -24,31 +24,31 @@ Total of 25's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | chains-controller | 36 | - | 2022-09-05 08:21:37 |
-| 2 | dashboard-dashboard | 104 | - | 2022-09-05 08:21:37 |
-| 3 | operator-kubernetes | 2 | - | 2022-09-05 08:21:37 |
-| 4 | operator-manager | 3 | - | 2022-09-05 08:21:37 |
-| 5 | operator-openshift | 1 | - | 2022-09-05 08:21:38 |
-| 6 | operator-proxy | 2 | - | 2022-09-05 08:21:38 |
-| 7 | pipeline-bash | 13 | - | 2022-09-05 08:21:38 |
-| 8 | pipeline-controller | 194 | - | 2022-09-05 08:21:38 |
-| 9 | pipeline-creds-init | 50 | - | 2022-09-05 08:21:39 |
-| 10 | pipeline-entrypoint | 194 | - | 2022-09-05 08:21:39 |
-| 11 | pipeline-git-init | 194 | - | 2022-09-05 08:21:39 |
-| 12 | pipeline-gsutil | 11 | - | 2022-09-05 08:21:40 |
-| 13 | pipeline-imagedigestexporter | 189 | - | 2022-09-05 08:21:40 |
-| 14 | pipeline-kubeconfigwriter | 194 | - | 2022-09-05 08:21:40 |
-| 15 | pipeline-nop | 171 | - | 2022-09-05 08:21:41 |
-| 16 | pipeline-pullrequest-init | 188 | - | 2022-09-05 08:21:41 |
-| 17 | pipeline-webhook | 194 | - | 2022-09-05 08:21:41 |
-| 18 | pipeline-workingdirinit | 61 | - | 2022-09-05 08:21:41 |
-| 19 | results-api | 9 | - | 2022-09-05 08:21:42 |
-| 20 | results-watcher | 9 | - | 2022-09-05 08:21:42 |
-| 21 | triggers-controller | 56 | - | 2022-09-05 08:21:42 |
-| 22 | triggers-eventlistenersink | 56 | - | 2022-09-05 08:21:42 |
-| 23 | triggers-gh-validate | 1 | - | 2022-09-05 08:21:43 |
-| 24 | triggers-interceptors | 44 | - | 2022-09-05 08:21:43 |
-| 25 | triggers-webhook | 56 | - | 2022-09-05 08:21:43 |
+| 1 | chains-controller | 36 | - | 2022-09-05 08:44:12 |
+| 2 | dashboard-dashboard | 104 | - | 2022-09-05 08:44:12 |
+| 3 | operator-kubernetes | 2 | - | 2022-09-05 08:44:12 |
+| 4 | operator-manager | 3 | - | 2022-09-05 08:44:12 |
+| 5 | operator-openshift | 1 | - | 2022-09-05 08:44:13 |
+| 6 | operator-proxy | 2 | - | 2022-09-05 08:44:13 |
+| 7 | pipeline-bash | 13 | - | 2022-09-05 08:44:13 |
+| 8 | pipeline-controller | 194 | - | 2022-09-05 08:44:13 |
+| 9 | pipeline-creds-init | 50 | - | 2022-09-05 08:44:14 |
+| 10 | pipeline-entrypoint | 194 | - | 2022-09-05 08:44:14 |
+| 11 | pipeline-git-init | 194 | - | 2022-09-05 08:44:14 |
+| 12 | pipeline-gsutil | 11 | - | 2022-09-05 08:44:15 |
+| 13 | pipeline-imagedigestexporter | 189 | - | 2022-09-05 08:44:15 |
+| 14 | pipeline-kubeconfigwriter | 194 | - | 2022-09-05 08:44:15 |
+| 15 | pipeline-nop | 171 | - | 2022-09-05 08:44:16 |
+| 16 | pipeline-pullrequest-init | 188 | - | 2022-09-05 08:44:16 |
+| 17 | pipeline-webhook | 194 | - | 2022-09-05 08:44:16 |
+| 18 | pipeline-workingdirinit | 61 | - | 2022-09-05 08:44:16 |
+| 19 | results-api | 9 | - | 2022-09-05 08:44:17 |
+| 20 | results-watcher | 9 | - | 2022-09-05 08:44:17 |
+| 21 | triggers-controller | 56 | - | 2022-09-05 08:44:18 |
+| 22 | triggers-eventlistenersink | 56 | - | 2022-09-05 08:44:18 |
+| 23 | triggers-gh-validate | 1 | - | 2022-09-05 08:44:18 |
+| 24 | triggers-interceptors | 44 | - | 2022-09-05 08:44:19 |
+| 25 | triggers-webhook | 56 | - | 2022-09-05 08:44:19 |
 
 Support
 -------
