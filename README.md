@@ -36,8 +36,8 @@
 
 |  Quay.io | Docker | Status |
 | ------------ | ------------ | ------------ |
-| quay.io/argoproj | [qargoproj](https://hub.docker.com/u/qargoproj) | [![quay.io/argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml) |
-| quay.io/ceph | [qceph](https://hub.docker.com/u/qceph) | [![quay.io/ceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml) |
+| quay.io/argoproj | [quayioargoproj](https://hub.docker.com/u/quayioargoproj) | [![quay.io/argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml) |
+| quay.io/ceph | [quayioceph](https://hub.docker.com/u/quayioceph) | [![quay.io/ceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml) |
 | quay.io/coreos | [qcoreos](https://hub.docker.com/u/qcoreos) | [![quay.io/coreos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml) |
 | quay.io/metallb | [quayiometallb](https://hub.docker.com/u/quayiometallb) | [![quayiometallb](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml) |
 

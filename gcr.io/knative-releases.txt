@@ -71,6 +71,7 @@ gcr.io/knative-releases/knative.dev/net-gateway-api/cmd/controller
 gcr.io/knative-releases/knative.dev/net-http01/cmd/controller
 gcr.io/knative-releases/knative.dev/net-istio/cmd/controller
 gcr.io/knative-releases/knative.dev/net-istio/cmd/webhook
+gcr.io/knative-releases/knative.dev/net-kourier/cmd/kourier
 gcr.io/knative-releases/knative.dev/operator/cmd/eventing-operator
 gcr.io/knative-releases/knative.dev/operator/cmd/operator
 gcr.io/knative-releases/knative.dev/operator/cmd/serving-operator
