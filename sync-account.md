@@ -3,12 +3,14 @@
 
 | Source     | Project           | Docker                   | Sync Account | Sync Time | Status |
 | :----------- | ------------------- | :------------------------- | :------------- | ----------- | :------- |
-| gcr.io     | distroless    | gcriodistroless       | xmirror   | 0         |        |
+| gcr.io     | cloudsql-docker    | gcriocloudsqldocker     | xactions     | 2         |        |
+| gcr.io     | distroless        | gcriodistroless          | xactions     | 0         |        |
 | gcr.io     | google-samples    | gcriogooglesamples       | xiexianbin   | 0         |        |
 | gcr.io     | kaniko-project    | gcriokaniko              | xmirrors     | 2         |        |
 | gcr.io     | knative-releases  | gcrioknative             | xmirrors     | 4         |        |
 | gcr.io     | ml-pipeline       | gcriomlpipeline          | xiexianbin   | 6         |        |
 | gcr.io     | tekton-releases   | gcriotekton              | xmirrors     | 8         |        |
+| gcr.io     | tfx-oss-public    | gcriotfxosspublic        | xactions     | 4         |        |
 | quary.io   | argoproj          | quaryioargoproj          | xmirrors     | 10        |        |
 | quary.io   | ceph              | quaryioceph              | xiexianbin   | 18        |        |
 | quary.io   | coreos            | qcoreos                  | xiexianbin   | 10        |        |
