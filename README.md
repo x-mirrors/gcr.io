@@ -6,46 +6,37 @@
 
 ## 已同步镜像
 
+|Source|Target(docker)|Sync Account|Sync Period|Image Count|Status|
+|:---|:---|:---|:---|:---|:---|
+|gcr.io/cloudsql-docker|[gcriocloudsqldocker](https://hub.docker.com/u/gcriocloudsqldocker)|xactions|`* 0 * * *`|3|[![gcriocloudsqldocker](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml)|
+|gcr.io/distroless|[gcriodistroless](https://hub.docker.com/u/gcriodistroless)|xactions|`* 0 * * *`|38|[![gcriodistroless](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml)|
+|gcr.io/google-samples|[gcriogooglesamples](https://hub.docker.com/u/gcriogooglesamples)|xiexianbin|`* 0 * * *`|111|[![gcriogooglesamples](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml)|
+|gcr.io/kaniko-project|[gcriokaniko](https://hub.docker.com/u/gcriokaniko)|xmirrors|`* 2 * * *`|4|[![gcriokaniko](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml)|
+|gcr.io/knative-releases|[gcrioknative](https://hub.docker.com/u/gcrioknative)|xmirrors|`* 4 * * *`|86|[![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml)|
+|gcr.io/ml-pipeline|[gcriomlpipeline](https://hub.docker.com/u/gcriomlpipeline)|xiexianbin|`* 6 * * *`|60|[![gcriomlpipeline](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml)|
+|gcr.io/tekton-releases|[gcriotekton](https://hub.docker.com/u/gcriotekton)|xmirrors|`* 8 * * *`|25|[![gcriotekton](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml)|
+|gcr.io/tfx-oss-public|[gcriotfxosspublic](https://hub.docker.com/u/gcriotfxosspublic)|xactions|`* 4 * * *`|11|[![gcriotfxosspublic](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tfx-oss-public.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tfx-oss-public.yml)|
+|k8s.gcr.io/autoscaling|[k8sgcrioautoscaling](https://hub.docker.com/u/k8sgcrioautoscaling)|xmirrors|`* 4 * * *`|27|[![k8sgcrioautoscaling](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml)|
+|k8s.gcr.io/coredns|[gcmirrors](https://hub.docker.com/u/gcmirrors)|xiexianbin|`* 2 * * *`|1|[![gcmirrors](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-coredns.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-coredns.yml)|
+|k8s.gcr.io/infra-tools|[k8sgcrioinfratools](https://hub.docker.com/u/k8sgcrioinfratools)|xiexianbin|`* 16 * * *`|1|[![k8sgcrioinfratools](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml)|
+|k8s.gcr.io/ingress-nginx|[k8sgcrioingressnginx](https://hub.docker.com/u/k8sgcrioingressnginx)|xiexianbin|`* 6 * * *`|9|[![k8sgcrioingressnginx](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml)|
+|k8s.gcr.io/k8s|[gcmirrors](https://hub.docker.com/u/gcmirrors)|xianbinxie|`* */8 * * *`|518|[![gcmirrors](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml)|
+|k8s.gcr.io/metrics-server|[k8sgcriometricsserver](https://hub.docker.com/u/k8sgcriometricsserver)|xmirrors|`* 12 * * *`|6|[![k8sgcriometricsserver](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml)|
+|k8s.gcr.io/scheduler-plugins|[k8sgcrioschedulerplugins](https://hub.docker.com/u/k8sgcrioschedulerplugins)|xiexianbin|`* 14 * * *`|2|[![k8sgcrioschedulerplugins](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-scheduler-plugins.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-scheduler-plugins.yml)|
+|quay.io/argoproj|[quayioargoproj](https://hub.docker.com/u/quayioargoproj)|xmirrors|`* 10 * * *`|15|[![quayioargoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml)|
+|quay.io/ceph|[quayioceph](https://hub.docker.com/u/quayioceph)|xiexianbin|`* 18 * * *`|11|[![quayioceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml)|
+|quay.io/coreos|[qcoreos](https://hub.docker.com/u/qcoreos)|xiexianbin|`* 10 * * *`|4|[![qcoreos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml)|
+|quay.io/metallb|[quayiometallb](https://hub.docker.com/u/quayiometallb)|xiexianbin|`* 10 * * *`|2|[![quayiometallb](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml)|
+
 使用示例，将原来的 `gcr.io/knative-releases/knative.dev/serving/cmd/activator` 替换为 `gcrioknative/serving-activator`
-
-### gcr.io
-
-|  GCR | Docker | Status |
-| ------------ | ------------ | ------------ |
-| gcr.io/distroless | [gcriodistroless](https://hub.docker.com/u/gcriodistroless) | [![gcriodistroless](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml) |
-| gcr.io/google-samples | [gcriogooglesamples](https://hub.docker.com/u/gcriogooglesamples) | [![gcriogooglesamples](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml) |
-| gcr.io/kaniko-project | [gcriokaniko](https://hub.docker.com/u/gcriokaniko) | [![gcriokaniko](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml) |
-| gcr.io/knative-releases/knative.dev/_f_/cmd/_n_ | [gcrioknative](https://hub.docker.com/u/gcrioknative) | [![gcrioknative](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-knative-releases.yml) |
-| gcr.io/ml-pipeline | [gcriomlpipeline](https://hub.docker.com/u/gcriomlpipeline) | [![gcriomlpipeline](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-ml-pipeline.yml) |
-| gcr.io/tekton-releases/github.com/tektoncd/_f_/cmd/_n_ | [gcriotekton](https://hub.docker.com/u/gcriotekton) | [![gcriotekton](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml) |
-
-### k8s.gcr.io
-
-|  GCR | Docker | Status |
-| ------------ | ------------ | ------------ |
-| k8s.gcr.io/autoscaling | [k8sgcrioautoscaling](https://hub.docker.com/u/k8sgcrioautoscaling) | [![k8sgcrioautoscaling](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml) |
-| k8s.gcr.io/coredns | [gcmirrors](https://hub.docker.com/u/gcmirrors) | [![coredns](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-coredns.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-coredns.yml) |
-| k8s.gcr.io/infra-tools | [k8sgcrioinfratools](https://hub.docker.com/orgs/k8sgcrioinfratools) | [![k8sgcrioinfratools](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml) |
-| k8s.gcr.io/ingress-nginx | [k8sgcrioingressnginx](https://hub.docker.com/u/k8sgcrioingressnginx) | [![k8sgcrioingressnginx](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml) |
-| k8s.gcr.io | [gcmirrors](https://hub.docker.com/u/gcmirrors) | [![k8s](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml) |
-| gcr.io/metrics-server | [k8sgcriometricsserver](https://hub.docker.com/u/k8sgcriometricsserver) | [![k8sgcriometricsserver](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml) |
-| k8s.gcr.io/metrics-server | [k8sgcriometricsserver](https://hub.docker.com/u/k8sgcriometricsserver) | [![k8sgcriometricsserver](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml) |
-| k8s.gcr.io/scheduler-plugins | [k8sgcrioschedulerplugins](https://hub.docker.com/u/k8sgcrioschedulerplugins) | [![k8sgcrioschedulerplugins](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-scheduler-plugins.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8sgcrioschedulerplugins.yml) |
-
-### quay.io
-
-|  Quay.io | Docker | Status |
-| ------------ | ------------ | ------------ |
-| quay.io/argoproj | [quayioargoproj](https://hub.docker.com/u/quayioargoproj) | [![quay.io/argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml) |
-| quay.io/ceph | [quayioceph](https://hub.docker.com/u/quayioceph) | [![quay.io/ceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml) |
-| quay.io/coreos | [qcoreos](https://hub.docker.com/u/qcoreos) | [![quay.io/coreos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml) |
-| quay.io/metallb | [quayiometallb](https://hub.docker.com/u/quayiometallb) | [![quayiometallb](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml) |
 
 ## 新增同步需求
 
 发送邮件到 `me@xiexnabin.cn` 或在 https://github.com/x-mirrors/gcr.io/ 提交 `issue`
 
 ## generates image lists
+
+### gcr images
 
 ```
 # gcloud container images list --project google-containers
@@ -66,15 +57,15 @@ for i in $(gcloud container images list --repository gcr.io/knative-releases/kna
 for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > tekton.txt
 ```
 
-quay image from :
+### quay images
+
 - https://quay.io/search?q=coreos
 - https://quay.io/api/v1/repository?last_modified=true&namespace=coreos&popularity=true&public=true&quota=false
-
 - https://github.com/kubernetes/k8s.io/blob/main/k8s.gcr.io/Vanity-Domain-Flip.md
 
 ## ref
 
-- [old mirrors repo](https://github.com/x-mirrors/gcmirrors)
+- [gcmirrors](https://github.com/x-mirrors/gcmirrors)
 - [mirror workflow/Kubernetes gcr/quay 镜像同步和国内加速介绍](https://www.xiexianbin.cn/open-sources/google-container-registry-mirrors/)
 - build your own mirrors use [python3-cisctl](https://github.com/x-actions/python3-cisctl/)
 - kubernetes v1.25 容器注册服务由 k8s.gcr.io 迁移到 registry.k8s.io
