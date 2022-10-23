@@ -1,4 +1,4 @@
-name: gcr.io/distroless
+name: gcr.io/kubeflow-images-public
 
 on:
   workflow_dispatch:
@@ -9,20 +9,20 @@ on:
         type: string
         default: 'manually test'
   schedule:
-    - cron: '* 2 * * *'
+    - cron: '* 10 * * *'
   push:
       branches:
         - main
 
 jobs:
-  distroless:
+  kubeflow-images-public:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v2
         with:
           repository: x-mirrors/gcr.io
-          ref: 'distroless'
+          ref: 'kubeflow-images-public'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
@@ -32,8 +32,8 @@ jobs:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/distroless.txt"
-          DEST_REPO: "docker.io/gcriodistroless"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/kubeflow-images-public.txt"
+          DEST_REPO: "docker.io/kubeflowimagespublic"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xactions"
@@ -45,5 +45,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'distroless'
+          PUBLISH_BRANCH: 'kubeflow-images-public'
           PUBLISH_DIR: 'gcr.io'

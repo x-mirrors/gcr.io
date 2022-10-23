@@ -1,0 +1,26 @@
+gcr.io/kubebuilder/apiserver-builder
+gcr.io/kubebuilder/book
+gcr.io/kubebuilder/book1.0
+gcr.io/kubebuilder/book2
+gcr.io/kubebuilder/brodocs
+gcr.io/kubebuilder/checkerator
+gcr.io/kubebuilder/gendocs
+gcr.io/kubebuilder/gitbook
+gcr.io/kubebuilder/goreleaser_with_go_1.10
+gcr.io/kubebuilder/goreleaser_with_go_1.11
+gcr.io/kubebuilder/goreleaser_with_go_1.12.5
+gcr.io/kubebuilder/kbb
+gcr.io/kubebuilder/kube-rbac-proxy
+gcr.io/kubebuilder/lint2check
+gcr.io/kubebuilder/pr-verifier
+gcr.io/kubebuilder/prow-base
+gcr.io/kubebuilder/thirdparty-darwin
+gcr.io/kubebuilder/thirdparty-darwin-amd64
+gcr.io/kubebuilder/thirdparty-darwin-arm64
+gcr.io/kubebuilder/thirdparty-linux
+gcr.io/kubebuilder/thirdparty-linux-amd64
+gcr.io/kubebuilder/thirdparty-linux-arm64
+gcr.io/kubebuilder/thirdparty-linux-ppc64le
+gcr.io/kubebuilder/triage-party-kb
+gcr.io/kubebuilder/upload-tests
+# gcloud container images list --repository gcr.io/kubebuilder
