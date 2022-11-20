@@ -1,5 +1,11 @@
 ## Usage
 
+- change dir
+
+```
+cd tools
+```
+
 - create env
 
 ```
