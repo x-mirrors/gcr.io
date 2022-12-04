@@ -1,4 +1,4 @@
-Google Containers Registry infra-tools Mirrors [last sync 2022-12-03 17:08:51]
+Google Containers Registry infra-tools Mirrors [last sync 2022-12-04 16:22:01]
 -------
 
 [![infra-tools](https://github.com/x-mirrors/gcr.io/actions/workflows/infra-tools.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/infra-tools.yml)
@@ -18,13 +18,14 @@ From docker hub Mirrors:
 docker pull k8sgcrioinfratools/hyperkube:v1.9.6
 ```
 
-Total of 1's k8s.gcr.io images
+Total of 2's k8s.gcr.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | octodns | 4 | - | 2022-12-03 17:08:51 |
+| 1 | archeio | 6 | - | 2022-12-04 16:22:01 |
+| 2 | octodns | 4 | - | 2022-12-04 16:22:01 |
 
 Support
 -------
