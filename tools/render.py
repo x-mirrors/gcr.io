@@ -64,12 +64,15 @@ class Render(object):
 
   def get_image_count(self, path):
     count = 0
-    with open(path, 'r') as f:
-      for line in f.readlines():
-        if line.startswith('#') or line.strip() == '':
-          continue
-        else:
-          count += 1
+    try:
+      with open(path, 'r') as f:
+        for line in f.readlines():
+          if line.startswith('#') or line.strip() == '':
+            continue
+          else:
+            count += 1
+    except FileNotFoundError as e:
+      print(e)
     return count
 
   def parse_github_action(self, action):
@@ -133,21 +136,25 @@ class Render(object):
       if source.split('/')[0] not in ['gcr.io', 'k8s.gcr.io']:
         continue
 
-      if source.split('/')[1] not in ['knative-releases', 'tekton-releases']:
+      if source.split('/')[1] in ['knative-releases', 'tekton-releases']:
         continue
 
-      print(f"begin to get {source} images list...")
+      print(f"begin to sync {source} images list...")
       cmd = f"gcloud container images list --page-size=500 --repository {source} | grep -i {source}"
       code, stdout, stderr = bash(
         command=cmd,
         force=True)
       if code == 0:
-        with open(f"../{source}.txt", 'w') as out_file:
+        out_path = f"../{source}.txt"
+        if os.path.exists(out_path) is False:
+          out_file = open(out_path, 'w')
+          out_file.close()
+        with open(out_path, 'w') as out_file:
           for line in stdout.split():
             out_file.write(f"{line.decode()}\n")
           out_file.write(f"# {cmd}\n")
       else:
-        print(f"get images list {source}, error is {stderr}")
+        print(f"sync images list {source}, error is {stderr}")
 
 
 if __name__ == '__main__':
@@ -159,4 +166,5 @@ if __name__ == '__main__':
     else:
       parser.print_help()
   except Exception as e:
-    sys.exit(1)
+    print(e)
+    raise

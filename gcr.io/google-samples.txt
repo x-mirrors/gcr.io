@@ -1,3 +1,4 @@
+gcr.io/google-samples/acc_parse
 gcr.io/google-samples/appengine-tensorboard
 gcr.io/google-samples/automl-pipeline
 gcr.io/google-samples/automl-ucaip
@@ -9,6 +10,8 @@ gcr.io/google-samples/bw-pl-bikes-train
 gcr.io/google-samples/cartservice
 gcr.io/google-samples/cassandra
 gcr.io/google-samples/checkoutservice
+gcr.io/google-samples/cloud-trace-demo
+gcr.io/google-samples/cloud-trace-demo-opentelemetry
 gcr.io/google-samples/cloudbuild-kustomize
 gcr.io/google-samples/container-analysis-webhook
 gcr.io/google-samples/currencyservice
@@ -92,11 +95,14 @@ gcr.io/google-samples/recommendationservice
 gcr.io/google-samples/redis
 gcr.io/google-samples/redis-bq-pipe
 gcr.io/google-samples/redis-proxy
+gcr.io/google-samples/rethinking
+gcr.io/google-samples/rstats
 gcr.io/google-samples/sd-dummy-exporter
 gcr.io/google-samples/service-catalog
 gcr.io/google-samples/shippingservice
 gcr.io/google-samples/steps-twotier
 gcr.io/google-samples/style-transfer
+gcr.io/google-samples/test
 gcr.io/google-samples/tf-jupyter-server
 gcr.io/google-samples/tf-k8s-worker
 gcr.io/google-samples/tf-worker-example
@@ -109,3 +115,4 @@ gcr.io/google-samples/whereami-run-image
 gcr.io/google-samples/workload-metrics
 gcr.io/google-samples/xtrabackup
 gcr.io/google-samples/zone-printer
+# gcloud container images list --page-size=500 --repository gcr.io/google-samples | grep -i gcr.io/google-samples

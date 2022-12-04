@@ -1,0 +1,49 @@
+name: k8s.gcr.io/sig-storage
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'run action reason'
+        required: false
+        type: string
+        default: 'manually test'
+  schedule:
+    - cron: '* 6 * * *'
+  push:
+      branches:
+        - main
+
+jobs:
+  sig-storage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout result branch
+        uses: actions/checkout@v2
+        with:
+          repository: x-mirrors/gcr.io
+          ref: 'sig-storage'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: gcr.io
+
+      - name: Container Images Sync
+        uses: x-actions/python3-cisctl@v1
+        env:
+          GIT_ORG: "x-mirrors"
+          GIT_REPO: "gcr.io"
+          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/sig-storage.txt"
+          DEST_REPO: "docker.io/k8sgcriosigstorage"
+          SRC_TRANSPORT: "docker"
+          DEST_TRANSPORT: "docker"
+          DEST_TRANSPORT_USER: "xmirrors"
+          DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
+
+      - name: Public result to github
+        uses: x-actions/git-push@v1
+        env:
+          GITHUB_EMAIL: 'me@xiexianbin.cn'
+          GITHUB_USERNAME: 'xiexianbin'
+          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
+          PUBLISH_BRANCH: sig-storage
+          PUBLISH_DIR: 'gcr.io'

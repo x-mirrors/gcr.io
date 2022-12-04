@@ -1,3 +1,10 @@
+gcr.io/tekton-releases/build-chains-test
+gcr.io/tekton-releases/buildbot
+gcr.io/tekton-releases/buildcaptain
+gcr.io/tekton-releases/catalog
+gcr.io/tekton-releases/dogfooding
+gcr.io/tekton-releases/dogfoodingko
+gcr.io/tekton-releases/dogfoodingtkn
 gcr.io/tekton-releases/github.com/tektoncd/chains/cmd/controller
 gcr.io/tekton-releases/github.com/tektoncd/dashboard/cmd/dashboard
 gcr.io/tekton-releases/github.com/tektoncd/operator/cmd/kubernetes
@@ -14,6 +21,7 @@ gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/imagedigestexporter
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
@@ -23,3 +31,10 @@ gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/eventlistenersink
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/gh-validate
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/interceptors
 gcr.io/tekton-releases/github.com/tektoncd/triggers/cmd/webhook
+gcr.io/tekton-releases/http-6b29b2ff323007b9803474945250e900
+gcr.io/tekton-releases/ko-ci
+gcr.io/tekton-releases/priya
+gcr.io/tekton-releases/staging
+gcr.io/tekton-releases/tests
+gcr.io/tekton-releases/triggers
+# gcloud container images list --page-size=500 --repository gcr.io/tekton-releases | grep -i gcr.io/tekton-releases

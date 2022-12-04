@@ -3,10 +3,9 @@ gcr.io/tfx-oss-public/manylinux2010-bazel
 gcr.io/tfx-oss-public/manylinux2010-bazel-4.0
 gcr.io/tfx-oss-public/manylinux2014-bazel
 gcr.io/tfx-oss-public/ml_metadata_store_server
-gcr.io/tfx-oss-public/pypicloud-nightly
 gcr.io/tfx-oss-public/s2t_tf_serving
 gcr.io/tfx-oss-public/tfx
 gcr.io/tfx-oss-public/tfx-workshop
 gcr.io/tfx-oss-public/tfx_base
 gcr.io/tfx-oss-public/tfx_smoke_test
-# gcloud container images list --repository gcr.io/tfx-oss-public
+# gcloud container images list --page-size=500 --repository gcr.io/tfx-oss-public | grep -i gcr.io/tfx-oss-public

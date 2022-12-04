@@ -25,3 +25,4 @@ k8s.gcr.io/autoscaling/vpa-updater-arm
 k8s.gcr.io/autoscaling/vpa-updater-arm64
 k8s.gcr.io/autoscaling/vpa-updater-ppc64le
 k8s.gcr.io/autoscaling/vpa-updater-s390x
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/autoscaling | grep -i k8s.gcr.io/autoscaling

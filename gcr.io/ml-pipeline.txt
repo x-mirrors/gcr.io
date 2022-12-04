@@ -2,6 +2,7 @@ gcr.io/ml-pipeline/api-server
 gcr.io/ml-pipeline/application-crd-controller
 gcr.io/ml-pipeline/argoexec
 gcr.io/ml-pipeline/argoui
+gcr.io/ml-pipeline/automl-tables-private
 gcr.io/ml-pipeline/bootstrapper
 gcr.io/ml-pipeline/busybox
 gcr.io/ml-pipeline/cache-deployer
@@ -15,6 +16,7 @@ gcr.io/ml-pipeline/google
 gcr.io/ml-pipeline/google-cloud
 gcr.io/ml-pipeline/google-cloud-pipeline-components
 gcr.io/ml-pipeline/inverse-proxy-agent
+gcr.io/ml-pipeline/kfp-conformance
 gcr.io/ml-pipeline/kfp-launcher
 gcr.io/ml-pipeline/kubeflow
 gcr.io/ml-pipeline/marketplace-k8s-app-tools
@@ -43,6 +45,7 @@ gcr.io/ml-pipeline/ml-pipeline-kubeflow-trainer
 gcr.io/ml-pipeline/ml-pipeline-local-confusion-matrix
 gcr.io/ml-pipeline/ml-pipeline-local-roc
 gcr.io/ml-pipeline/model-evaluation
+gcr.io/ml-pipeline/model-evaluation-worker
 gcr.io/ml-pipeline/multi-user-stage-1
 gcr.io/ml-pipeline/mysql
 gcr.io/ml-pipeline/patched-tfx
@@ -58,3 +61,4 @@ gcr.io/ml-pipeline/tfx-mmlp
 gcr.io/ml-pipeline/viewer-crd-controller
 gcr.io/ml-pipeline/visualization-server
 gcr.io/ml-pipeline/workflow-controller
+# gcloud container images list --page-size=500 --repository gcr.io/ml-pipeline | grep -i gcr.io/ml-pipeline

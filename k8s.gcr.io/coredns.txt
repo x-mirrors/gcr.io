@@ -1,1 +1,2 @@
 k8s.gcr.io/coredns/coredns
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/coredns | grep -i k8s.gcr.io/coredns

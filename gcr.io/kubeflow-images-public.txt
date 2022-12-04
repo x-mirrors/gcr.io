@@ -131,4 +131,4 @@ gcr.io/kubeflow-images-public/ubuntu
 gcr.io/kubeflow-images-public/xgboost-fairing-example
 gcr.io/kubeflow-images-public/xgboost-fairing-example-base
 gcr.io/kubeflow-images-public/xgboost-operator
-# gcloud container images list --repository gcr.io/kubeflow-images-public
+# gcloud container images list --page-size=500 --repository gcr.io/kubeflow-images-public | grep -i gcr.io/kubeflow-images-public

@@ -1,0 +1,21 @@
+k8s.gcr.io/sig-storage/csi-attacher
+k8s.gcr.io/sig-storage/csi-external-health-monitor-agent
+k8s.gcr.io/sig-storage/csi-external-health-monitor-controller
+k8s.gcr.io/sig-storage/csi-node-driver-registrar
+k8s.gcr.io/sig-storage/csi-provisioner
+k8s.gcr.io/sig-storage/csi-resizer
+k8s.gcr.io/sig-storage/csi-snapshotter
+k8s.gcr.io/sig-storage/hello-populator
+k8s.gcr.io/sig-storage/hostpathplugin
+k8s.gcr.io/sig-storage/iscsiplugin
+k8s.gcr.io/sig-storage/livenessprobe
+k8s.gcr.io/sig-storage/local-volume-provisioner
+k8s.gcr.io/sig-storage/mock-driver
+k8s.gcr.io/sig-storage/nfs-provisioner
+k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner
+k8s.gcr.io/sig-storage/nfsplugin
+k8s.gcr.io/sig-storage/smbplugin
+k8s.gcr.io/sig-storage/snapshot-controller
+k8s.gcr.io/sig-storage/snapshot-validation-webhook
+k8s.gcr.io/sig-storage/volume-data-source-validator
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/sig-storage | grep -i k8s.gcr.io/sig-storage
