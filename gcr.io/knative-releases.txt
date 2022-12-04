@@ -1,4 +1,5 @@
 gcr.io/knative-releases/knative.dev/client/cmd/kn
+gcr.io/knative-releases/knative.dev/container-freezer/cmd/daemon
 gcr.io/knative-releases/knative.dev/discovery/cmd/controller
 gcr.io/knative-releases/knative.dev/discovery/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter
@@ -50,6 +51,7 @@ gcr.io/knative-releases/knative.dev/eventing-kogito/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing-kogito/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing-natss/cmd/channel_controller
 gcr.io/knative-releases/knative.dev/eventing-natss/cmd/channel_dispatcher
+gcr.io/knative-releases/knative.dev/eventing-natss/cmd/jetstream
 gcr.io/knative-releases/knative.dev/eventing-natss/cmd/jetstream_channel_controller
 gcr.io/knative-releases/knative.dev/eventing-natss/cmd/jetstream_channel_dispatcher
 gcr.io/knative-releases/knative.dev/eventing-natss/cmd/webhook
@@ -64,6 +66,8 @@ gcr.io/knative-releases/knative.dev/eventing-rabbitmq/cmd/ingress
 gcr.io/knative-releases/knative.dev/eventing-rabbitmq/cmd/receive_adapter
 gcr.io/knative-releases/knative.dev/eventing-rabbitmq/cmd/receiver
 gcr.io/knative-releases/knative.dev/eventing-rabbitmq/cmd/webhook
+gcr.io/knative-releases/knative.dev/eventing-redis/cmd/sink
+gcr.io/knative-releases/knative.dev/eventing-redis/cmd/source
 gcr.io/knative-releases/knative.dev/net-certmanager/cmd/controller
 gcr.io/knative-releases/knative.dev/net-certmanager/cmd/webhook
 gcr.io/knative-releases/knative.dev/net-contour/cmd/controller
@@ -78,6 +82,12 @@ gcr.io/knative-releases/knative.dev/operator/cmd/serving-operator
 gcr.io/knative-releases/knative.dev/operator/cmd/webhook
 gcr.io/knative-releases/knative.dev/sample-controller/cmd/controller
 gcr.io/knative-releases/knative.dev/sample-controller/cmd/webhook
+gcr.io/knative-releases/knative.dev/sample-source/cmd/controller
+gcr.io/knative-releases/knative.dev/sample-source/cmd/receive_adapter
+gcr.io/knative-releases/knative.dev/sample-source/cmd/webhook
+gcr.io/knative-releases/knative.dev/security-guard/cmd/guard-rproxy
+gcr.io/knative-releases/knative.dev/security-guard/cmd/guard-service
+gcr.io/knative-releases/knative.dev/security-guard/cmd/queue
 gcr.io/knative-releases/knative.dev/serving/cmd/activator
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler
 gcr.io/knative-releases/knative.dev/serving/cmd/autoscaler-hpa

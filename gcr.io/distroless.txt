@@ -25,6 +25,13 @@ gcr.io/distroless/nodejs
 gcr.io/distroless/nodejs-debian10
 gcr.io/distroless/nodejs-debian11
 gcr.io/distroless/nodejs-debian9
+gcr.io/distroless/nodejs14
+gcr.io/distroless/nodejs14-debian11
+gcr.io/distroless/nodejs16
+gcr.io/distroless/nodejs16-debian11
+gcr.io/distroless/nodejs18
+gcr.io/distroless/nodejs18-debian11
+gcr.io/distroless/preview
 gcr.io/distroless/python2.7
 gcr.io/distroless/python2.7-debian10
 gcr.io/distroless/python2.7-debian9
@@ -36,3 +43,4 @@ gcr.io/distroless/static
 gcr.io/distroless/static-debian10
 gcr.io/distroless/static-debian11
 gcr.io/distroless/static-debian9
+# gcloud container images list --page-size=500 --repository gcr.io/distroless | grep -i gcr.io/distroless

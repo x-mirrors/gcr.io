@@ -30,11 +30,11 @@ gcloud container images list --repository k8s.gcr.io/metrics-server
 gcloud container images list --repository gcr.io/google-samples
 gcloud container images list --repository gcr.io/distroless > gcr.io/distroless.txt
 
-# knative.txt
-for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do gcloud container images list --repository $i/cmd; done > gcr.io/knative-releases.txt
+# knative
+cd tools; sh render-knative.sh
 
-# tekton.txt
-for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > gcr.io/tekton-releases.txt
+# tekton
+cd tools; sh render-tekton.sh
 ```
 
 ### quay images

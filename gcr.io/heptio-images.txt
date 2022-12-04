@@ -53,3 +53,4 @@ gcr.io/heptio-images/sonobuoy-plugin-systemd-logs-ppc64le
 gcr.io/heptio-images/test-proj
 gcr.io/heptio-images/velero
 gcr.io/heptio-images/velero-restic-restore-helper
+# gcloud container images list --page-size=500 --repository gcr.io/heptio-images | grep -i gcr.io/heptio-images

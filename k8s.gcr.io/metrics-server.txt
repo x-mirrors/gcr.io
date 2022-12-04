@@ -4,3 +4,4 @@ k8s.gcr.io/metrics-server/metrics-server-arm
 k8s.gcr.io/metrics-server/metrics-server-arm64
 k8s.gcr.io/metrics-server/metrics-server-ppc64le
 k8s.gcr.io/metrics-server/metrics-server-s390x
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/metrics-server | grep -i k8s.gcr.io/metrics-server

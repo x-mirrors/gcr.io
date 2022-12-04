@@ -2,3 +2,4 @@ gcr.io/kaniko-project/debug
 gcr.io/kaniko-project/demo
 gcr.io/kaniko-project/executor
 gcr.io/kaniko-project/warmer
+# gcloud container images list --page-size=500 --repository gcr.io/kaniko-project | grep -i gcr.io/kaniko-project

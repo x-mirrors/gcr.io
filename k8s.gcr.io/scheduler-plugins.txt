@@ -1,2 +1,3 @@
 k8s.gcr.io/scheduler-plugins/controller
 k8s.gcr.io/scheduler-plugins/kube-scheduler
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/scheduler-plugins | grep -i k8s.gcr.io/scheduler-plugins

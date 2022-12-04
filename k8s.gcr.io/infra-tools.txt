@@ -1,1 +1,3 @@
+k8s.gcr.io/infra-tools/archeio
 k8s.gcr.io/infra-tools/octodns
+# gcloud container images list --page-size=500 --repository k8s.gcr.io/infra-tools | grep -i k8s.gcr.io/infra-tools

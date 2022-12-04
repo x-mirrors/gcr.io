@@ -23,4 +23,4 @@ gcr.io/kubebuilder/thirdparty-linux-arm64
 gcr.io/kubebuilder/thirdparty-linux-ppc64le
 gcr.io/kubebuilder/triage-party-kb
 gcr.io/kubebuilder/upload-tests
-# gcloud container images list --repository gcr.io/kubebuilder
+# gcloud container images list --page-size=500 --repository gcr.io/kubebuilder | grep -i gcr.io/kubebuilder

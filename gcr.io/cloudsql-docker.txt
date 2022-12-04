@@ -1,4 +1,4 @@
 gcr.io/cloudsql-docker/alloydb-auth-proxy
 gcr.io/cloudsql-docker/gce-proxy
 gcr.io/cloudsql-docker/quickstart-image
-# gcloud container images list --repository gcr.io/cloudsql-docker
+# gcloud container images list --page-size=500 --repository gcr.io/cloudsql-docker | grep -i gcr.io/cloudsql-docker
