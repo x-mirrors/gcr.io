@@ -4,10 +4,13 @@
 # function: render README.md by template.
 # date 2022-10-10
 
+import argparse
 import os
+import subprocess
+import sys
 
-import yaml
 from jinja2 import Template
+import yaml
 
 CURRENT_PATH = os.getcwd()
 
@@ -18,6 +21,31 @@ TABLE_HEADERS = [
   'Sync Period',
   'Image Count',
   'Status']
+
+parser = argparse.ArgumentParser(description='Render README.md and images list')
+parser.add_argument('--readme', '-r', help='render readme', action=argparse.BooleanOptionalAction,
+                    default=False, type=bool)
+parser.add_argument('--images', '-i', help='render images', action=argparse.BooleanOptionalAction,
+                    default=False, type=bool)
+args = parser.parse_args()
+
+
+def bash(command: str, force=False, debug=False):
+  args = ['bash', '-c', command]
+
+  subp = subprocess.Popen(args, stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE)
+  stdout, stderr = subp.communicate()
+  code = subp.poll()
+  if debug:
+    print(f"Run bash: {command}, ret is {code}, stderr is {stderr}")
+
+  if not stdout and not stderr:
+    print(f"Run bash: {command}, ret is {code}")
+
+  if force:
+    return code, stdout, stderr
+  return code
 
 
 class Render(object):
@@ -68,7 +96,7 @@ class Render(object):
       tpl = Template(in_file.read())
       out_file.write(tpl.render({'mk_raw': mk_raw}))
 
-  def do(self):
+  def readme(self):
     mk_lines = []
     mk_lines.append(f"|{'|'.join(TABLE_HEADERS)}|")
     mk_lines.append(f"|{'|'.join([':---' for _ in range(len(TABLE_HEADERS))])}|")
@@ -89,11 +117,46 @@ class Render(object):
 
     target_lines = sorted(target_lines, key=lambda x: x['source'])
     for i in target_lines:
-      mk_lines.append(f"|{'|'.join([i['source'], i['target'], i['sync_account'], i['sync_period'], str(i['image_count']), i['status']])}|")
+      mk_lines.append(
+        f"|{'|'.join([i['source'], i['target'], i['sync_account'], i['sync_period'], str(i['image_count']), i['status']])}|")
 
     mk_raw = '\n'.join(mk_lines)
     self.render(mk_raw)
 
+  def images(self):
+    actions = self.load_github_actions()
+    for action in actions:
+      result, source, _, _, _, _, _ = self.parse_github_action(action)
+      if result is False:
+        continue
+
+      if source.split('/')[0] not in ['gcr.io', 'k8s.gcr.io']:
+        continue
+
+      if source.split('/')[1] not in ['knative-releases', 'tekton-releases']:
+        continue
+
+      print(f"begin to get {source} images list...")
+      cmd = f"gcloud container images list --page-size=500 --repository {source} | grep -i {source}"
+      code, stdout, stderr = bash(
+        command=cmd,
+        force=True)
+      if code == 0:
+        with open(f"../{source}.txt", 'w') as out_file:
+          for line in stdout.split():
+            out_file.write(f"{line.decode()}\n")
+          out_file.write(f"# {cmd}\n")
+      else:
+        print(f"get images list {source}, error is {stderr}")
+
 
 if __name__ == '__main__':
-    Render().do()
+  try:
+    if args.readme:
+      Render().readme()
+    elif args.images:
+      Render().images()
+    else:
+      parser.print_help()
+  except Exception as e:
+    sys.exit(1)

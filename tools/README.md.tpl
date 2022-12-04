@@ -34,7 +34,7 @@ gcloud container images list --repository gcr.io/distroless > gcr.io/distroless.
 for i in $(gcloud container images list --repository gcr.io/knative-releases/knative.dev | grep -v -i name); do gcloud container images list --repository $i/cmd; done > gcr.io/knative-releases.txt
 
 # tekton.txt
-for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > tekton.txt
+for i in $(gcloud container images list --repository gcr.io/tekton-releases/github.com/tektoncd | grep -v -i name); do gcloud container images list --repository $i/cmd; done > gcr.io/tekton-releases.txt
 ```
 
 ### quay images

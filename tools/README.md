@@ -24,8 +24,21 @@ source ./venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-- run
+- help
 
 ```
-python3 render.py
+$ python3 render.py --help
+usage: render.py [-h] [--readme | --no-readme | -r] [--images | --no-images | -i]
+
+Render README.md and images list
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --readme, --no-readme, -r
+                        render readme (default: False)
+  --images, --no-images, -i
+                        render images (default: False)
+
+$ python3 render.py --readme
+$ python3 render.py --images
 ```
