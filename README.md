@@ -8,6 +8,7 @@
 
 |Source|Target(docker)|Sync Account|Sync Period|Image Count|Status|
 |:---|:---|:---|:---|:---|:---|
+|gcr.io/cloud-builders|[gcriocloudbuilders](https://hub.docker.com/u/gcriocloudbuilders)|xaction|`* 0 * * *`|29|[![gcriocloudbuilders](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloud-builders.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloud-builders.yml)|
 |gcr.io/cloudsql-docker|[gcriocloudsqldocker](https://hub.docker.com/u/gcriocloudsqldocker)|xactions|`* 0 * * *`|3|[![gcriocloudsqldocker](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml)|
 |gcr.io/distroless|[gcriodistroless](https://hub.docker.com/u/gcriodistroless)|xactions|`* 2 * * *`|45|[![gcriodistroless](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-distroless.yml)|
 |gcr.io/google-samples|[gcriogooglesamples](https://hub.docker.com/u/gcriogooglesamples)|xiexianbin|`* 0 * * *`|117|[![gcriogooglesamples](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-google-samples.yml)|
@@ -24,6 +25,7 @@
 |k8s.gcr.io/infra-tools|[k8sgcrioinfratools](https://hub.docker.com/u/k8sgcrioinfratools)|xiexianbin|`* 16 * * *`|2|[![k8sgcrioinfratools](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml)|
 |k8s.gcr.io/ingress-nginx|[k8sgcrioingressnginx](https://hub.docker.com/u/k8sgcrioingressnginx)|xiexianbin|`* 6 * * *`|11|[![k8sgcrioingressnginx](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml)|
 |k8s.gcr.io/k8s|[gcmirrors](https://hub.docker.com/u/gcmirrors)|xianbinxie|`* */8 * * *`|518|[![gcmirrors](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-k8s.yml)|
+|k8s.gcr.io/kustomize|[k8sgcriokustomize](https://hub.docker.com/u/k8sgcriokustomize)|xaction|`* 2 * * *`|1|[![k8sgcriokustomize](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-kustomize.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-kustomize.yml)|
 |k8s.gcr.io/metrics-server|[k8sgcriometricsserver](https://hub.docker.com/u/k8sgcriometricsserver)|xmirrors|`* 12 * * *`|6|[![k8sgcriometricsserver](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-metrics-server.yml)|
 |k8s.gcr.io/scheduler-plugins|[k8sgcrioschedulerplugins](https://hub.docker.com/u/k8sgcrioschedulerplugins)|xiexianbin|`* 14 * * *`|2|[![k8sgcrioschedulerplugins](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-scheduler-plugins.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-scheduler-plugins.yml)|
 |k8s.gcr.io/sig-storage|[k8sgcriosigstorage](https://hub.docker.com/u/k8sgcriosigstorage)|xmirrors|`* 6 * * *`|20|[![k8sgcriosigstorage](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-sig-storage.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-sig-storage.yml)|
@@ -36,7 +38,7 @@
 
 ## 新增同步需求
 
-发送邮件到 `me@xiexnabin.cn` 或在 https://github.com/x-mirrors/gcr.io/ 提交 `issue`
+发送邮件到 `me@xiexianbin.cn` 或在 https://github.com/x-mirrors/gcr.io/ 提交 `issue`
 
 ## generates image lists
 

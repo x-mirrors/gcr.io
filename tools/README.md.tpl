@@ -12,7 +12,7 @@
 
 ## 新增同步需求
 
-发送邮件到 `me@xiexnabin.cn` 或在 https://github.com/x-mirrors/gcr.io/ 提交 `issue`
+发送邮件到 `me@xiexianbin.cn` 或在 https://github.com/x-mirrors/gcr.io/ 提交 `issue`
 
 ## generates image lists
 
