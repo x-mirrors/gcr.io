@@ -1,7 +1,7 @@
-Google Containers Registry argoproj Mirrors [last sync 2022-12-10 11:14:31]
+Google Containers Registry argoproj Mirrors [last sync 2022-12-11 10:14:49]
 -------
 
-[![argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/argoproj.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/argoproj.yml)
+[![argoproj](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-argoproj.yml)
 
 Repository Address: [https://hub.docker.com/u/quayioargoproj/](https://hub.docker.com/u/quayioargoproj/)
 
@@ -24,21 +24,21 @@ Total of 15's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | argo-eventbus | 4 | - | 2022-12-10 11:12:19 |
-| 2 | argo-events | 26 | - | 2022-12-10 11:12:19 |
-| 3 | argo-rollouts | 91 | - | 2022-12-10 11:13:04 |
-| 4 | argocd | 310 | - | 2022-12-10 11:13:54 |
-| 5 | argocd-applicationset | 6 | - | 2022-12-10 11:13:54 |
-| 6 | argocli | 899 | - | 2022-12-10 11:13:54 |
-| 7 | argoexec | 1171 | - | 2022-12-10 11:13:54 |
-| 8 | eventbus-controller | 20 | - | 2022-12-10 11:13:54 |
-| 9 | events-webhook | 8 | - | 2022-12-10 11:13:54 |
-| 10 | eventsource | 18 | - | 2022-12-10 11:13:54 |
-| 11 | eventsource-controller | 18 | - | 2022-12-10 11:13:54 |
-| 12 | kubectl-argo-rollouts | 63 | - | 2022-12-10 11:14:31 |
-| 13 | sensor | 53 | - | 2022-12-10 11:14:31 |
-| 14 | sensor-controller | 56 | - | 2022-12-10 11:14:31 |
-| 15 | workflow-controller | 921 | - | 2022-12-10 11:14:31 |
+| 1 | argo-eventbus | 4 | - | 2022-12-11 10:13:06 |
+| 2 | argo-events | 26 | - | 2022-12-11 10:13:06 |
+| 3 | argo-rollouts | 91 | - | 2022-12-11 10:13:57 |
+| 4 | argocd | 310 | - | 2022-12-11 10:14:49 |
+| 5 | argocd-applicationset | 6 | - | 2022-12-11 10:14:49 |
+| 6 | argocli | 899 | - | 2022-12-11 10:14:49 |
+| 7 | argoexec | 1171 | - | 2022-12-11 10:14:49 |
+| 8 | eventbus-controller | 20 | - | 2022-12-11 10:14:49 |
+| 9 | events-webhook | 8 | - | 2022-12-11 10:14:49 |
+| 10 | eventsource | 18 | - | 2022-12-11 10:14:49 |
+| 11 | eventsource-controller | 18 | - | 2022-12-11 10:14:49 |
+| 12 | kubectl-argo-rollouts | 63 | - | 2022-12-11 10:14:49 |
+| 13 | sensor | 53 | - | 2022-12-11 10:14:49 |
+| 14 | sensor-controller | 56 | - | 2022-12-11 10:14:49 |
+| 15 | workflow-controller | 921 | - | 2022-12-11 10:14:49 |
 
 Support
 -------
