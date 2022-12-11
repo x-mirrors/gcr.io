@@ -358,7 +358,6 @@ k8s.gcr.io/kubernetes-dashboard-ppc64le
 k8s.gcr.io/kubernetes-dashboard-s390x
 k8s.gcr.io/kubernetes-kafka
 k8s.gcr.io/kubernetes-zookeeper
-k8s.gcr.io/kustomize
 k8s.gcr.io/leader-elector
 k8s.gcr.io/liveness
 k8s.gcr.io/loader

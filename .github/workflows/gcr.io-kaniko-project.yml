@@ -38,6 +38,7 @@ jobs:
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xmirrors"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
+          SKIP_LONG_TAG: "true"
 
       - name: Public result to github
         uses: x-actions/git-push@v1
