@@ -1,4 +1,4 @@
-Google Containers Registry infra-tools Mirrors [last sync 2022-12-12 16:49:19]
+Google Containers Registry infra-tools Mirrors [last sync 2022-12-12 17:01:02]
 -------
 
 [![infra-tools](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-infra-tools.yml)
@@ -24,8 +24,8 @@ Total of 2's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | archeio | 6 | - | 2022-12-12 16:49:19 |
-| 2 | octodns | 4 | - | 2022-12-12 16:49:19 |
+| 1 | archeio | 6 | - | 2022-12-12 17:01:02 |
+| 2 | octodns | 4 | - | 2022-12-12 17:01:02 |
 
 Support
 -------
