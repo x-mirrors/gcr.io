@@ -2,6 +2,8 @@ gcr.io/distroless/base
 gcr.io/distroless/base-debian10
 gcr.io/distroless/base-debian11
 gcr.io/distroless/base-debian9
+gcr.io/distroless/base-nossl
+gcr.io/distroless/base-nossl-debian11
 gcr.io/distroless/cc
 gcr.io/distroless/cc-debian10
 gcr.io/distroless/cc-debian11

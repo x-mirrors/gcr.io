@@ -7,7 +7,7 @@
 import argparse
 import os
 import subprocess
-import sys
+import time
 
 from jinja2 import Template
 import yaml
@@ -133,7 +133,7 @@ class Render(object):
       if result is False:
         continue
 
-      if source.split('/')[0] not in ['gcr.io', 'k8s.gcr.io']:
+      if source.split('/')[0] not in ['gcr.io', 'k8s.gcr.io', 'us.gcr.io']:
         continue
 
       if source.split('/')[1] in ['knative-releases', 'tekton-releases']:
@@ -155,6 +155,8 @@ class Render(object):
           out_file.write(f"# {cmd}\n")
       else:
         print(f"sync images list {source}, error is {stderr}")
+
+      time.sleep(10)
 
 
 if __name__ == '__main__':

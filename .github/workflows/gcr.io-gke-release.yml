@@ -1,0 +1,49 @@
+name: gcr.io/gke-release
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'run action reason'
+        required: false
+        type: string
+        default: 'manually test'
+  schedule:
+    - cron: '* 4 * * *'
+  push:
+      branches:
+        - main
+
+jobs:
+  gke-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout result branch
+        uses: actions/checkout@v3
+        with:
+          repository: x-mirrors/gcr.io
+          ref: 'gke-release'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: gcr.io
+
+      - name: Container Images Sync
+        uses: x-actions/python3-cisctl@v1
+        env:
+          GIT_ORG: "x-mirrors"
+          GIT_REPO: "gcr.io"
+          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/gke-release.txt"
+          DEST_REPO: "docker.io/gcriogke"
+          SRC_TRANSPORT: "docker"
+          DEST_TRANSPORT: "docker"
+          DEST_TRANSPORT_USER: "xaction"
+          DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
+
+      - name: Public result to github
+        uses: x-actions/git-push@v1
+        env:
+          GITHUB_EMAIL: 'me@xiexianbin.cn'
+          GITHUB_USERNAME: 'xiexianbin'
+          PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
+          PUBLISH_BRANCH: gke-release
+          PUBLISH_DIR: 'gcr.io'

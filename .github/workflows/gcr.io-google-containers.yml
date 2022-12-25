@@ -1,4 +1,4 @@
-name: k8s.gcr.io/k8s
+name: gcr.io/google-containers
 
 on:
   workflow_dispatch:
@@ -15,14 +15,14 @@ on:
         - main
 
 jobs:
-  k8s:
+  google-containers:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v3
         with:
           repository: x-mirrors/gcr.io
-          ref: 'k8s'
+          ref: 'google-containers'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
@@ -32,7 +32,7 @@ jobs:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/k8s.gcr.io/k8s.txt"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/google-containers.txt"
           DEST_REPO: "docker.io/gcmirrors"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
@@ -46,5 +46,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: 'k8s'
+          PUBLISH_BRANCH: 'google-containers'
           PUBLISH_DIR: 'gcr.io'
