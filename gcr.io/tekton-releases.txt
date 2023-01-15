@@ -22,6 +22,7 @@ gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/kubeconfigwriter
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/pullrequest-init
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers
+gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook
 gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit
 gcr.io/tekton-releases/github.com/tektoncd/results/cmd/api
