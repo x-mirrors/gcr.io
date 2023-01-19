@@ -1,4 +1,4 @@
-Google Containers Registry cloudsql-docker Mirrors [last sync 2023-01-18 01:45:02]
+Google Containers Registry cloudsql-docker Mirrors [last sync 2023-01-19 01:47:27]
 -------
 
 [![cloudsql-docker](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml)
@@ -24,9 +24,9 @@ Total of 3's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | alloydb-auth-proxy | 3 | - | 2023-01-18 01:44:39 |
-| 2 | gce-proxy | 121 | - | 2023-01-18 01:45:02 |
-| 3 | quickstart-image | 1 | - | 2023-01-18 01:45:02 |
+| 1 | alloydb-auth-proxy | 3 | - | 2023-01-19 01:47:24 |
+| 2 | gce-proxy | 121 | - | 2023-01-19 01:47:27 |
+| 3 | quickstart-image | 1 | - | 2023-01-19 01:47:27 |
 
 Support
 -------
