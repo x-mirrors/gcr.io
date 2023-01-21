@@ -15,7 +15,7 @@ on:
         - main
 
 concurrency:
-  group: ci-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
   google-containers:
