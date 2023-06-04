@@ -1,4 +1,4 @@
-Google Containers Registry tekton-releases Mirrors [last sync 2023-06-04 08:28:25]
+Google Containers Registry tekton-releases Mirrors [last sync 2023-06-04 08:38:43]
 -------
 
 [![tekton-releases](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml)
@@ -24,46 +24,46 @@ Total of 40's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | build-chains-test | 1 | - | 2023-06-04 08:28:11 |
-| 2 | buildbot | 1 | - | 2023-06-04 08:28:11 |
-| 3 | buildcaptain | 1 | - | 2023-06-04 08:28:11 |
-| 4 | catalog | 1 | - | 2023-06-04 08:28:11 |
-| 5 | dogfooding | 1 | - | 2023-06-04 08:28:12 |
-| 6 | dogfoodingko | 1 | - | 2023-06-04 08:28:12 |
-| 7 | dogfoodingtkn | 1 | - | 2023-06-04 08:28:12 |
-| 8 | chains-controller | 19 | - | 2023-06-04 08:28:13 |
-| 9 | dashboard-dashboard | 94 | - | 2023-06-04 08:28:17 |
-| 10 | operator-kubernetes | 2 | - | 2023-06-04 08:28:17 |
-| 11 | operator-manager | 3 | - | 2023-06-04 08:28:17 |
-| 12 | operator-openshift | 1 | - | 2023-06-04 08:28:17 |
-| 13 | operator-proxy | 2 | - | 2023-06-04 08:28:17 |
-| 14 | pipeline-bash | 13 | - | 2023-06-04 08:28:17 |
-| 15 | pipeline-controller | 127 | - | 2023-06-04 08:28:17 |
-| 16 | pipeline-creds-init | 50 | - | 2023-06-04 08:28:17 |
-| 17 | pipeline-entrypoint | 127 | - | 2023-06-04 08:28:17 |
-| 18 | pipeline-git-init | 123 | - | 2023-06-04 08:28:18 |
-| 19 | pipeline-gsutil | 11 | - | 2023-06-04 08:28:18 |
-| 20 | pipeline-imagedigestexporter | 118 | - | 2023-06-04 08:28:18 |
-| 21 | pipeline-kubeconfigwriter | 120 | - | 2023-06-04 08:28:19 |
-| 22 | pipeline-nop | 104 | - | 2023-06-04 08:28:19 |
-| 23 | pipeline-pullrequest-init | 116 | - | 2023-06-04 08:28:20 |
-| 24 | pipeline-resolvers | 19 | - | 2023-06-04 08:28:20 |
-| 25 | pipeline-sidecarlogresults | 11 | - | 2023-06-04 08:28:21 |
-| 26 | pipeline-webhook | 127 | - | 2023-06-04 08:28:21 |
-| 27 | pipeline-workingdirinit | 42 | - | 2023-06-04 08:28:23 |
-| 28 | results-api | 12 | - | 2023-06-04 08:28:23 |
-| 29 | results-watcher | 12 | - | 2023-06-04 08:28:23 |
-| 30 | triggers-controller | 54 | - | 2023-06-04 08:28:23 |
-| 31 | triggers-eventlistenersink | 54 | - | 2023-06-04 08:28:24 |
-| 32 | triggers-gh-validate | 1 | - | 2023-06-04 08:28:24 |
-| 33 | triggers-interceptors | 34 | - | 2023-06-04 08:28:25 |
-| 34 | triggers-webhook | 54 | - | 2023-06-04 08:28:25 |
-| 35 | http-6b29b2ff323007b9803474945250e900 | 1 | - | 2023-06-04 08:28:25 |
-| 36 | ko-ci | 1 | - | 2023-06-04 08:28:25 |
-| 37 | priya | 1 | - | 2023-06-04 08:28:25 |
-| 38 | staging | 1 | - | 2023-06-04 08:28:25 |
-| 39 | tests | 1 | - | 2023-06-04 08:28:25 |
-| 40 | triggers | 1 | - | 2023-06-04 08:28:25 |
+| 1 | build-chains-test | 1 | - | 2023-06-04 08:38:19 |
+| 2 | buildbot | 1 | - | 2023-06-04 08:38:19 |
+| 3 | buildcaptain | 1 | - | 2023-06-04 08:38:19 |
+| 4 | catalog | 1 | - | 2023-06-04 08:38:19 |
+| 5 | dogfooding | 1 | - | 2023-06-04 08:38:20 |
+| 6 | dogfoodingko | 1 | - | 2023-06-04 08:38:20 |
+| 7 | dogfoodingtkn | 1 | - | 2023-06-04 08:38:20 |
+| 8 | chains-controller | 19 | - | 2023-06-04 08:38:22 |
+| 9 | dashboard-dashboard | 94 | - | 2023-06-04 08:38:30 |
+| 10 | operator-kubernetes | 2 | - | 2023-06-04 08:38:30 |
+| 11 | operator-manager | 3 | - | 2023-06-04 08:38:30 |
+| 12 | operator-openshift | 1 | - | 2023-06-04 08:38:30 |
+| 13 | operator-proxy | 2 | - | 2023-06-04 08:38:30 |
+| 14 | pipeline-bash | 13 | - | 2023-06-04 08:38:30 |
+| 15 | pipeline-controller | 127 | - | 2023-06-04 08:38:30 |
+| 16 | pipeline-creds-init | 50 | - | 2023-06-04 08:38:30 |
+| 17 | pipeline-entrypoint | 127 | - | 2023-06-04 08:38:30 |
+| 18 | pipeline-git-init | 123 | - | 2023-06-04 08:38:31 |
+| 19 | pipeline-gsutil | 11 | - | 2023-06-04 08:38:31 |
+| 20 | pipeline-imagedigestexporter | 118 | - | 2023-06-04 08:38:32 |
+| 21 | pipeline-kubeconfigwriter | 120 | - | 2023-06-04 08:38:33 |
+| 22 | pipeline-nop | 104 | - | 2023-06-04 08:38:34 |
+| 23 | pipeline-pullrequest-init | 116 | - | 2023-06-04 08:38:35 |
+| 24 | pipeline-resolvers | 19 | - | 2023-06-04 08:38:36 |
+| 25 | pipeline-sidecarlogresults | 11 | - | 2023-06-04 08:38:36 |
+| 26 | pipeline-webhook | 127 | - | 2023-06-04 08:38:38 |
+| 27 | pipeline-workingdirinit | 42 | - | 2023-06-04 08:38:38 |
+| 28 | results-api | 12 | - | 2023-06-04 08:38:38 |
+| 29 | results-watcher | 12 | - | 2023-06-04 08:38:39 |
+| 30 | triggers-controller | 54 | - | 2023-06-04 08:38:40 |
+| 31 | triggers-eventlistenersink | 54 | - | 2023-06-04 08:38:40 |
+| 32 | triggers-gh-validate | 1 | - | 2023-06-04 08:38:41 |
+| 33 | triggers-interceptors | 34 | - | 2023-06-04 08:38:42 |
+| 34 | triggers-webhook | 54 | - | 2023-06-04 08:38:42 |
+| 35 | http-6b29b2ff323007b9803474945250e900 | 1 | - | 2023-06-04 08:38:43 |
+| 36 | ko-ci | 1 | - | 2023-06-04 08:38:43 |
+| 37 | priya | 1 | - | 2023-06-04 08:38:43 |
+| 38 | staging | 1 | - | 2023-06-04 08:38:43 |
+| 39 | tests | 1 | - | 2023-06-04 08:38:43 |
+| 40 | triggers | 1 | - | 2023-06-04 08:38:43 |
 
 Support
 -------
