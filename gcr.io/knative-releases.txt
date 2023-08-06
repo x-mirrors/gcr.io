@@ -4,17 +4,13 @@ gcr.io/knative-releases/knative.dev/discovery/cmd/controller
 gcr.io/knative-releases/knative.dev/discovery/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter
 gcr.io/knative-releases/knative.dev/eventing/cmd/appender
-# gcloud container images list --repository gcr.io/knative-releases/knative.dev/eventing/cmd/broker
-gcr.io/knative-releases/knative.dev/eventing/cmd/broker/filter
-gcr.io/knative-releases/knative.dev/eventing/cmd/broker/ingress
+gcr.io/knative-releases/knative.dev/eventing/cmd/broker
 gcr.io/knative-releases/knative.dev/eventing/cmd/channel_broker
 gcr.io/knative-releases/knative.dev/eventing/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/cronjob_receive_adapter
 gcr.io/knative-releases/knative.dev/eventing/cmd/event_display
 gcr.io/knative-releases/knative.dev/eventing/cmd/heartbeats
-# gcloud container images list --repository gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory
-gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_controller
-gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory/channel_dispatcher
+gcr.io/knative-releases/knative.dev/eventing/cmd/in_memory
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtbroker
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtchannel_broker
 gcr.io/knative-releases/knative.dev/eventing/cmd/mtping
@@ -22,9 +18,9 @@ gcr.io/knative-releases/knative.dev/eventing/cmd/ping
 gcr.io/knative-releases/knative.dev/eventing/cmd/sources_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/sugar_controller
 gcr.io/knative-releases/knative.dev/eventing/cmd/upgrade
-# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.16
-# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.17
-# gcr.io/knative-releases/knative.dev/eventing/cmd/v0.22
+gcr.io/knative-releases/knative.dev/eventing/cmd/v0.16
+gcr.io/knative-releases/knative.dev/eventing/cmd/v0.17
+gcr.io/knative-releases/knative.dev/eventing/cmd/v0.22
 gcr.io/knative-releases/knative.dev/eventing/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing/cmd/websocketsource
 gcr.io/knative-releases/knative.dev/eventing-autoscaler-keda/cmd/controller
@@ -41,9 +37,6 @@ gcr.io/knative-releases/knative.dev/eventing-github/cmd/controller
 gcr.io/knative-releases/knative.dev/eventing-github/cmd/mt_receive_adapter
 gcr.io/knative-releases/knative.dev/eventing-github/cmd/receive_adapter
 gcr.io/knative-releases/knative.dev/eventing-github/cmd/webhook
-gcr.io/knative-releases/knative.dev/eventing-gitlab/cmd/controller
-gcr.io/knative-releases/knative.dev/eventing-gitlab/cmd/receive_adapter
-gcr.io/knative-releases/knative.dev/eventing-gitlab/cmd/webhook
 gcr.io/knative-releases/knative.dev/eventing-kafka/cmd/channel
 gcr.io/knative-releases/knative.dev/eventing-kafka/cmd/source
 gcr.io/knative-releases/knative.dev/eventing-kafka/cmd/webhook
@@ -85,6 +78,7 @@ gcr.io/knative-releases/knative.dev/sample-controller/cmd/webhook
 gcr.io/knative-releases/knative.dev/sample-source/cmd/controller
 gcr.io/knative-releases/knative.dev/sample-source/cmd/receive_adapter
 gcr.io/knative-releases/knative.dev/sample-source/cmd/webhook
+gcr.io/knative-releases/knative.dev/security-guard/cmd/create-knative-secrets
 gcr.io/knative-releases/knative.dev/security-guard/cmd/guard-rproxy
 gcr.io/knative-releases/knative.dev/security-guard/cmd/guard-service
 gcr.io/knative-releases/knative.dev/security-guard/cmd/queue
