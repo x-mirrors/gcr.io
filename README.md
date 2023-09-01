@@ -1,4 +1,4 @@
-Google Containers Registry coreos Mirrors [last sync 2023-09-01 10:59:06]
+Google Containers Registry coreos Mirrors [last sync 2023-09-01 11:23:08]
 -------
 
 [![coreos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml)
@@ -24,10 +24,10 @@ Total of 4's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | coreos-installer | 30 | - | 2023-09-01 10:41:31 |
-| 2 | etcd | 495 | - | 2023-09-01 10:59:06 |
-| 3 | flannel | 159 | - | 2023-09-01 10:59:06 |
-| 4 | tectonic-console-builder | 24 | - | 2023-09-01 10:59:06 |
+| 1 | coreos-installer | 30 | - | 2023-09-01 11:00:20 |
+| 2 | etcd | 495 | - | 2023-09-01 11:23:08 |
+| 3 | flannel | 159 | - | 2023-09-01 11:23:08 |
+| 4 | tectonic-console-builder | 24 | - | 2023-09-01 11:23:08 |
 
 Support
 -------
