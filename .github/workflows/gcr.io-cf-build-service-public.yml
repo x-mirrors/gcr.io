@@ -36,7 +36,7 @@ jobs:
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/gcr.io/cf-build-service-public.txt"
-          DEST_REPO: "docker.io/gcriocloudbuilders"
+          DEST_REPO: "docker.io/gcriocfbuildservice"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xactions"
