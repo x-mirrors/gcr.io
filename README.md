@@ -1,4 +1,4 @@
-Google Containers Registry metallb Mirrors [last sync 2023-11-10 10:25:37]
+Google Containers Registry metallb Mirrors [last sync 2023-11-10 10:51:12]
 -------
 
 [![metallb](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml)
@@ -24,8 +24,8 @@ Total of 2's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | controller | 665 | - | 2023-11-10 10:25:37 |
-| 2 | speaker | 659 | - | 2023-11-10 10:25:37 |
+| 1 | controller | 665 | - | 2023-11-10 10:50:59 |
+| 2 | speaker | 659 | - | 2023-11-10 10:51:12 |
 
 Support
 -------
