@@ -2,4 +2,4 @@
 .history/
 .idea/
 tools/.idea/
-tools/venv
+tools/.venv

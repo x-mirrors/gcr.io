@@ -1,5 +1,7 @@
 ## Usage
 
+### Render Readme/images
+
 - change dir
 
 ```
@@ -9,13 +11,13 @@ cd tools
 - create env
 
 ```
-virtualenv venv
+python3 -m venv .venv
 ```
 
 - use env
 
 ```
-source ./venv/bin/activate
+source ./.venv/bin/activate
 ```
 
 - install dep
@@ -41,4 +43,10 @@ optional arguments:
 
 $ python3 render.py --readme
 $ python3 render.py --images
+```
+
+### list registry.k8s.io repos
+
+```
+python3 render-registry.k8s.io.py
 ```
