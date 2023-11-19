@@ -35,7 +35,7 @@ jobs:
           GIT_ORG: "x-mirrors"
           GIT_REPO: "gcr.io"
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/main/registry.k8s.io/all-repos.txt"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/${{ github.ref_name }}/registry.k8s.io/all-repos.txt"
           DEST_REPO: "docker.io/registryk8s"
           SRC_TRANSPORT: "registry.k8s.io"
           DEST_TRANSPORT: "docker"
