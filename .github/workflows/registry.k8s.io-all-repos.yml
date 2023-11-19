@@ -18,7 +18,7 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  sig-storage:
+  registry-k8s-io:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
@@ -37,7 +37,7 @@ jobs:
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/${{ github.ref_name }}/registry.k8s.io/all-repos.txt"
           DEST_REPO: "docker.io/registryk8s"
-          SRC_TRANSPORT: "registry.k8s.io"
+          SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xregistry"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
