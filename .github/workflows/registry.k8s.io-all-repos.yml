@@ -9,7 +9,7 @@ on:
         type: string
         default: 'manually test'
   schedule:
-    - cron: '* */6 * * *'
+    - cron: '* */3 * * *'
   push:
     branches:
       - main
