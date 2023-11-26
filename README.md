@@ -2,13 +2,14 @@
 
 利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和 [云原生](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
 
-已同步镜像在线查询：https://mirrors.kb.cx
+- 已同步镜像在线查询：https://mirrors.kb.cx
+- kubernetes 从 v1.25 开始将镜像仓库迁移到 [registry.k8s.io](https://github.com/kubernetes/registry.k8s.io)，docker hub 镜像地址 [registryk8s](https://hub.docker.com/u/registryk8s)
 
 ## 已同步镜像
 
 |Source|Target(docker)|Sync Account|Sync Period|Image Count|Status|
 |:---|:---|:---|:---|:---|:---|
-|gcr.io/cf-build-service-public|[gcriocloudbuilders](https://hub.docker.com/u/gcriocloudbuilders)|xactions|`* 8 * * *`|28|[![gcriocloudbuilders](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cf-build-service-public.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cf-build-service-public.yml)|
+|gcr.io/cf-build-service-public|[gcriocfbuildservice](https://hub.docker.com/u/gcriocfbuildservice)|xactions|`* 8 * * *`|148|[![gcriocfbuildservice](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cf-build-service-public.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cf-build-service-public.yml)|
 |gcr.io/cloud-builders|[gcriocloudbuilders](https://hub.docker.com/u/gcriocloudbuilders)|xaction|`* 0 * * *`|29|[![gcriocloudbuilders](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloud-builders.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloud-builders.yml)|
 |gcr.io/cloudsql-docker|[gcriocloudsqldocker](https://hub.docker.com/u/gcriocloudsqldocker)|xactions|`* 0 * * *`|3|[![gcriocloudsqldocker](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-cloudsql-docker.yml)|
 |gcr.io/deeplearning-platform-release|[gcriodeeplearning](https://hub.docker.com/u/gcriodeeplearning)|xaction|`* 12 * * *`|112|[![gcriodeeplearning](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-deeplearning-platform-release.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-deeplearning-platform-release.yml)|
@@ -37,6 +38,7 @@
 |quay.io/ceph|[quayioceph](https://hub.docker.com/u/quayioceph)|xiexianbin|`* 18 * * *`|11|[![quayioceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml)|
 |quay.io/coreos|[qcoreos](https://hub.docker.com/u/qcoreos)|xiexianbin|`* 10 * * *`|4|[![qcoreos](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-coreos.yml)|
 |quay.io/metallb|[quayiometallb](https://hub.docker.com/u/quayiometallb)|xiexianbin|`* 10 * * *`|2|[![quayiometallb](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-metallb.yml)|
+|registry.k8s.io/all-repos|[registryk8s](https://hub.docker.com/u/registryk8s)|xregistry|`* */6 * * *`|876|[![registryk8s](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-all-repos.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-all-repos.yml)|
 |us.gcr.io/k8s-artifacts-prod|[usgcriok8sartifactsprod](https://hub.docker.com/u/usgcriok8sartifactsprod)|xaction|`* 10 * * *`|537|[![usgcriok8sartifactsprod](https://github.com/x-mirrors/gcr.io/actions/workflows/us.gcr.io-k8s-artifacts-prod.yml/badge.svg)](https://github.com/x-mirrors/gcr.io/actions/workflows/us.gcr.io-k8s-artifacts-prod.yml)|
 
 使用示例，将原来的 `gcr.io/knative-releases/knative.dev/serving/cmd/activator` 替换为 `gcrioknative/serving-activator`
