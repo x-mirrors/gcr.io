@@ -52,6 +52,7 @@ jobs:
           DEST_TRANSPORT_USER: "xregistry"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
           LOG_LEVEL: "DEBUG"
+          JOB_BATCH_COUNT: "8"
           AFTER_TIMEUPLOADEDMS: 1661961600000
 
       - name: Public result to github
