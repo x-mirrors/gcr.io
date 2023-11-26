@@ -9,10 +9,20 @@ on:
         type: string
         default: 'manually test'
   schedule:
-    - cron: '* 1 * * *'
+    - cron: '* */3 * * *'
   push:
-      branches:
-        - main
+    branches:
+      - main
+      - dev
+      - bug/**
+      - fix/**
+      - bugfix/**
+      - feature/**
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    paths-ignore:
+      - '**.md'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -41,6 +51,9 @@ jobs:
           DEST_TRANSPORT: "docker"
           DEST_TRANSPORT_USER: "xregistry"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
+          LOG_LEVEL: "DEBUG"
+          JOB_BATCH_COUNT: "8"
+          AFTER_TIMEUPLOADEDMS: 1659283200000
 
       - name: Public result to github
         uses: x-actions/git-push@v1

@@ -2,7 +2,9 @@
 
 利用 [Github Action](https://github.com/x-actions/python3-cisctl) 同步 Google/Quay 等容器镜像到 hub.docker.com，实现曲线加速被墙 [kubernetes](https://www.xiexianbin.cn/kubernetes) 和 [云原生](https://www.xiexianbin.cn/cloud-native) 的相关镜像问题。
 
-已同步镜像在线查询：https://mirrors.kb.cx
+- 已同步镜像在线查询：https://mirrors.kb.cx
+- kubernetes 从 v1.25 开始将镜像仓库迁移到 [registry.k8s.io](https://github.com/kubernetes/registry.k8s.io)，docker hub 镜像地址 [registryk8s](https://hub.docker.com/u/registryk8s)
+  - 仅包含 2022-08-01 00:00:00 之后上传的镜像，之前的参考 [gcmirrors](https://hub.docker.com/u/gcmirrors)
 
 ## 已同步镜像
 
