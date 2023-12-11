@@ -1,7 +1,7 @@
-Google Containers Registry security-profiles-operator Mirrors [last sync 2023-12-10 22:11:29]
+Google Containers Registry addon-builder Mirrors [last sync 2023-12-11 01:06:19]
 -------
 
-[![security-profiles-operator](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-security-profiles-operator.yml)
+[![addon-builder](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-addon-builder.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-addon-builder.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull security-profiles-operator/hyperkube:v1.9.6
+docker pull addon-builder/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -18,118 +18,122 @@ From docker hub Mirrors:
 docker pull registryk8s/hyperkube:v1.9.6
 ```
 
-Total of 106's registry.k8s.io images
+Total of 110's registry.k8s.io images
 
 -------
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | security-profiles-operator-catalog | 1 | - | 2023-12-10 22:10:34 |
-| 2 | serve-hostname-amd64 | 1 | - | 2023-12-10 22:10:34 |
-| 3 | serve-hostname-arm | 1 | - | 2023-12-10 22:10:34 |
-| 4 | serve-hostname-arm64 | 1 | - | 2023-12-10 22:10:34 |
-| 5 | serve-hostname-ppc64le | 1 | - | 2023-12-10 22:10:34 |
-| 6 | serve-hostname-s390x | 1 | - | 2023-12-10 22:10:34 |
-| 7 | serve_hostname | 6 | - | 2023-12-10 22:10:36 |
-| 8 | serve_hostname-amd64 | 1 | - | 2023-12-10 22:10:36 |
-| 9 | serve_hostname-arm | 1 | - | 2023-12-10 22:10:36 |
-| 10 | serve_hostname-arm64 | 1 | - | 2023-12-10 22:10:36 |
-| 11 | serve_hostname-ppc64le | 1 | - | 2023-12-10 22:10:36 |
-| 12 | serve_hostname-s390x | 1 | - | 2023-12-10 22:10:36 |
-| 13 | servicelb | 4 | - | 2023-12-10 22:10:36 |
-| 14 | shame-mailer | 5 | - | 2023-12-10 22:10:37 |
-| 15 | shyamjvs-logexp | 1 | - | 2023-12-10 22:10:37 |
-| 16 | shyamjvs-prometheus-to-sd | 1 | - | 2023-12-10 22:10:37 |
-| 17 | pod-security-webhook | 1 | - | 2023-12-10 22:10:37 |
-| 18 | csi-attacher | 1 | - | 2023-12-10 22:10:37 |
-| 19 | csi-external-health-monitor-agent | 1 | - | 2023-12-10 22:10:37 |
-| 20 | csi-external-health-monitor-controller | 1 | - | 2023-12-10 22:10:38 |
-| 21 | csi-node-driver-registrar | 1 | - | 2023-12-10 22:10:38 |
-| 22 | csi-provisioner | 1 | - | 2023-12-10 22:10:38 |
-| 23 | csi-resizer | 1 | - | 2023-12-10 22:10:38 |
-| 24 | csi-snapshotter | 1 | - | 2023-12-10 22:10:38 |
-| 25 | hello-populator | 1 | - | 2023-12-10 22:10:38 |
-| 26 | hostpathplugin | 1 | - | 2023-12-10 22:10:38 |
-| 27 | iscsiplugin | 1 | - | 2023-12-10 22:10:39 |
-| 28 | livenessprobe | 1 | - | 2023-12-10 22:10:39 |
-| 29 | local-volume-node-cleanup | 1 | - | 2023-12-10 22:10:39 |
-| 30 | local-volume-provisioner | 1 | - | 2023-12-10 22:10:39 |
-| 31 | mock-driver | 1 | - | 2023-12-10 22:10:39 |
-| 32 | nfs-provisioner | 1 | - | 2023-12-10 22:10:39 |
-| 33 | nfs-subdir-external-provisioner | 1 | - | 2023-12-10 22:10:39 |
-| 34 | nfsplugin | 1 | - | 2023-12-10 22:10:39 |
-| 35 | smbplugin | 1 | - | 2023-12-10 22:10:40 |
-| 36 | snapshot-controller | 1 | - | 2023-12-10 22:10:40 |
-| 37 | snapshot-validation-webhook | 1 | - | 2023-12-10 22:10:40 |
-| 38 | volume-data-source-validator | 1 | - | 2023-12-10 22:10:40 |
-| 39 | skydns | 3 | - | 2023-12-10 22:10:40 |
-| 40 | skydns-amd64 | 1 | - | 2023-12-10 22:10:40 |
-| 41 | skydns-arm | 2 | - | 2023-12-10 22:10:40 |
-| 42 | skydns-arm64 | 1 | - | 2023-12-10 22:10:41 |
-| 43 | skydns-ppc64le | 1 | - | 2023-12-10 22:10:41 |
-| 44 | slack-event-log | 1 | - | 2023-12-10 22:10:41 |
-| 45 | slack-moderator | 1 | - | 2023-12-10 22:10:41 |
-| 46 | slack-report-message | 1 | - | 2023-12-10 22:10:41 |
-| 47 | slack-welcomer | 1 | - | 2023-12-10 22:10:41 |
-| 48 | tempelis | 1 | - | 2023-12-10 22:10:41 |
-| 49 | slo-monitor | 8 | - | 2023-12-10 22:10:41 |
-| 50 | spark | 3 | - | 2023-12-10 22:10:43 |
-| 51 | spark-base | 6 | - | 2023-12-10 22:10:44 |
-| 52 | spark-driver | 6 | - | 2023-12-10 22:10:48 |
-| 53 | spark-master | 6 | - | 2023-12-10 22:10:50 |
-| 54 | spark-worker | 6 | - | 2023-12-10 22:10:52 |
-| 55 | spartakus-amd64 | 4 | - | 2023-12-10 22:10:52 |
-| 56 | startup-script | 2 | - | 2023-12-10 22:10:52 |
-| 57 | storage-version-migration-initializer | 1 | - | 2023-12-10 22:10:52 |
-| 58 | storage-version-migration-migrator | 1 | - | 2023-12-10 22:10:52 |
-| 59 | storage-version-migration-trigger | 1 | - | 2023-12-10 22:10:52 |
-| 60 | csi-attacher | 1 | - | 2023-12-10 22:10:52 |
-| 61 | csi-node-driver-registrar | 1 | - | 2023-12-10 22:10:52 |
-| 62 | csi-provisioner | 1 | - | 2023-12-10 22:10:52 |
-| 63 | csi-resizer | 1 | - | 2023-12-10 22:10:52 |
-| 64 | csi-snapshotter | 1 | - | 2023-12-10 22:10:52 |
-| 65 | livenessprobe | 1 | - | 2023-12-10 22:10:52 |
-| 66 | mock-driver | 1 | - | 2023-12-10 22:10:52 |
-| 67 | stress | 1 | - | 2023-12-10 22:10:53 |
-| 68 | submit-queue | 68 | - | 2023-12-10 22:10:59 |
-| 69 | tejolote | 1 | - | 2023-12-10 22:10:59 |
-| 70 | tensorflow-gpu-notebook | 2 | - | 2023-12-10 22:10:59 |
-| 71 | test-webserver | 2 | - | 2023-12-10 22:10:59 |
-| 72 | test_image | 1 | - | 2023-12-10 22:10:59 |
-| 73 | tf-models | 1 | - | 2023-12-10 22:10:59 |
-| 74 | tiny-glibc-amd64 | 1 | - | 2023-12-10 22:10:59 |
-| 75 | tiny-glibc-arm | 1 | - | 2023-12-10 22:10:59 |
-| 76 | tiny-glibc-arm64 | 1 | - | 2023-12-10 22:10:59 |
-| 77 | tiny-glibc-ppc64le | 1 | - | 2023-12-10 22:10:59 |
-| 78 | toolbox | 15 | - | 2023-12-10 22:10:59 |
-| 79 | ubuntu | 1 | - | 2023-12-10 22:10:59 |
-| 80 | ubuntu-nvidia-driver-installer | 53 | - | 2023-12-10 22:11:29 |
-| 81 | ubuntu-slim | 15 | - | 2023-12-10 22:11:29 |
-| 82 | ubuntu-slim-amd64 | 6 | - | 2023-12-10 22:11:29 |
-| 83 | ubuntu-slim-arm | 6 | - | 2023-12-10 22:11:29 |
-| 84 | ubuntu-slim-arm64 | 6 | - | 2023-12-10 22:11:29 |
-| 85 | ubuntu-slim-ppc64le | 6 | - | 2023-12-10 22:11:29 |
-| 86 | update-demo | 2 | - | 2023-12-10 22:11:29 |
-| 87 | visio-stencil-creator | 1 | - | 2023-12-10 22:11:29 |
-| 88 | volume-ceph | 2 | - | 2023-12-10 22:11:29 |
-| 89 | compute-persistent-disk-csi-driver | 1 | - | 2023-12-10 22:11:29 |
-| 90 | gcp-compute-persistent-disk-csi-driver | 1 | - | 2023-12-10 22:11:29 |
-| 91 | gcp-filestore-csi-driver | 1 | - | 2023-12-10 22:11:29 |
-| 92 | volume-gluster | 6 | - | 2023-12-10 22:11:29 |
-| 93 | volume-iscsi | 3 | - | 2023-12-10 22:11:29 |
-| 94 | volume-nfs | 8 | - | 2023-12-10 22:11:29 |
-| 95 | volume-rbd | 3 | - | 2023-12-10 22:11:29 |
-| 96 | vpa-admission-controller | 11 | - | 2023-12-10 22:11:29 |
-| 97 | vpa-recommender | 11 | - | 2023-12-10 22:11:29 |
-| 98 | vpa-updater | 11 | - | 2023-12-10 22:11:29 |
-| 99 | watcher-daemonset | 7 | - | 2023-12-10 22:11:29 |
-| 100 | webhooks-publisher | 3 | - | 2023-12-10 22:11:29 |
-| 101 | bouy | 1 | - | 2023-12-10 22:11:29 |
-| 102 | zeitgeist | 1 | - | 2023-12-10 22:11:29 |
-| 103 | zeppelin | 11 | - | 2023-12-10 22:11:29 |
-| 104 | zeppelin-proxy | 3 | - | 2023-12-10 22:11:29 |
-| 105 | zookeeper-install | 1 | - | 2023-12-10 22:11:29 |
-| 106 | zookeeper-install-3.5.0-alpha | 1 | - | 2023-12-10 22:11:29 |
+| 1 | addon-builder | 4 | - | 2023-12-11 01:05:26 |
+| 2 | kube-addon-manager | 33 | - | 2023-12-11 01:05:30 |
+| 3 | kube-addon-manager-amd64 | 32 | - | 2023-12-11 01:05:31 |
+| 4 | kube-addon-manager-arm | 28 | - | 2023-12-11 01:05:33 |
+| 5 | kube-addon-manager-arm64 | 28 | - | 2023-12-11 01:05:33 |
+| 6 | kube-addon-manager-ppc64le | 27 | - | 2023-12-11 01:05:34 |
+| 7 | kube-addon-manager-s390x | 20 | - | 2023-12-11 01:05:34 |
+| 8 | addon-resizer | 23 | - | 2023-12-11 01:05:34 |
+| 9 | addon-resizer-amd64 | 2 | - | 2023-12-11 01:05:34 |
+| 10 | addon-resizer-arm | 2 | - | 2023-12-11 01:05:35 |
+| 11 | addon-resizer-arm64 | 2 | - | 2023-12-11 01:05:35 |
+| 12 | addon-resizer-ppc64le | 2 | - | 2023-12-11 01:05:35 |
+| 13 | addon-resizer-s390x | 2 | - | 2023-12-11 01:05:35 |
+| 14 | aggregator | 1 | - | 2023-12-11 01:05:36 |
+| 15 | alpine-iptables-amd64 | 1 | - | 2023-12-11 01:05:36 |
+| 16 | alpine-iptables-arm | 1 | - | 2023-12-11 01:05:36 |
+| 17 | alpine-iptables-arm64 | 1 | - | 2023-12-11 01:05:36 |
+| 18 | alpine-with-bash | 1 | - | 2023-12-11 01:05:36 |
+| 19 | auditlogger | 1 | - | 2023-12-11 01:05:37 |
+| 20 | snoopdb | 1 | - | 2023-12-11 01:05:37 |
+| 21 | apparmor-loader | 3 | - | 2023-12-11 01:05:38 |
+| 22 | cip | 1 | - | 2023-12-11 01:05:38 |
+| 23 | cip-auditor | 1 | - | 2023-12-11 01:05:38 |
+| 24 | kpromo | 1 | - | 2023-12-11 01:05:38 |
+| 25 | kpromo-auditor | 1 | - | 2023-12-11 01:05:38 |
+| 26 | vulndash | 1 | - | 2023-12-11 01:05:39 |
+| 27 | addon-resizer | 23 | - | 2023-12-11 01:05:39 |
+| 28 | addon-resizer-amd64 | 2 | - | 2023-12-11 01:05:39 |
+| 29 | addon-resizer-arm | 2 | - | 2023-12-11 01:05:39 |
+| 30 | addon-resizer-arm64 | 2 | - | 2023-12-11 01:05:40 |
+| 31 | addon-resizer-ppc64le | 2 | - | 2023-12-11 01:05:40 |
+| 32 | addon-resizer-s390x | 2 | - | 2023-12-11 01:05:40 |
+| 33 | cluster-autoscaler | 135 | - | 2023-12-11 01:05:57 |
+| 34 | cluster-autoscaler-amd64 | 1 | - | 2023-12-11 01:05:57 |
+| 35 | cluster-autoscaler-arm64 | 1 | - | 2023-12-11 01:05:57 |
+| 36 | cluster-autoscaler-s390x | 1 | - | 2023-12-11 01:05:57 |
+| 37 | vpa-admission-controller | 11 | - | 2023-12-11 01:05:57 |
+| 38 | vpa-admission-controller-amd64 | 1 | - | 2023-12-11 01:05:57 |
+| 39 | vpa-admission-controller-arm | 1 | - | 2023-12-11 01:05:57 |
+| 40 | vpa-admission-controller-arm64 | 1 | - | 2023-12-11 01:05:57 |
+| 41 | vpa-admission-controller-ppc64le | 1 | - | 2023-12-11 01:05:57 |
+| 42 | vpa-admission-controller-s390x | 1 | - | 2023-12-11 01:05:57 |
+| 43 | vpa-recommender | 11 | - | 2023-12-11 01:05:57 |
+| 44 | vpa-recommender-amd64 | 1 | - | 2023-12-11 01:05:57 |
+| 45 | vpa-recommender-arm | 1 | - | 2023-12-11 01:05:57 |
+| 46 | vpa-recommender-arm64 | 1 | - | 2023-12-11 01:05:57 |
+| 47 | vpa-recommender-ppc64le | 1 | - | 2023-12-11 01:05:57 |
+| 48 | vpa-recommender-s390x | 1 | - | 2023-12-11 01:05:57 |
+| 49 | vpa-updater | 11 | - | 2023-12-11 01:05:57 |
+| 50 | vpa-updater-amd64 | 1 | - | 2023-12-11 01:05:57 |
+| 51 | vpa-updater-arm | 1 | - | 2023-12-11 01:05:57 |
+| 52 | vpa-updater-arm64 | 1 | - | 2023-12-11 01:05:57 |
+| 53 | vpa-updater-ppc64le | 1 | - | 2023-12-11 01:05:57 |
+| 54 | vpa-updater-s390x | 1 | - | 2023-12-11 01:05:57 |
+| 55 | bom | 1 | - | 2023-12-11 01:05:57 |
+| 56 | debian-base | 7 | - | 2023-12-11 01:05:57 |
+| 57 | debian-base-amd64 | 12 | - | 2023-12-11 01:05:57 |
+| 58 | debian-base-arm | 12 | - | 2023-12-11 01:05:57 |
+| 59 | debian-base-arm64 | 12 | - | 2023-12-11 01:05:57 |
+| 60 | debian-base-ppc64le | 12 | - | 2023-12-11 01:05:57 |
+| 61 | debian-base-s390x | 12 | - | 2023-12-11 01:05:57 |
+| 62 | debian-hyperkube-base | 4 | - | 2023-12-11 01:05:57 |
+| 63 | debian-hyperkube-base-amd64 | 16 | - | 2023-12-11 01:05:57 |
+| 64 | debian-hyperkube-base-arm | 16 | - | 2023-12-11 01:05:57 |
+| 65 | debian-hyperkube-base-arm64 | 16 | - | 2023-12-11 01:05:57 |
+| 66 | debian-hyperkube-base-ppc64le | 16 | - | 2023-12-11 01:05:57 |
+| 67 | debian-hyperkube-base-s390x | 16 | - | 2023-12-11 01:05:57 |
+| 68 | debian-iptables | 8 | - | 2023-12-11 01:05:57 |
+| 69 | debian-iptables-amd64 | 19 | - | 2023-12-11 01:05:57 |
+| 70 | debian-iptables-arm | 19 | - | 2023-12-11 01:05:57 |
+| 71 | debian-iptables-arm64 | 19 | - | 2023-12-11 01:05:57 |
+| 72 | debian-iptables-ppc64le | 19 | - | 2023-12-11 01:05:57 |
+| 73 | debian-iptables-s390x | 15 | - | 2023-12-11 01:05:57 |
+| 74 | distroless-iptables | 1 | - | 2023-12-11 01:05:57 |
+| 75 | distroless-iptables-amd64 | 1 | - | 2023-12-11 01:05:58 |
+| 76 | distroless-iptables-arm | 1 | - | 2023-12-11 01:05:58 |
+| 77 | distroless-iptables-arm64 | 1 | - | 2023-12-11 01:05:58 |
+| 78 | distroless-iptables-ppc64le | 1 | - | 2023-12-11 01:05:58 |
+| 79 | distroless-iptables-s390x | 1 | - | 2023-12-11 01:05:58 |
+| 80 | gcb-docker-gcloud-test-augustus | 1 | - | 2023-12-11 01:05:59 |
+| 81 | go-runner | 1 | - | 2023-12-11 01:05:59 |
+| 82 | go-runner-amd64 | 1 | - | 2023-12-11 01:05:59 |
+| 83 | go-runner-arm | 1 | - | 2023-12-11 01:05:59 |
+| 84 | go-runner-arm64 | 1 | - | 2023-12-11 01:05:59 |
+| 85 | go-runner-ppc64le | 1 | - | 2023-12-11 01:06:00 |
+| 86 | go-runner-s390x | 1 | - | 2023-12-11 01:06:00 |
+| 87 | kube-cross | 81 | - | 2023-12-11 01:06:12 |
+| 88 | kube-cross-amd64 | 1 | - | 2023-12-11 01:06:12 |
+| 89 | kube-cross-arm64 | 1 | - | 2023-12-11 01:06:12 |
+| 90 | kube-cross-ppc64le | 1 | - | 2023-12-11 01:06:12 |
+| 91 | kube-cross-s390x | 1 | - | 2023-12-11 01:06:12 |
+| 92 | setcap | 1 | - | 2023-12-11 01:06:12 |
+| 93 | setcap-amd64 | 1 | - | 2023-12-11 01:06:12 |
+| 94 | setcap-arm | 1 | - | 2023-12-11 01:06:12 |
+| 95 | setcap-arm64 | 1 | - | 2023-12-11 01:06:12 |
+| 96 | setcap-ppc64le | 1 | - | 2023-12-11 01:06:12 |
+| 97 | setcap-s390x | 1 | - | 2023-12-11 01:06:12 |
+| 98 | busybox | 4 | - | 2023-12-11 01:06:12 |
+| 99 | cadvisor | 31 | - | 2023-12-11 01:06:19 |
+| 100 | capi-cloudstack-controller | 1 | - | 2023-12-11 01:06:19 |
+| 101 | capd-manager | 1 | - | 2023-12-11 01:06:19 |
+| 102 | cluster-api-ibmcloud-controller | 1 | - | 2023-12-11 01:06:19 |
+| 103 | cluster-api-kubeadm-controller | 1 | - | 2023-12-11 01:06:19 |
+| 104 | cluster-api-kubeadm-controller-amd64 | 1 | - | 2023-12-11 01:06:19 |
+| 105 | cluster-api-kubeadm-controller-arm | 1 | - | 2023-12-11 01:06:19 |
+| 106 | cluster-api-kubeadm-controller-arm64 | 1 | - | 2023-12-11 01:06:19 |
+| 107 | cluster-api-kubeadm-controller-ppc64le | 1 | - | 2023-12-11 01:06:19 |
+| 108 | cluster-api-kubeadm-controller-s390x | 1 | - | 2023-12-11 01:06:19 |
+| 109 | capi-openstack-controller | 1 | - | 2023-12-11 01:06:19 |
+| 110 | cluster-api-operator | 1 | - | 2023-12-11 01:06:19 |
 
 Support
 -------
