@@ -1,7 +1,7 @@
-Google Containers Registry kube-state-metrics-amd64 Mirrors [last sync 2023-12-12 16:08:15]
+Google Containers Registry n-way-http Mirrors [last sync 2023-12-12 18:20:12]
 -------
 
-[![kube-state-metrics-amd64](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-kube-state-metrics-amd64.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-kube-state-metrics-amd64.yml)
+[![n-way-http](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-n-way-http.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-n-way-http.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull kube-state-metrics-amd64/hyperkube:v1.9.6
+docker pull n-way-http/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -24,116 +24,116 @@ Total of 110's registry.k8s.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | kube-state-metrics-amd64 | 15 | - | 2023-12-12 16:01:02 |
-| 2 | kube-state-metrics-arm | 9 | - | 2023-12-12 16:01:02 |
-| 3 | kube-state-metrics-arm64 | 9 | - | 2023-12-12 16:01:02 |
-| 4 | kube-state-metrics-ppc64le | 9 | - | 2023-12-12 16:01:02 |
-| 5 | kube-state-metrics-s390x | 9 | - | 2023-12-12 16:01:02 |
-| 6 | kube-ui | 6 | - | 2023-12-12 16:01:02 |
-| 7 | kube2sky | 18 | - | 2023-12-12 16:01:02 |
-| 8 | kube2sky-amd64 | 1 | - | 2023-12-12 16:01:03 |
-| 9 | kube2sky-arm | 2 | - | 2023-12-12 16:01:03 |
-| 10 | kube2sky-arm64 | 1 | - | 2023-12-12 16:01:03 |
-| 11 | kube2sky-ppc64le | 1 | - | 2023-12-12 16:01:03 |
-| 12 | kubectl | 23 | - | 2023-12-12 16:01:03 |
-| 13 | kubectl-amd64 | 20 | - | 2023-12-12 16:01:03 |
-| 14 | kubectl-arm64 | 20 | - | 2023-12-12 16:01:03 |
-| 15 | kubectl-ppc64le | 20 | - | 2023-12-12 16:01:04 |
-| 16 | kubectl-s390x | 20 | - | 2023-12-12 16:01:04 |
-| 17 | kubedash | 2 | - | 2023-12-12 16:01:04 |
-| 18 | kubedns-amd64 | 12 | - | 2023-12-12 16:01:04 |
-| 19 | kubedns-arm | 9 | - | 2023-12-12 16:01:04 |
-| 20 | kubedns-arm64 | 9 | - | 2023-12-12 16:01:04 |
-| 21 | kubedns-ppc64le | 6 | - | 2023-12-12 16:01:05 |
-| 22 | kubekins-e2e | 69 | - | 2023-12-12 16:01:28 |
-| 23 | kubekins-job-builder | 6 | - | 2023-12-12 16:01:28 |
-| 24 | kubekins-test | 29 | - | 2023-12-12 16:01:38 |
-| 25 | kubelet-to-gcm | 17 | - | 2023-12-12 16:01:38 |
-| 26 | kubernetes-dashboard | 3 | - | 2023-12-12 16:01:38 |
-| 27 | kubernetes-dashboard-amd64 | 30 | - | 2023-12-12 16:01:48 |
-| 28 | kubernetes-dashboard-arm | 30 | - | 2023-12-12 16:01:52 |
-| 29 | kubernetes-dashboard-arm64 | 29 | - | 2023-12-12 16:02:01 |
-| 30 | kubernetes-dashboard-init-amd64 | 2 | - | 2023-12-12 16:02:01 |
-| 31 | kubernetes-dashboard-init-arm | 2 | - | 2023-12-12 16:02:01 |
-| 32 | kubernetes-dashboard-ppc64le | 29 | - | 2023-12-12 16:02:10 |
-| 33 | kubernetes-dashboard-s390x | 11 | - | 2023-12-12 16:02:10 |
-| 34 | kubernetes-kafka | 2 | - | 2023-12-12 16:02:10 |
-| 35 | kubernetes-zookeeper | 1 | - | 2023-12-12 16:02:10 |
-| 36 | conformance | 576 | - | 2023-12-12 16:02:10 |
-| 37 | conformance-amd64 | 576 | - | 2023-12-12 16:02:10 |
-| 38 | conformance-arm | 543 | - | 2023-12-12 16:02:10 |
-| 39 | conformance-arm64 | 576 | - | 2023-12-12 16:02:10 |
-| 40 | conformance-ppc64le | 576 | - | 2023-12-12 16:02:10 |
-| 41 | conformance-s390x | 576 | - | 2023-12-12 16:02:10 |
-| 42 | etcd | 106 | - | 2023-12-12 16:02:43 |
-| 43 | etcd-empty-dir-cleanup | 21 | - | 2023-12-12 16:02:43 |
-| 44 | hyperkube | 623 | - | 2023-12-12 16:03:24 |
-| 45 | hyperkube-amd64 | 601 | - | 2023-12-12 16:04:29 |
-| 46 | hyperkube-arm | 580 | - | 2023-12-12 16:05:28 |
-| 47 | hyperkube-arm64 | 576 | - | 2023-12-12 16:06:28 |
-| 48 | hyperkube-ppc64le | 486 | - | 2023-12-12 16:07:07 |
-| 49 | hyperkube-s390x | 484 | - | 2023-12-12 16:08:15 |
-| 50 | kube-apiserver | 942 | - | 2023-12-12 16:08:15 |
-| 51 | kube-apiserver-amd64 | 945 | - | 2023-12-12 16:08:15 |
-| 52 | kube-apiserver-arm | 904 | - | 2023-12-12 16:08:15 |
-| 53 | kube-apiserver-arm64 | 915 | - | 2023-12-12 16:08:15 |
-| 54 | kube-apiserver-ppc64le | 849 | - | 2023-12-12 16:08:15 |
-| 55 | kube-apiserver-s390x | 823 | - | 2023-12-12 16:08:15 |
-| 56 | kube-controller-manager | 943 | - | 2023-12-12 16:08:15 |
-| 57 | kube-controller-manager-amd64 | 945 | - | 2023-12-12 16:08:15 |
-| 58 | kube-controller-manager-arm | 904 | - | 2023-12-12 16:08:15 |
-| 59 | kube-controller-manager-arm64 | 915 | - | 2023-12-12 16:08:15 |
-| 60 | kube-controller-manager-ppc64le | 849 | - | 2023-12-12 16:08:15 |
-| 61 | kube-controller-manager-s390x | 823 | - | 2023-12-12 16:08:15 |
-| 62 | kube-proxy | 941 | - | 2023-12-12 16:08:15 |
-| 63 | kube-proxy-amd64 | 945 | - | 2023-12-12 16:08:15 |
-| 64 | kube-proxy-arm | 904 | - | 2023-12-12 16:08:15 |
-| 65 | kube-proxy-arm64 | 915 | - | 2023-12-12 16:08:15 |
-| 66 | kube-proxy-ppc64le | 849 | - | 2023-12-12 16:08:15 |
-| 67 | kube-proxy-s390x | 823 | - | 2023-12-12 16:08:15 |
-| 68 | kube-scheduler | 942 | - | 2023-12-12 16:08:15 |
-| 69 | kube-scheduler-amd64 | 945 | - | 2023-12-12 16:08:15 |
-| 70 | kube-scheduler-arm | 904 | - | 2023-12-12 16:08:15 |
-| 71 | kube-scheduler-arm64 | 915 | - | 2023-12-12 16:08:15 |
-| 72 | kube-scheduler-ppc64le | 849 | - | 2023-12-12 16:08:15 |
-| 73 | kube-scheduler-s390x | 823 | - | 2023-12-12 16:08:15 |
-| 74 | kubectl | 23 | - | 2023-12-12 16:08:15 |
-| 75 | kubectl-amd64 | 20 | - | 2023-12-12 16:08:15 |
-| 76 | kubectl-arm64 | 20 | - | 2023-12-12 16:08:15 |
-| 77 | kubectl-ppc64le | 20 | - | 2023-12-12 16:08:15 |
-| 78 | kubectl-s390x | 20 | - | 2023-12-12 16:08:15 |
-| 79 | pause | 17 | - | 2023-12-12 16:08:15 |
-| 80 | pause-amd64 | 4 | - | 2023-12-12 16:08:15 |
-| 81 | pause-arm | 5 | - | 2023-12-12 16:08:15 |
-| 82 | pause-arm64 | 5 | - | 2023-12-12 16:08:15 |
-| 83 | pause-ppc64le | 5 | - | 2023-12-12 16:08:15 |
-| 84 | pause-s390x | 4 | - | 2023-12-12 16:08:15 |
-| 85 | kueue | 1 | - | 2023-12-12 16:08:15 |
-| 86 | kustomize | 1 | - | 2023-12-12 16:08:15 |
-| 87 | cluster | 1 | - | 2023-12-12 16:08:15 |
-| 88 | kwok | 1 | - | 2023-12-12 16:08:15 |
-| 89 | leader-elector | 4 | - | 2023-12-12 16:08:15 |
-| 90 | liveness | 2 | - | 2023-12-12 16:08:15 |
-| 91 | loader | 5 | - | 2023-12-12 16:08:15 |
-| 92 | logexp | 2 | - | 2023-12-12 16:08:15 |
-| 93 | logexporter | 4 | - | 2023-12-12 16:08:15 |
-| 94 | logs-generator | 5 | - | 2023-12-12 16:08:15 |
-| 95 | managed-certificate-controller | 13 | - | 2023-12-12 16:08:15 |
-| 96 | metadata-proxy | 15 | - | 2023-12-12 16:08:15 |
-| 97 | metrics-server | 6 | - | 2023-12-12 16:08:15 |
-| 98 | metrics-server-amd64 | 12 | - | 2023-12-12 16:08:15 |
-| 99 | metrics-server-arm | 8 | - | 2023-12-12 16:08:15 |
-| 100 | metrics-server-arm64 | 8 | - | 2023-12-12 16:08:15 |
-| 101 | metrics-server-ppc64le | 8 | - | 2023-12-12 16:08:15 |
-| 102 | metrics-server-s390x | 8 | - | 2023-12-12 16:08:15 |
-| 103 | minikube-nvidia-driver-installer | 2 | - | 2023-12-12 16:08:15 |
-| 104 | mongodb-install | 6 | - | 2023-12-12 16:08:15 |
-| 105 | mounttest | 7 | - | 2023-12-12 16:08:15 |
-| 106 | mounttest-user | 5 | - | 2023-12-12 16:08:15 |
-| 107 | externalip-webhook | 1 | - | 2023-12-12 16:08:15 |
-| 108 | mungegithub | 16 | - | 2023-12-12 16:08:15 |
-| 109 | mysql-galera | 1 | - | 2023-12-12 16:08:15 |
-| 110 | mysql-healthz | 2 | - | 2023-12-12 16:08:15 |
+| 1 | n-way-http | 1 | - | 2023-12-12 18:19:00 |
+| 2 | netd | 1 | - | 2023-12-12 18:19:00 |
+| 3 | netd-amd64 | 14 | - | 2023-12-12 18:19:00 |
+| 4 | netexec | 8 | - | 2023-12-12 18:19:00 |
+| 5 | netproxy | 1 | - | 2023-12-12 18:19:00 |
+| 6 | nettest | 10 | - | 2023-12-12 18:19:01 |
+| 7 | ingress-gce-404-server-with-metrics-amd64 | 1 | - | 2023-12-12 18:19:01 |
+| 8 | ip-masq-agent | 3 | - | 2023-12-12 18:19:01 |
+| 9 | ip-masq-agent-amd64 | 13 | - | 2023-12-12 18:19:01 |
+| 10 | ip-masq-agent-arm | 4 | - | 2023-12-12 18:19:01 |
+| 11 | ip-masq-agent-arm64 | 4 | - | 2023-12-12 18:19:01 |
+| 12 | ip-masq-agent-ppc64le | 4 | - | 2023-12-12 18:19:01 |
+| 13 | node-feature-discovery | 1 | - | 2023-12-12 18:19:01 |
+| 14 | node-feature-discovery-operator | 1 | - | 2023-12-12 18:19:01 |
+| 15 | nginx | 4 | - | 2023-12-12 18:19:03 |
+| 16 | nginx-ingress | 1 | - | 2023-12-12 18:19:03 |
+| 17 | nginx-ingress-controller | 25 | - | 2023-12-12 18:19:05 |
+| 18 | nginx-ingress-controller-amd64 | 7 | - | 2023-12-12 18:19:05 |
+| 19 | nginx-ingress-controller-arm | 7 | - | 2023-12-12 18:19:05 |
+| 20 | nginx-ingress-controller-arm64 | 4 | - | 2023-12-12 18:19:05 |
+| 21 | nginx-ingress-controller-ppc64le | 7 | - | 2023-12-12 18:19:05 |
+| 22 | nginx-scale | 2 | - | 2023-12-12 18:19:05 |
+| 23 | nginx-slim | 27 | - | 2023-12-12 18:19:13 |
+| 24 | nginx-slim-amd64 | 12 | - | 2023-12-12 18:19:13 |
+| 25 | nginx-slim-arm | 12 | - | 2023-12-12 18:19:13 |
+| 26 | nginx-slim-arm64 | 6 | - | 2023-12-12 18:19:13 |
+| 27 | nginx-slim-ppc64le | 12 | - | 2023-12-12 18:19:13 |
+| 28 | nginx-third-party | 2 | - | 2023-12-12 18:19:13 |
+| 29 | no-snat-test-amd64 | 2 | - | 2023-12-12 18:19:13 |
+| 30 | no-snat-test-proxy-amd64 | 2 | - | 2023-12-12 18:19:13 |
+| 31 | node-conformance | 4 | - | 2023-12-12 18:19:13 |
+| 32 | node-perf-dash | 3 | - | 2023-12-12 18:19:13 |
+| 33 | node-problem-detector | 23 | - | 2023-12-12 18:19:13 |
+| 34 | node-test | 1 | - | 2023-12-12 18:19:13 |
+| 35 | node-test-amd64 | 2 | - | 2023-12-12 18:19:13 |
+| 36 | node-test-arm | 2 | - | 2023-12-12 18:19:13 |
+| 37 | node-test-arm64 | 2 | - | 2023-12-12 18:19:13 |
+| 38 | nodejs-election-client | 1 | - | 2023-12-12 18:19:13 |
+| 39 | non-masquerade-daemon-amd64 | 3 | - | 2023-12-12 18:19:13 |
+| 40 | nonewprivs | 3 | - | 2023-12-12 18:19:13 |
+| 41 | nvidia-gpu-device-plugin | 67 | - | 2023-12-12 18:20:05 |
+| 42 | pause | 17 | - | 2023-12-12 18:20:05 |
+| 43 | pause-amd64 | 4 | - | 2023-12-12 18:20:05 |
+| 44 | pause-arm | 5 | - | 2023-12-12 18:20:05 |
+| 45 | pause-arm64 | 5 | - | 2023-12-12 18:20:05 |
+| 46 | pause-ppc64le | 5 | - | 2023-12-12 18:20:05 |
+| 47 | pause-s390x | 4 | - | 2023-12-12 18:20:05 |
+| 48 | peer-finder | 1 | - | 2023-12-12 18:20:05 |
+| 49 | perfdash | 14 | - | 2023-12-12 18:20:05 |
+| 50 | podmaster | 1 | - | 2023-12-12 18:20:05 |
+| 51 | porter | 4 | - | 2023-12-12 18:20:05 |
+| 52 | portforwardtester | 3 | - | 2023-12-12 18:20:05 |
+| 53 | prometheus-adapter | 1 | - | 2023-12-12 18:20:05 |
+| 54 | prometheus-dummy-exporter | 1 | - | 2023-12-12 18:20:05 |
+| 55 | prometheus-to-sd | 32 | - | 2023-12-12 18:20:05 |
+| 56 | aws-ebs-csi-driver | 1 | - | 2023-12-12 18:20:05 |
+| 57 | cloud-controller-manager | 301 | - | 2023-12-12 18:20:05 |
+| 58 | barbican-kms-plugin | 1 | - | 2023-12-12 18:20:05 |
+| 59 | cinder-csi-plugin | 1 | - | 2023-12-12 18:20:05 |
+| 60 | k8s-keystone-auth | 1 | - | 2023-12-12 18:20:05 |
+| 61 | magnum-auto-healer | 1 | - | 2023-12-12 18:20:05 |
+| 62 | manila-csi-plugin | 1 | - | 2023-12-12 18:20:05 |
+| 63 | octavia-ingress-controller | 1 | - | 2023-12-12 18:20:05 |
+| 64 | openstack-cloud-controller-manager | 1 | - | 2023-12-12 18:20:05 |
+| 65 | proxy-agent | 3 | - | 2023-12-12 18:20:05 |
+| 66 | proxy-server | 3 | - | 2023-12-12 18:20:05 |
+| 67 | proxy-to-service | 2 | - | 2023-12-12 18:20:05 |
+| 68 | publisher | 17 | - | 2023-12-12 18:20:05 |
+| 69 | k8s-publishing-bot | 1 | - | 2023-12-12 18:20:05 |
+| 70 | python | 4 | - | 2023-12-12 18:20:05 |
+| 71 | queue-health-base | 2 | - | 2023-12-12 18:20:05 |
+| 72 | queue-health-graph | 12 | - | 2023-12-12 18:20:08 |
+| 73 | queue-health-poll | 5 | - | 2023-12-12 18:20:08 |
+| 74 | redis | 3 | - | 2023-12-12 18:20:10 |
+| 75 | redis-install | 2 | - | 2023-12-12 18:20:10 |
+| 76 | redis-install-3.2.0 | 1 | - | 2023-12-12 18:20:10 |
+| 77 | redis-slave | 1 | - | 2023-12-12 18:20:10 |
+| 78 | registry-promoter-test-image | 1 | - | 2023-12-12 18:20:10 |
+| 79 | kubepkg | 1 | - | 2023-12-12 18:20:10 |
+| 80 | kubepkg-rpm | 1 | - | 2023-12-12 18:20:10 |
+| 81 | releng-ci | 1 | - | 2023-12-12 18:20:10 |
+| 82 | rescheduler | 7 | - | 2023-12-12 18:20:11 |
+| 83 | rescheduler-amd64 | 1 | - | 2023-12-12 18:20:11 |
+| 84 | rescheduler-arm | 1 | - | 2023-12-12 18:20:11 |
+| 85 | rescheduler-arm64 | 1 | - | 2023-12-12 18:20:11 |
+| 86 | rescheduler-ppc64le | 1 | - | 2023-12-12 18:20:11 |
+| 87 | rescheduler-s390x | 1 | - | 2023-12-12 18:20:11 |
+| 88 | resource_consumer | 5 | - | 2023-12-12 18:20:11 |
+| 89 | rethinkdb | 1 | - | 2023-12-12 18:20:11 |
+| 90 | controller | 1 | - | 2023-12-12 18:20:11 |
+| 91 | kube-scheduler | 942 | - | 2023-12-12 18:20:11 |
+| 92 | simulator-backend | 1 | - | 2023-12-12 18:20:11 |
+| 93 | simulator-frontend | 1 | - | 2023-12-12 18:20:11 |
+| 94 | cluster-node-image-builder-amd64 | 1 | - | 2023-12-12 18:20:11 |
+| 95 | sd-dummy-exporter | 2 | - | 2023-12-12 18:20:11 |
+| 96 | seccomp-operator | 1 | - | 2023-12-12 18:20:12 |
+| 97 | security-profiles-operator | 1 | - | 2023-12-12 18:20:12 |
+| 98 | security-profiles-operator-amd64 | 1 | - | 2023-12-12 18:20:12 |
+| 99 | security-profiles-operator-arm64 | 1 | - | 2023-12-12 18:20:12 |
+| 100 | security-profiles-operator-bundle | 1 | - | 2023-12-12 18:20:12 |
+| 101 | security-profiles-operator-catalog | 1 | - | 2023-12-12 18:20:12 |
+| 102 | security-profiles-operator | 1 | - | 2023-12-12 18:20:12 |
+| 103 | security-profiles-operator-amd64 | 1 | - | 2023-12-12 18:20:12 |
+| 104 | security-profiles-operator-arm64 | 1 | - | 2023-12-12 18:20:12 |
+| 105 | security-profiles-operator-bundle | 1 | - | 2023-12-12 18:20:12 |
+| 106 | security-profiles-operator-catalog | 1 | - | 2023-12-12 18:20:12 |
+| 107 | security-profiles-operator | 1 | - | 2023-12-12 18:20:12 |
+| 108 | security-profiles-operator-amd64 | 1 | - | 2023-12-12 18:20:12 |
+| 109 | security-profiles-operator-arm64 | 1 | - | 2023-12-12 18:20:12 |
+| 110 | security-profiles-operator-bundle | 1 | - | 2023-12-12 18:20:12 |
 
 Support
 -------
