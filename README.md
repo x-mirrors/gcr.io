@@ -1,4 +1,4 @@
-Google Containers Registry ceph Mirrors [last sync 2023-12-14 18:41:57]
+Google Containers Registry ceph Mirrors [last sync 2023-12-14 18:50:26]
 -------
 
 [![ceph](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/quay.io-ceph.yml)
@@ -24,17 +24,17 @@ Total of 11's quay.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | ceph | 287 | - | 2023-12-14 18:41:04 |
-| 2 | cn-core | 7 | - | 2023-12-14 18:41:07 |
-| 3 | csi-cephfs | 1 | - | 2023-12-14 18:41:07 |
-| 4 | csi-rbd | 1 | - | 2023-12-14 18:41:07 |
-| 5 | ceph-grafana | 13 | - | 2023-12-14 18:41:08 |
-| 6 | ceph-amd64 | 249 | - | 2023-12-14 18:41:09 |
-| 7 | ceph-arm64 | 245 | - | 2023-12-14 18:41:10 |
-| 8 | daemon-base | 1320 | - | 2023-12-14 18:41:53 |
-| 9 | daemon | 1309 | - | 2023-12-14 18:41:57 |
-| 10 | keepalived | 2 | - | 2023-12-14 18:41:57 |
-| 11 | haproxy | 2 | - | 2023-12-14 18:41:57 |
+| 1 | ceph | 287 | - | 2023-12-14 18:50:09 |
+| 2 | cn-core | 7 | - | 2023-12-14 18:50:11 |
+| 3 | csi-cephfs | 1 | - | 2023-12-14 18:50:11 |
+| 4 | csi-rbd | 1 | - | 2023-12-14 18:50:11 |
+| 5 | ceph-grafana | 13 | - | 2023-12-14 18:50:11 |
+| 6 | ceph-amd64 | 249 | - | 2023-12-14 18:50:11 |
+| 7 | ceph-arm64 | 245 | - | 2023-12-14 18:50:11 |
+| 8 | daemon-base | 1320 | - | 2023-12-14 18:50:24 |
+| 9 | daemon | 1309 | - | 2023-12-14 18:50:26 |
+| 10 | keepalived | 2 | - | 2023-12-14 18:50:26 |
+| 11 | haproxy | 2 | - | 2023-12-14 18:50:26 |
 
 Support
 -------
