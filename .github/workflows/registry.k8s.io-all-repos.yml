@@ -53,7 +53,7 @@ jobs:
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
           LOG_LEVEL: "DEBUG"
           JOB_BATCH_COUNT: "8"
-          AFTER_TIMEUPLOADEDMS: 1577808000000
+          # AFTER_TIMEUPLOADEDMS: 1577808000000
 
       - name: Public result to github
         uses: x-actions/git-push@v1
