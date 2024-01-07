@@ -1,4 +1,4 @@
-Google Containers Registry tekton-releases Mirrors [last sync 2024-01-07 08:40:13]
+Google Containers Registry tekton-releases Mirrors [last sync 2024-01-07 08:49:58]
 -------
 
 [![tekton-releases](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tekton-releases.yml)
@@ -24,34 +24,34 @@ Total of 28's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | chains-controller | 26 | - | 2024-01-07 08:39:45 |
-| 2 | dashboard-dashboard | 101 | - | 2024-01-07 08:39:45 |
-| 3 | operator-kubernetes | 2 | - | 2024-01-07 08:39:45 |
-| 4 | operator-manager | 3 | - | 2024-01-07 08:39:45 |
-| 5 | operator-openshift | 1 | - | 2024-01-07 08:39:46 |
-| 6 | operator-proxy | 2 | - | 2024-01-07 08:39:46 |
-| 7 | pipeline-bash | 13 | - | 2024-01-07 08:39:46 |
-| 8 | pipeline-controller | 153 | - | 2024-01-07 08:39:48 |
-| 9 | pipeline-creds-init | 50 | - | 2024-01-07 08:39:49 |
-| 10 | pipeline-entrypoint | 153 | - | 2024-01-07 08:39:51 |
-| 11 | pipeline-events | 20 | - | 2024-01-07 08:39:52 |
-| 12 | pipeline-git-init | 127 | - | 2024-01-07 08:39:54 |
-| 13 | pipeline-gsutil | 11 | - | 2024-01-07 08:39:54 |
-| 14 | pipeline-imagedigestexporter | 122 | - | 2024-01-07 08:39:55 |
-| 15 | pipeline-kubeconfigwriter | 121 | - | 2024-01-07 08:39:57 |
-| 16 | pipeline-nop | 130 | - | 2024-01-07 08:39:58 |
-| 17 | pipeline-pullrequest-init | 120 | - | 2024-01-07 08:40:02 |
-| 18 | pipeline-resolvers | 45 | - | 2024-01-07 08:40:03 |
-| 19 | pipeline-sidecarlogresults | 36 | - | 2024-01-07 08:40:05 |
-| 20 | pipeline-webhook | 153 | - | 2024-01-07 08:40:05 |
-| 21 | pipeline-workingdirinit | 68 | - | 2024-01-07 08:40:07 |
-| 22 | results-api | 15 | - | 2024-01-07 08:40:07 |
-| 23 | results-watcher | 15 | - | 2024-01-07 08:40:07 |
-| 24 | triggers-controller | 61 | - | 2024-01-07 08:40:09 |
-| 25 | triggers-eventlistenersink | 61 | - | 2024-01-07 08:40:10 |
-| 26 | triggers-gh-validate | 1 | - | 2024-01-07 08:40:10 |
-| 27 | triggers-interceptors | 41 | - | 2024-01-07 08:40:13 |
-| 28 | triggers-webhook | 61 | - | 2024-01-07 08:40:13 |
+| 1 | chains-controller | 26 | - | 2024-01-07 08:49:40 |
+| 2 | dashboard-dashboard | 101 | - | 2024-01-07 08:49:40 |
+| 3 | operator-kubernetes | 2 | - | 2024-01-07 08:49:41 |
+| 4 | operator-manager | 3 | - | 2024-01-07 08:49:41 |
+| 5 | operator-openshift | 1 | - | 2024-01-07 08:49:41 |
+| 6 | operator-proxy | 2 | - | 2024-01-07 08:49:41 |
+| 7 | pipeline-bash | 13 | - | 2024-01-07 08:49:41 |
+| 8 | pipeline-controller | 153 | - | 2024-01-07 08:49:43 |
+| 9 | pipeline-creds-init | 50 | - | 2024-01-07 08:49:43 |
+| 10 | pipeline-entrypoint | 153 | - | 2024-01-07 08:49:45 |
+| 11 | pipeline-events | 20 | - | 2024-01-07 08:49:45 |
+| 12 | pipeline-git-init | 127 | - | 2024-01-07 08:49:47 |
+| 13 | pipeline-gsutil | 11 | - | 2024-01-07 08:49:47 |
+| 14 | pipeline-imagedigestexporter | 122 | - | 2024-01-07 08:49:48 |
+| 15 | pipeline-kubeconfigwriter | 121 | - | 2024-01-07 08:49:49 |
+| 16 | pipeline-nop | 130 | - | 2024-01-07 08:49:49 |
+| 17 | pipeline-pullrequest-init | 120 | - | 2024-01-07 08:49:51 |
+| 18 | pipeline-resolvers | 45 | - | 2024-01-07 08:49:51 |
+| 19 | pipeline-sidecarlogresults | 36 | - | 2024-01-07 08:49:53 |
+| 20 | pipeline-webhook | 153 | - | 2024-01-07 08:49:53 |
+| 21 | pipeline-workingdirinit | 68 | - | 2024-01-07 08:49:55 |
+| 22 | results-api | 15 | - | 2024-01-07 08:49:55 |
+| 23 | results-watcher | 15 | - | 2024-01-07 08:49:55 |
+| 24 | triggers-controller | 61 | - | 2024-01-07 08:49:56 |
+| 25 | triggers-eventlistenersink | 61 | - | 2024-01-07 08:49:56 |
+| 26 | triggers-gh-validate | 1 | - | 2024-01-07 08:49:57 |
+| 27 | triggers-interceptors | 41 | - | 2024-01-07 08:49:58 |
+| 28 | triggers-webhook | 61 | - | 2024-01-07 08:49:58 |
 
 Support
 -------
