@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: x-mirrors/gcr.io
           ref: 'registry.k8s.io'
@@ -40,11 +40,8 @@ jobs:
           path: gcr.io
 
       - name: Container Images Sync
-        uses: x-actions/python3-cisctl@feature/registry.k8s.io
+        uses: x-actions/python3-cisctl@feature/v2
         env:
-          GIT_ORG: "x-mirrors"
-          GIT_REPO: "gcr.io"
-          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/${{ github.ref_name }}/registry.k8s.io/all-repos.txt"
           DEST_REPO: "docker.io/registryk8s"
           SRC_TRANSPORT: "docker"
