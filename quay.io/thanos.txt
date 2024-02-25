@@ -1,0 +1,8 @@
+quay.io/thanos/thanos
+quay.io/thanos/thanosbench
+quay.io/thanos/docker-swift-onlyone-authv2-keystone
+quay.io/thanos/prom-label-proxy
+quay.io/thanos/thanos-linux-arm64
+quay.io/thanos/thanos-linux-amd64
+quay.io/thanos/prometheus
+quay.io/thanos/thanos-ci

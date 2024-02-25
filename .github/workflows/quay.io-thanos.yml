@@ -1,4 +1,4 @@
-name: registry.k8s.io/all-repos
+name: quay.io/thanos
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ on:
         type: string
         default: 'manually test'
   schedule:
-    - cron: '* */3 * * *'
+    - cron: '* */6 * * *'
   push:
     branches:
       - main
@@ -28,14 +28,14 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
-  registry-k8s-io:
+  thanos:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout result branch
         uses: actions/checkout@v4
         with:
           repository: x-mirrors/gcr.io
-          ref: 'registry.k8s.io'
+          ref: 'thanos'
           token: ${{ secrets.GITHUB_TOKEN }}
           path: gcr.io
 
@@ -43,15 +43,13 @@ jobs:
         uses: x-actions/python3-cisctl@v2
         env:
           GIT_REPO: "gcr.io"
-          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/${{ github.ref_name }}/registry.k8s.io/all-repos.txt"
-          DEST_REPO: "docker.io/registryk8s"
+          SRC_IMAGE_LIST_URL: "https://raw.githubusercontent.com/x-mirrors/gcr.io/${{ github.ref_name }}/quay.io/thanos.txt"
+          DEST_REPO: "docker.io/quayiothanos"
           SRC_TRANSPORT: "docker"
           DEST_TRANSPORT: "docker"
-          DEST_TRANSPORT_USER: "xregistry"
+          DEST_TRANSPORT_USER: "xsyncs"
           DEST_TRANSPORT_PASSWORD: "${{ secrets.DEST_TRANSPORT_PASSWORD }}"
           LOG_LEVEL: "DEBUG"
-          JOB_BATCH_COUNT: "8"
-          # AFTER_TIMEUPLOADEDMS: 1577808000000
 
       - name: Public result to github
         uses: x-actions/git-push@v1
@@ -60,5 +58,5 @@ jobs:
           GITHUB_EMAIL: 'me@xiexianbin.cn'
           GITHUB_USERNAME: 'xiexianbin'
           PUBLISH_REPO: https://${{ secrets.GITHUB_TOKEN }}@github.com/x-mirrors/gcr.io.git
-          PUBLISH_BRANCH: registry.k8s.io
+          PUBLISH_BRANCH: thanos
           PUBLISH_DIR: 'gcr.io'
