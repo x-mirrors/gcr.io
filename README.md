@@ -1,4 +1,4 @@
-Google Containers Registry kaniko-project Mirrors [last sync 2024-02-29 02:35:33]
+Google Containers Registry kaniko-project Mirrors [last sync 2024-02-29 02:42:30]
 -------
 
 [![kaniko-project](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-kaniko-project.yml)
@@ -24,10 +24,10 @@ Total of 4's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | debug | 1 | - | 2024-02-29 02:35:30 |
-| 2 | demo | 1 | - | 2024-02-29 02:35:30 |
-| 3 | executor | 2658 | - | 2024-02-29 02:35:33 |
-| 4 | warmer | 881 | - | 2024-02-29 02:35:33 |
+| 1 | debug | 1 | - | 2024-02-29 02:42:28 |
+| 2 | demo | 1 | - | 2024-02-29 02:42:28 |
+| 3 | executor | 2658 | - | 2024-02-29 02:42:29 |
+| 4 | warmer | 881 | - | 2024-02-29 02:42:30 |
 
 Support
 -------
