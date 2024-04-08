@@ -1,4 +1,4 @@
-Google Containers Registry tfx-oss-public Mirrors [last sync 2024-04-08 04:27:11]
+Google Containers Registry tfx-oss-public Mirrors [last sync 2024-04-08 04:36:38]
 -------
 
 [![tfx-oss-public](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tfx-oss-public.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-tfx-oss-public.yml)
@@ -24,16 +24,16 @@ Total of 10's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | gar-proxy | 1 | - | 2024-04-08 04:27:10 |
-| 2 | manylinux2010-bazel | 3 | - | 2024-04-08 04:27:10 |
-| 3 | manylinux2010-bazel-4.0 | 1 | - | 2024-04-08 04:27:10 |
-| 4 | manylinux2014-bazel | 4 | - | 2024-04-08 04:27:10 |
-| 5 | ml_metadata_store_server | 42 | - | 2024-04-08 04:27:11 |
-| 6 | s2t_tf_serving | 14 | - | 2024-04-08 04:27:11 |
-| 7 | tfx | 1008 | - | 2024-04-08 04:27:11 |
-| 8 | tfx-workshop | 1 | - | 2024-04-08 04:27:11 |
-| 9 | tfx_base | 355 | - | 2024-04-08 04:27:11 |
-| 10 | tfx_smoke_test | 971 | - | 2024-04-08 04:27:11 |
+| 1 | gar-proxy | 1 | - | 2024-04-08 04:36:35 |
+| 2 | manylinux2010-bazel | 3 | - | 2024-04-08 04:36:35 |
+| 3 | manylinux2010-bazel-4.0 | 1 | - | 2024-04-08 04:36:36 |
+| 4 | manylinux2014-bazel | 4 | - | 2024-04-08 04:36:36 |
+| 5 | ml_metadata_store_server | 42 | - | 2024-04-08 04:36:36 |
+| 6 | s2t_tf_serving | 14 | - | 2024-04-08 04:36:36 |
+| 7 | tfx | 1008 | - | 2024-04-08 04:36:37 |
+| 8 | tfx-workshop | 1 | - | 2024-04-08 04:36:37 |
+| 9 | tfx_base | 355 | - | 2024-04-08 04:36:38 |
+| 10 | tfx_smoke_test | 971 | - | 2024-04-08 04:36:38 |
 
 Support
 -------
