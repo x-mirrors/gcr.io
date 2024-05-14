@@ -1,7 +1,7 @@
-Google Containers Registry dns Mirrors [last sync 2024-05-14 07:20:42]
+Google Containers Registry explorer Mirrors [last sync 2024-05-14 10:13:15]
 -------
 
-[![dns](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-dns.yml)
+[![explorer](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-explorer.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-explorer.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull dns/hyperkube:v1.9.6
+docker pull explorer/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -24,116 +24,116 @@ Total of 110's registry.k8s.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | dns-k8s-dns-dnsmasq-nanny-arm64 | 39 | - | 2024-05-14 07:19:40 |
-| 2 | dns-k8s-dns-dnsmasq-nanny-ppc64le | 39 | - | 2024-05-14 07:19:42 |
-| 3 | dns-k8s-dns-dnsmasq-nanny-s390x | 39 | - | 2024-05-14 07:19:42 |
-| 4 | dns-k8s-dns-kube-dns | 39 | - | 2024-05-14 07:19:42 |
-| 5 | dns-k8s-dns-kube-dns-amd64 | 39 | - | 2024-05-14 07:19:43 |
-| 6 | dns-k8s-dns-kube-dns-arm | 39 | - | 2024-05-14 07:19:43 |
-| 7 | dns-k8s-dns-kube-dns-arm64 | 39 | - | 2024-05-14 07:19:45 |
-| 8 | dns-k8s-dns-kube-dns-ppc64le | 39 | - | 2024-05-14 07:19:45 |
-| 9 | dns-k8s-dns-kube-dns-s390x | 39 | - | 2024-05-14 07:19:45 |
-| 10 | dns-k8s-dns-node-cache | 46 | - | 2024-05-14 07:19:45 |
-| 11 | dns-k8s-dns-node-cache-amd64 | 46 | - | 2024-05-14 07:19:47 |
-| 12 | dns-k8s-dns-node-cache-arm | 46 | - | 2024-05-14 07:19:47 |
-| 13 | dns-k8s-dns-node-cache-arm64 | 46 | - | 2024-05-14 07:19:47 |
-| 14 | dns-k8s-dns-node-cache-ppc64le | 46 | - | 2024-05-14 07:19:48 |
-| 15 | dns-k8s-dns-node-cache-s390x | 46 | - | 2024-05-14 07:19:50 |
-| 16 | dns-k8s-dns-sidecar | 39 | - | 2024-05-14 07:19:50 |
-| 17 | dns-k8s-dns-sidecar-amd64 | 39 | - | 2024-05-14 07:19:51 |
-| 18 | dns-k8s-dns-sidecar-arm | 39 | - | 2024-05-14 07:19:51 |
-| 19 | dns-k8s-dns-sidecar-arm64 | 39 | - | 2024-05-14 07:19:52 |
-| 20 | dns-k8s-dns-sidecar-ppc64le | 39 | - | 2024-05-14 07:19:53 |
-| 21 | dns-k8s-dns-sidecar-s390x | 39 | - | 2024-05-14 07:19:55 |
-| 22 | dnsmasq | 2 | - | 2024-05-14 07:19:55 |
-| 23 | dnsmasq-amd64 | 1 | - | 2024-05-14 07:19:55 |
-| 24 | dnsmasq-metrics-amd64 | 2 | - | 2024-05-14 07:19:55 |
-| 25 | dnsmasq-metrics-arm | 1 | - | 2024-05-14 07:19:55 |
-| 26 | dnsmasq-metrics-arm64 | 1 | - | 2024-05-14 07:19:55 |
-| 27 | dnsmasq-metrics-ppc64le | 1 | - | 2024-05-14 07:19:55 |
-| 28 | dnsutils | 3 | - | 2024-05-14 07:19:56 |
-| 29 | e2e-net-amd64 | 1 | - | 2024-05-14 07:19:56 |
-| 30 | e2e-test-images-agnhost | 28 | - | 2024-05-14 07:19:56 |
-| 31 | e2e-test-images-apparmor-loader | 4 | - | 2024-05-14 07:19:56 |
-| 32 | e2e-test-images-busybox | 5 | - | 2024-05-14 07:19:56 |
-| 33 | e2e-test-images-cuda-vector-add | 4 | - | 2024-05-14 07:19:56 |
-| 34 | e2e-test-images-echoserver | 3 | - | 2024-05-14 07:19:56 |
-| 35 | e2e-test-images-glusterdynamic-provisioner | 2 | - | 2024-05-14 07:19:57 |
-| 36 | e2e-test-images-httpd | 8 | - | 2024-05-14 07:19:57 |
-| 37 | e2e-test-images-ipc-utils | 2 | - | 2024-05-14 07:19:57 |
-| 38 | e2e-test-images-jessie-dnsutils | 5 | - | 2024-05-14 07:19:57 |
-| 39 | e2e-test-images-kitten | 3 | - | 2024-05-14 07:19:57 |
-| 40 | e2e-test-images-metadata-concealment | 2 | - | 2024-05-14 07:19:58 |
-| 41 | e2e-test-images-nautilus | 3 | - | 2024-05-14 07:19:58 |
-| 42 | e2e-test-images-nginx | 11 | - | 2024-05-14 07:20:06 |
-| 43 | e2e-test-images-node-perf-npb-ep | 2 | - | 2024-05-14 07:20:06 |
-| 44 | e2e-test-images-node-perf-npb-is | 2 | - | 2024-05-14 07:20:06 |
-| 45 | e2e-test-images-node-perf-tf-wide-deep | 3 | - | 2024-05-14 07:20:06 |
-| 46 | e2e-test-images-nonewprivs | 2 | - | 2024-05-14 07:20:06 |
-| 47 | e2e-test-images-nonroot | 3 | - | 2024-05-14 07:20:06 |
-| 48 | e2e-test-images-perl | 1 | - | 2024-05-14 07:20:06 |
-| 49 | e2e-test-images-pets-peer-finder | 1 | - | 2024-05-14 07:20:06 |
-| 50 | e2e-test-images-pets-redis-installer | 1 | - | 2024-05-14 07:20:06 |
-| 51 | e2e-test-images-pets-zookeeper-installer | 1 | - | 2024-05-14 07:20:06 |
-| 52 | e2e-test-images-redis | 3 | - | 2024-05-14 07:20:06 |
-| 53 | e2e-test-images-regression-issue-74839 | 1 | - | 2024-05-14 07:20:06 |
-| 54 | e2e-test-images-resource-consumer | 6 | - | 2024-05-14 07:20:06 |
-| 55 | e2e-test-images-sample-apiserver | 6 | - | 2024-05-14 07:20:06 |
-| 56 | e2e-test-images-sample-device-plugin | 4 | - | 2024-05-14 07:20:06 |
-| 57 | e2e-test-images-volume-gluster | 2 | - | 2024-05-14 07:20:06 |
-| 58 | e2e-test-images-volume-iscsi | 5 | - | 2024-05-14 07:20:06 |
-| 59 | e2e-test-images-volume-nfs | 3 | - | 2024-05-14 07:20:06 |
-| 60 | e2e-test-images-volume-rbd | 3 | - | 2024-05-14 07:20:06 |
-| 61 | echoserver | 11 | - | 2024-05-14 07:20:09 |
-| 62 | echoserver-amd64 | 3 | - | 2024-05-14 07:20:09 |
-| 63 | echoserver-arm | 1 | - | 2024-05-14 07:20:09 |
-| 64 | echoserver-ppc64le | 1 | - | 2024-05-14 07:20:09 |
-| 65 | elasticsearch | 21 | - | 2024-05-14 07:20:17 |
-| 66 | eptest | 1 | - | 2024-05-14 07:20:17 |
-| 67 | etcd | 109 | - | 2024-05-14 07:20:17 |
-| 68 | etcd-amd64 | 76 | - | 2024-05-14 07:20:17 |
-| 69 | etcd-arm | 42 | - | 2024-05-14 07:20:22 |
-| 70 | etcd-arm64 | 40 | - | 2024-05-14 07:20:23 |
-| 71 | etcd-empty-dir-cleanup | 21 | - | 2024-05-14 07:20:32 |
-| 72 | etcd-ppc64le | 40 | - | 2024-05-14 07:20:32 |
-| 73 | etcd-s390x | 39 | - | 2024-05-14 07:20:33 |
-| 74 | etcd-statefulset-e2e-test | 1 | - | 2024-05-14 07:20:33 |
-| 75 | etcd-version-monitor | 5 | - | 2024-05-14 07:20:33 |
-| 76 | etcd-version-monitor-shyamjvs | 1 | - | 2024-05-14 07:20:33 |
-| 77 | etcd_monitor_shyamjvs | 1 | - | 2024-05-14 07:20:33 |
-| 78 | etcd_probe_shyamjvs | 1 | - | 2024-05-14 07:20:34 |
-| 79 | etcd_version_monitor | 1 | - | 2024-05-14 07:20:34 |
-| 80 | etcd_version_monitor_shyamjvs | 1 | - | 2024-05-14 07:20:34 |
-| 81 | etcdadm-etcd-backup | 19 | - | 2024-05-14 07:20:34 |
-| 82 | etcdadm-etcd-dump | 19 | - | 2024-05-14 07:20:34 |
-| 83 | etcdadm-etcd-manager | 20 | - | 2024-05-14 07:20:34 |
-| 84 | etcdadm-etcd-manager-slim | 4 | - | 2024-05-14 07:20:35 |
-| 85 | event-exporter | 19 | - | 2024-05-14 07:20:40 |
-| 86 | example-dns-backend | 1 | - | 2024-05-14 07:20:40 |
-| 87 | example-dns-frontend | 1 | - | 2024-05-14 07:20:40 |
-| 88 | example-guestbook-php-redis | 2 | - | 2024-05-14 07:20:40 |
-| 89 | exechealthz | 3 | - | 2024-05-14 07:20:40 |
-| 90 | exechealthz-amd64 | 5 | - | 2024-05-14 07:20:40 |
-| 91 | exechealthz-arm | 5 | - | 2024-05-14 07:20:40 |
-| 92 | exechealthz-arm64 | 4 | - | 2024-05-14 07:20:40 |
-| 93 | exechealthz-ppc64le | 4 | - | 2024-05-14 07:20:40 |
-| 94 | exechealthz-s390x | 2 | - | 2024-05-14 07:20:40 |
-| 95 | experimental-conformance | 4 | - | 2024-05-14 07:20:40 |
-| 96 | experimental-conformance-amd64 | 5 | - | 2024-05-14 07:20:40 |
-| 97 | experimental-conformance-arm | 4 | - | 2024-05-14 07:20:40 |
-| 98 | experimental-conformance-arm64 | 4 | - | 2024-05-14 07:20:40 |
-| 99 | experimental-conformance-ppc64le | 4 | - | 2024-05-14 07:20:40 |
-| 100 | experimental-conformance-s390x | 4 | - | 2024-05-14 07:20:40 |
-| 101 | experimental-kube-apiserver | 4 | - | 2024-05-14 07:20:40 |
-| 102 | experimental-kube-apiserver-amd64 | 2 | - | 2024-05-14 07:20:40 |
-| 103 | experimental-kube-apiserver-arm | 4 | - | 2024-05-14 07:20:40 |
-| 104 | experimental-kube-apiserver-arm64 | 2 | - | 2024-05-14 07:20:41 |
-| 105 | experimental-kube-apiserver-ppc64le | 2 | - | 2024-05-14 07:20:41 |
-| 106 | experimental-kube-apiserver-s390x | 2 | - | 2024-05-14 07:20:41 |
-| 107 | experimental-kube-scheduler-arm | 2 | - | 2024-05-14 07:20:41 |
-| 108 | experimental-kube-scheduler-arm64 | 2 | - | 2024-05-14 07:20:41 |
-| 109 | experimental-kube-scheduler-ppc64le | 2 | - | 2024-05-14 07:20:41 |
-| 110 | experimental-kube-scheduler-s390x | 2 | - | 2024-05-14 07:20:42 |
+| 1 | explorer | 1 | - | 2024-05-14 09:17:13 |
+| 2 | external-dns-external-dns | 24 | - | 2024-05-14 09:17:52 |
+| 3 | fakegitserver | 1 | - | 2024-05-14 09:17:52 |
+| 4 | federation-apiserver | 21 | - | 2024-05-14 09:17:52 |
+| 5 | federation-apiserver-amd64 | 21 | - | 2024-05-14 09:17:55 |
+| 6 | federation-apiserver-arm | 21 | - | 2024-05-14 09:18:17 |
+| 7 | federation-apiserver-arm64 | 21 | - | 2024-05-14 09:18:19 |
+| 8 | federation-apiserver-ppc64le | 19 | - | 2024-05-14 09:18:40 |
+| 9 | federation-controller-manager | 21 | - | 2024-05-14 09:18:42 |
+| 10 | federation-controller-manager-amd64 | 21 | - | 2024-05-14 09:18:58 |
+| 11 | federation-controller-manager-arm | 21 | - | 2024-05-14 09:19:04 |
+| 12 | federation-controller-manager-arm64 | 21 | - | 2024-05-14 09:19:17 |
+| 13 | federation-controller-manager-ppc64le | 19 | - | 2024-05-14 09:19:27 |
+| 14 | fetcher | 2 | - | 2024-05-14 09:19:27 |
+| 15 | flannel-amd64 | 1 | - | 2024-05-14 09:19:27 |
+| 16 | flannel-arm | 1 | - | 2024-05-14 09:19:27 |
+| 17 | flannel-arm64 | 1 | - | 2024-05-14 09:19:27 |
+| 18 | flannel-ppc64le | 1 | - | 2024-05-14 09:19:27 |
+| 19 | flannel-server-helper | 1 | - | 2024-05-14 09:19:27 |
+| 20 | fluent-bit-sd | 1 | - | 2024-05-14 09:19:27 |
+| 21 | fluentd-elasticsearch | 31 | - | 2024-05-14 09:20:25 |
+| 22 | fluentd-gcp | 74 | - | 2024-05-14 09:22:05 |
+| 23 | fluentd-gcp-scaler | 7 | - | 2024-05-14 09:22:05 |
+| 24 | fluentd-journal-gcp | 1 | - | 2024-05-14 09:22:05 |
+| 25 | fluentd-sidecar-es | 3 | - | 2024-05-14 09:22:05 |
+| 26 | fluentd-sidecar-gcp | 5 | - | 2024-05-14 09:22:05 |
+| 27 | galera-install | 1 | - | 2024-05-14 09:22:05 |
+| 28 | gateway-api-admission-server | 12 | - | 2024-05-14 09:22:05 |
+| 29 | gci-mounter | 5 | - | 2024-05-14 09:22:05 |
+| 30 | gcp-controller-manager | 23 | - | 2024-05-14 09:22:05 |
+| 31 | gcsweb | 1 | - | 2024-05-14 09:22:05 |
+| 32 | gcsweb-amd64 | 8 | - | 2024-05-14 09:22:05 |
+| 33 | gen-swagger-docs | 11 | - | 2024-05-14 09:22:05 |
+| 34 | git-sync | 16 | - | 2024-05-14 09:22:29 |
+| 35 | git-sync-amd64 | 8 | - | 2024-05-14 09:22:29 |
+| 36 | github-fetcher | 10 | - | 2024-05-14 09:22:29 |
+| 37 | github-token-counter | 9 | - | 2024-05-14 09:22:29 |
+| 38 | github-transform | 61 | - | 2024-05-14 09:23:44 |
+| 39 | gitolite-http | 1 | - | 2024-05-14 09:23:44 |
+| 40 | gke-certificates-controller | 5 | - | 2024-05-14 09:23:44 |
+| 41 | gke-cloud-kms-plugin | 2 | - | 2024-05-14 09:23:44 |
+| 42 | gke-cloud-kms-sync | 1 | - | 2024-05-14 09:23:44 |
+| 43 | gke-launcher | 1 | - | 2024-05-14 09:23:44 |
+| 44 | gke-master-backup | 4 | - | 2024-05-14 09:23:44 |
+| 45 | gke-metadata-server | 28 | - | 2024-05-14 09:23:44 |
+| 46 | gke-mpi-api-server | 11 | - | 2024-05-14 09:23:44 |
+| 47 | gke-mpi-metadata-server | 16 | - | 2024-05-14 09:23:44 |
+| 48 | gke-node-termination-handler | 2 | - | 2024-05-14 09:23:44 |
+| 49 | glbc | 20 | - | 2024-05-14 09:23:44 |
+| 50 | gmsa-webhook-k8s-gmsa-webhook | 5 | - | 2024-05-14 09:23:44 |
+| 51 | google-containers-test-image | 1 | - | 2024-05-14 09:23:44 |
+| 52 | goproxy | 1 | - | 2024-05-14 09:23:44 |
+| 53 | guestbook | 1 | - | 2024-05-14 09:23:44 |
+| 54 | gvisor-admission-webhook-amd64 | 9 | - | 2024-05-14 09:23:44 |
+| 55 | haproxy | 4 | - | 2024-05-14 09:23:44 |
+| 56 | healthz-server | 1 | - | 2024-05-14 09:23:44 |
+| 57 | heapster | 69 | - | 2024-05-14 09:25:00 |
+| 58 | heapster-amd64 | 19 | - | 2024-05-14 09:25:00 |
+| 59 | heapster-arm | 19 | - | 2024-05-14 09:25:00 |
+| 60 | heapster-arm64 | 18 | - | 2024-05-14 09:25:00 |
+| 61 | heapster-grafana | 1 | - | 2024-05-14 09:25:00 |
+| 62 | heapster-grafana-amd64 | 5 | - | 2024-05-14 09:25:00 |
+| 63 | heapster-grafana-arm | 3 | - | 2024-05-14 09:25:00 |
+| 64 | heapster-grafana-arm64 | 3 | - | 2024-05-14 09:25:00 |
+| 65 | heapster-grafana-ppc64le | 3 | - | 2024-05-14 09:25:00 |
+| 66 | heapster-grafana-s390x | 2 | - | 2024-05-14 09:25:00 |
+| 67 | heapster-influxdb | 6 | - | 2024-05-14 09:25:00 |
+| 68 | heapster-influxdb-amd64 | 3 | - | 2024-05-14 09:25:00 |
+| 69 | heapster-influxdb-arm | 3 | - | 2024-05-14 09:25:00 |
+| 70 | heapster-influxdb-arm64 | 3 | - | 2024-05-14 09:25:00 |
+| 71 | heapster-influxdb-ppc64le | 3 | - | 2024-05-14 09:25:00 |
+| 72 | heapster-influxdb-s390x | 3 | - | 2024-05-14 09:25:00 |
+| 73 | heapster-ppc64le | 18 | - | 2024-05-14 09:25:00 |
+| 74 | heapster-s390x | 18 | - | 2024-05-14 09:25:05 |
+| 75 | heapster_grafana | 8 | - | 2024-05-14 09:25:05 |
+| 76 | heapster_influxdb | 5 | - | 2024-05-14 09:25:05 |
+| 77 | hostexec | 1 | - | 2024-05-14 09:25:05 |
+| 78 | hpa-example | 1 | - | 2024-05-14 09:25:05 |
+| 79 | hpa-example2 | 1 | - | 2024-05-14 09:25:05 |
+| 80 | hugo | 1 | - | 2024-05-14 09:25:05 |
+| 81 | hyperkube | 623 | - | 2024-05-14 09:41:56 |
+| 82 | hyperkube-amd64 | 601 | - | 2024-05-14 09:41:56 |
+| 83 | hyperkube-arm | 580 | - | 2024-05-14 09:57:54 |
+| 84 | hyperkube-arm64 | 576 | - | 2024-05-14 10:00:01 |
+| 85 | hyperkube-ppc64le | 486 | - | 2024-05-14 10:12:16 |
+| 86 | hyperkube-s390x | 484 | - | 2024-05-14 10:12:34 |
+| 87 | infra-tools-archeio | 11 | - | 2024-05-14 10:12:34 |
+| 88 | infra-tools-octodns | 4 | - | 2024-05-14 10:12:34 |
+| 89 | ingress-gce-404-server-with-metrics-amd64 | 1 | - | 2024-05-14 10:12:34 |
+| 90 | ingress-gce-glbc-amd64 | 44 | - | 2024-05-14 10:13:09 |
+| 91 | ingress-nginx-controller | 68 | - | 2024-05-14 10:13:09 |
+| 92 | ingress-nginx-controller-chroot | 31 | - | 2024-05-14 10:13:09 |
+| 93 | ingress-nginx-e2e-test-cfssl | 10 | - | 2024-05-14 10:13:09 |
+| 94 | ingress-nginx-e2e-test-echo | 17 | - | 2024-05-14 10:13:09 |
+| 95 | ingress-nginx-e2e-test-fastcgi-helloserver | 9 | - | 2024-05-14 10:13:09 |
+| 96 | ingress-nginx-e2e-test-httpbin | 4 | - | 2024-05-14 10:13:09 |
+| 97 | ingress-nginx-e2e-test-httpbun | 4 | - | 2024-05-14 10:13:09 |
+| 98 | ingress-nginx-e2e-test-runner | 50 | - | 2024-05-14 10:13:09 |
+| 99 | ingress-nginx-kube-webhook-certgen | 17 | - | 2024-05-14 10:13:09 |
+| 100 | ingress-nginx-nginx | 47 | - | 2024-05-14 10:13:09 |
+| 101 | ingress-nginx-nginx-errors | 12 | - | 2024-05-14 10:13:09 |
+| 102 | ingress-nginx-opentelemetry | 16 | - | 2024-05-14 10:13:10 |
+| 103 | ingressconformance-echoserver | 1 | - | 2024-05-14 10:13:10 |
+| 104 | ip-masq-agent | 3 | - | 2024-05-14 10:13:10 |
+| 105 | ip-masq-agent-amd64 | 13 | - | 2024-05-14 10:13:15 |
+| 106 | ip-masq-agent-arm | 4 | - | 2024-05-14 10:13:15 |
+| 107 | ip-masq-agent-arm64 | 4 | - | 2024-05-14 10:13:15 |
+| 108 | ip-masq-agent-ppc64le | 4 | - | 2024-05-14 10:13:15 |
+| 109 | iperf | 2 | - | 2024-05-14 10:13:15 |
+| 110 | jessie-dnsutils | 2 | - | 2024-05-14 10:13:15 |
 
 Support
 -------
