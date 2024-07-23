@@ -1,4 +1,4 @@
-Google Containers Registry fuzzbench Mirrors [last sync 2024-07-23 08:42:40]
+Google Containers Registry fuzzbench Mirrors [last sync 2024-07-23 08:55:25]
 -------
 
 [![fuzzbench](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-fuzzbench.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/gcr.io-fuzzbench.yml)
@@ -24,16 +24,16 @@ Total of 10's gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | base-image | 369 | - | 2024-07-23 08:42:40 |
-| 2 | batch | 1 | - | 2024-07-23 08:42:40 |
-| 3 | builders | 1 | - | 2024-07-23 08:42:40 |
-| 4 | dispatcher-image | 3 | - | 2024-07-23 08:42:40 |
-| 5 | experiment-runner | 1 | - | 2024-07-23 08:42:40 |
-| 6 | fuzzbench | 1 | - | 2024-07-23 08:42:40 |
-| 7 | oss-fuzz | 1 | - | 2024-07-23 08:42:40 |
-| 8 | runners | 1 | - | 2024-07-23 08:42:40 |
-| 9 | tmp | 1 | - | 2024-07-23 08:42:40 |
-| 10 | worker | 114 | - | 2024-07-23 08:42:40 |
+| 1 | base-image | 370 | - | 2024-07-23 08:55:25 |
+| 2 | batch | 1 | - | 2024-07-23 08:55:25 |
+| 3 | builders | 1 | - | 2024-07-23 08:55:25 |
+| 4 | dispatcher-image | 3 | - | 2024-07-23 08:55:25 |
+| 5 | experiment-runner | 1 | - | 2024-07-23 08:55:25 |
+| 6 | fuzzbench | 1 | - | 2024-07-23 08:55:25 |
+| 7 | oss-fuzz | 1 | - | 2024-07-23 08:55:25 |
+| 8 | runners | 1 | - | 2024-07-23 08:55:25 |
+| 9 | tmp | 1 | - | 2024-07-23 08:55:25 |
+| 10 | worker | 115 | - | 2024-07-23 08:55:25 |
 
 Support
 -------
