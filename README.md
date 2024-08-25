@@ -1,7 +1,7 @@
-Google Containers Registry jobset Mirrors [last sync 2024-08-25 13:30:51]
+Google Containers Registry kube-state-metrics-amd64 Mirrors [last sync 2024-08-25 15:18:27]
 -------
 
-[![jobset](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-jobset.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-jobset.yml)
+[![kube-state-metrics-amd64](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-kube-state-metrics-amd64.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/registry.k8s.io-kube-state-metrics-amd64.yml)
 
 Repository Address: [https://hub.docker.com/u/registryk8s/](https://hub.docker.com/u/registryk8s/)
 
@@ -10,7 +10,7 @@ Useage
 
 From gcr.io:
 ```bash
-docker pull jobset/hyperkube:v1.9.6
+docker pull kube-state-metrics-amd64/hyperkube:v1.9.6
 ```
 
 From docker hub Mirrors:
@@ -24,116 +24,116 @@ Total of 110's registry.k8s.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | jobset-jobset | 16 | - | 2024-08-25 13:15:05 |
-| 2 | jsandtest | 1 | - | 2024-08-25 13:15:05 |
-| 3 | k8s-cloud-kms-plugin | 1 | - | 2024-08-25 13:15:06 |
-| 4 | k8s-custom-iptables | 1 | - | 2024-08-25 13:15:06 |
-| 5 | k8s-dns-dnsmasq-amd64 | 17 | - | 2024-08-25 13:15:13 |
-| 6 | k8s-dns-dnsmasq-arm | 17 | - | 2024-08-25 13:15:14 |
-| 7 | k8s-dns-dnsmasq-arm64 | 17 | - | 2024-08-25 13:15:20 |
-| 8 | k8s-dns-dnsmasq-nanny | 16 | - | 2024-08-25 13:15:29 |
-| 9 | k8s-dns-dnsmasq-nanny-amd64 | 28 | - | 2024-08-25 13:15:42 |
-| 10 | k8s-dns-dnsmasq-nanny-arm | 28 | - | 2024-08-25 13:15:47 |
-| 11 | k8s-dns-dnsmasq-nanny-arm64 | 28 | - | 2024-08-25 13:16:02 |
-| 12 | k8s-dns-dnsmasq-nanny-ppc64le | 28 | - | 2024-08-25 13:16:12 |
-| 13 | k8s-dns-dnsmasq-nanny-s390x | 28 | - | 2024-08-25 13:16:25 |
-| 14 | k8s-dns-dnsmasq-ppc64le | 17 | - | 2024-08-25 13:16:25 |
-| 15 | k8s-dns-dnsmasq-s390x | 13 | - | 2024-08-25 13:16:25 |
-| 16 | k8s-dns-e2e-amd64 | 1 | - | 2024-08-25 13:16:25 |
-| 17 | k8s-dns-e2e-arm | 1 | - | 2024-08-25 13:16:25 |
-| 18 | k8s-dns-e2e-arm64 | 1 | - | 2024-08-25 13:16:25 |
-| 19 | k8s-dns-e2e-ppc64le | 1 | - | 2024-08-25 13:16:26 |
-| 20 | k8s-dns-ginkgo-amd64 | 1 | - | 2024-08-25 13:16:26 |
-| 21 | k8s-dns-ginkgo-arm | 1 | - | 2024-08-25 13:16:26 |
-| 22 | k8s-dns-ginkgo-arm64 | 1 | - | 2024-08-25 13:16:26 |
-| 23 | k8s-dns-ginkgo-ppc64le | 1 | - | 2024-08-25 13:16:26 |
-| 24 | k8s-dns-kube-dns | 16 | - | 2024-08-25 13:16:39 |
-| 25 | k8s-dns-kube-dns-amd64 | 33 | - | 2024-08-25 13:16:57 |
-| 26 | k8s-dns-kube-dns-arm | 33 | - | 2024-08-25 13:16:58 |
-| 27 | k8s-dns-kube-dns-arm64 | 33 | - | 2024-08-25 13:17:18 |
-| 28 | k8s-dns-kube-dns-ppc64le | 33 | - | 2024-08-25 13:17:28 |
-| 29 | k8s-dns-kube-dns-s390x | 29 | - | 2024-08-25 13:17:35 |
-| 30 | k8s-dns-node-cache | 14 | - | 2024-08-25 13:17:36 |
-| 31 | k8s-dns-node-cache-amd64 | 14 | - | 2024-08-25 13:17:41 |
-| 32 | k8s-dns-node-cache-arm | 14 | - | 2024-08-25 13:17:42 |
-| 33 | k8s-dns-node-cache-arm64 | 14 | - | 2024-08-25 13:17:46 |
-| 34 | k8s-dns-node-cache-ppc64le | 14 | - | 2024-08-25 13:17:47 |
-| 35 | k8s-dns-node-cache-s390x | 14 | - | 2024-08-25 13:17:52 |
-| 36 | k8s-dns-sidecar | 16 | - | 2024-08-25 13:18:07 |
-| 37 | k8s-dns-sidecar-amd64 | 34 | - | 2024-08-25 13:18:20 |
-| 38 | k8s-dns-sidecar-arm | 34 | - | 2024-08-25 13:18:40 |
-| 39 | k8s-dns-sidecar-arm64 | 34 | - | 2024-08-25 13:18:43 |
-| 40 | k8s-dns-sidecar-e2e-amd64 | 4 | - | 2024-08-25 13:18:43 |
-| 41 | k8s-dns-sidecar-e2e-arm | 4 | - | 2024-08-25 13:18:43 |
-| 42 | k8s-dns-sidecar-e2e-arm64 | 4 | - | 2024-08-25 13:18:43 |
-| 43 | k8s-dns-sidecar-e2e-ppc64le | 4 | - | 2024-08-25 13:18:43 |
-| 44 | k8s-dns-sidecar-ppc64le | 34 | - | 2024-08-25 13:19:01 |
-| 45 | k8s-dns-sidecar-s390x | 29 | - | 2024-08-25 13:19:02 |
-| 46 | k8s-jupyterhub | 2 | - | 2024-08-25 13:19:02 |
-| 47 | k8s-tpu-operator | 9 | - | 2024-08-25 13:19:02 |
-| 48 | kas-network-proxy-proxy-agent | 57 | - | 2024-08-25 13:19:18 |
-| 49 | kas-network-proxy-proxy-server | 57 | - | 2024-08-25 13:19:20 |
-| 50 | kibana | 6 | - | 2024-08-25 13:19:20 |
-| 51 | kops-dns-controller | 117 | - | 2024-08-25 13:19:20 |
-| 52 | kops-dns-controller-amd64 | 4 | - | 2024-08-25 13:19:20 |
-| 53 | kops-dns-controller-arm64 | 4 | - | 2024-08-25 13:19:20 |
-| 54 | kops-kops-controller | 117 | - | 2024-08-25 13:19:20 |
-| 55 | kops-kops-controller-amd64 | 4 | - | 2024-08-25 13:19:20 |
-| 56 | kops-kops-controller-arm64 | 4 | - | 2024-08-25 13:19:20 |
-| 57 | kops-kops-utils-cp | 27 | - | 2024-08-25 13:19:20 |
-| 58 | kops-kube-apiserver-healthcheck | 117 | - | 2024-08-25 13:19:21 |
-| 59 | kops-kube-apiserver-healthcheck-amd64 | 4 | - | 2024-08-25 13:19:21 |
-| 60 | kops-kube-apiserver-healthcheck-arm64 | 4 | - | 2024-08-25 13:19:21 |
-| 61 | kube-addon-manager | 33 | - | 2024-08-25 13:20:01 |
-| 62 | kube-addon-manager-amd64 | 32 | - | 2024-08-25 13:20:01 |
-| 63 | kube-addon-manager-arm | 28 | - | 2024-08-25 13:20:30 |
-| 64 | kube-addon-manager-arm64 | 28 | - | 2024-08-25 13:20:30 |
-| 65 | kube-addon-manager-ppc64le | 27 | - | 2024-08-25 13:20:56 |
-| 66 | kube-addon-manager-s390x | 20 | - | 2024-08-25 13:20:56 |
-| 67 | kube-aggregator | 153 | - | 2024-08-25 13:23:19 |
-| 68 | kube-aggregator-amd64 | 153 | - | 2024-08-25 13:23:36 |
-| 69 | kube-aggregator-arm | 153 | - | 2024-08-25 13:26:10 |
-| 70 | kube-aggregator-arm64 | 153 | - | 2024-08-25 13:26:33 |
-| 71 | kube-aggregator-ppc64le | 153 | - | 2024-08-25 13:28:49 |
-| 72 | kube-aggregator-s390x | 153 | - | 2024-08-25 13:29:30 |
-| 73 | kube-apiserver | 993 | - | 2024-08-25 13:29:30 |
-| 74 | kube-apiserver-amd64 | 996 | - | 2024-08-25 13:29:30 |
-| 75 | kube-apiserver-arm | 908 | - | 2024-08-25 13:29:30 |
-| 76 | kube-apiserver-arm64 | 966 | - | 2024-08-25 13:29:30 |
-| 77 | kube-apiserver-ppc64le | 900 | - | 2024-08-25 13:29:30 |
-| 78 | kube-apiserver-s390x | 874 | - | 2024-08-25 13:29:30 |
-| 79 | kube-controller-manager | 994 | - | 2024-08-25 13:29:30 |
-| 80 | kube-controller-manager-amd64 | 996 | - | 2024-08-25 13:29:30 |
-| 81 | kube-controller-manager-arm | 908 | - | 2024-08-25 13:29:30 |
-| 82 | kube-controller-manager-arm64 | 966 | - | 2024-08-25 13:29:30 |
-| 83 | kube-controller-manager-ppc64le | 900 | - | 2024-08-25 13:29:30 |
-| 84 | kube-controller-manager-s390x | 874 | - | 2024-08-25 13:29:30 |
-| 85 | kube-cross | 81 | - | 2024-08-25 13:30:51 |
-| 86 | kube-discovery-amd64 | 1 | - | 2024-08-25 13:30:51 |
-| 87 | kube-discovery-arm | 1 | - | 2024-08-25 13:30:51 |
-| 88 | kube-discovery-arm64 | 1 | - | 2024-08-25 13:30:51 |
-| 89 | kube-dns-perf-client-amd64 | 3 | - | 2024-08-25 13:30:51 |
-| 90 | kube-dnsmasq-amd64 | 4 | - | 2024-08-25 13:30:51 |
-| 91 | kube-dnsmasq-arm | 3 | - | 2024-08-25 13:30:51 |
-| 92 | kube-dnsmasq-arm64 | 3 | - | 2024-08-25 13:30:51 |
-| 93 | kube-dnsmasq-ppc64le | 3 | - | 2024-08-25 13:30:51 |
-| 94 | kube-haproxy | 3 | - | 2024-08-25 13:30:51 |
-| 95 | kube-keepalived-vip | 9 | - | 2024-08-25 13:30:51 |
-| 96 | kube-nethealth-amd64 | 1 | - | 2024-08-25 13:30:51 |
-| 97 | kube-proxy | 992 | - | 2024-08-25 13:30:51 |
-| 98 | kube-proxy-amd64 | 996 | - | 2024-08-25 13:30:51 |
-| 99 | kube-proxy-arm | 908 | - | 2024-08-25 13:30:51 |
-| 100 | kube-proxy-arm64 | 966 | - | 2024-08-25 13:30:51 |
-| 101 | kube-proxy-ppc64le | 900 | - | 2024-08-25 13:30:51 |
-| 102 | kube-proxy-s390x | 874 | - | 2024-08-25 13:30:51 |
-| 103 | kube-registry-proxy | 2 | - | 2024-08-25 13:30:51 |
-| 104 | kube-scheduler | 993 | - | 2024-08-25 13:30:51 |
-| 105 | kube-scheduler-amd64 | 996 | - | 2024-08-25 13:30:51 |
-| 106 | kube-scheduler-arm | 908 | - | 2024-08-25 13:30:51 |
-| 107 | kube-scheduler-arm64 | 966 | - | 2024-08-25 13:30:51 |
-| 108 | kube-scheduler-ppc64le | 900 | - | 2024-08-25 13:30:51 |
-| 109 | kube-scheduler-s390x | 874 | - | 2024-08-25 13:30:51 |
-| 110 | kube-state-metrics | 23 | - | 2024-08-25 13:30:51 |
+| 1 | kube-state-metrics-amd64 | 15 | - | 2024-08-25 15:16:51 |
+| 2 | kube-state-metrics-arm | 9 | - | 2024-08-25 15:16:51 |
+| 3 | kube-state-metrics-arm64 | 9 | - | 2024-08-25 15:16:51 |
+| 4 | kube-state-metrics-ppc64le | 9 | - | 2024-08-25 15:16:51 |
+| 5 | kube-state-metrics-s390x | 9 | - | 2024-08-25 15:16:51 |
+| 6 | kube-ui | 6 | - | 2024-08-25 15:16:51 |
+| 7 | kube2sky | 18 | - | 2024-08-25 15:16:53 |
+| 8 | kube2sky-amd64 | 1 | - | 2024-08-25 15:16:53 |
+| 9 | kube2sky-arm | 2 | - | 2024-08-25 15:16:53 |
+| 10 | kube2sky-arm64 | 1 | - | 2024-08-25 15:16:53 |
+| 11 | kube2sky-ppc64le | 1 | - | 2024-08-25 15:16:53 |
+| 12 | kubectl | 62 | - | 2024-08-25 15:16:53 |
+| 13 | kubectl-amd64 | 59 | - | 2024-08-25 15:16:53 |
+| 14 | kubectl-arm64 | 59 | - | 2024-08-25 15:16:53 |
+| 15 | kubectl-ppc64le | 59 | - | 2024-08-25 15:16:53 |
+| 16 | kubectl-s390x | 59 | - | 2024-08-25 15:16:53 |
+| 17 | kubedash | 2 | - | 2024-08-25 15:16:53 |
+| 18 | kubedns-amd64 | 12 | - | 2024-08-25 15:16:56 |
+| 19 | kubedns-arm | 9 | - | 2024-08-25 15:16:56 |
+| 20 | kubedns-arm64 | 9 | - | 2024-08-25 15:16:56 |
+| 21 | kubedns-ppc64le | 6 | - | 2024-08-25 15:16:56 |
+| 22 | kubekins-e2e | 69 | - | 2024-08-25 15:16:57 |
+| 23 | kubekins-job-builder | 6 | - | 2024-08-25 15:16:57 |
+| 24 | kubekins-test | 29 | - | 2024-08-25 15:17:09 |
+| 25 | kubelet-to-gcm | 17 | - | 2024-08-25 15:17:09 |
+| 26 | kubernetes-dashboard | 3 | - | 2024-08-25 15:17:09 |
+| 27 | kubernetes-dashboard-amd64 | 30 | - | 2024-08-25 15:17:09 |
+| 28 | kubernetes-dashboard-arm | 30 | - | 2024-08-25 15:17:09 |
+| 29 | kubernetes-dashboard-arm64 | 29 | - | 2024-08-25 15:17:09 |
+| 30 | kubernetes-dashboard-init-amd64 | 2 | - | 2024-08-25 15:17:09 |
+| 31 | kubernetes-dashboard-init-arm | 2 | - | 2024-08-25 15:17:09 |
+| 32 | kubernetes-dashboard-ppc64le | 29 | - | 2024-08-25 15:17:10 |
+| 33 | kubernetes-dashboard-s390x | 11 | - | 2024-08-25 15:17:11 |
+| 34 | kubernetes-kafka | 2 | - | 2024-08-25 15:17:11 |
+| 35 | kubernetes-zookeeper | 1 | - | 2024-08-25 15:17:11 |
+| 36 | kubernetes-conformance | 428 | - | 2024-08-25 15:17:11 |
+| 37 | kubernetes-conformance-amd64 | 428 | - | 2024-08-25 15:17:11 |
+| 38 | kubernetes-conformance-arm | 348 | - | 2024-08-25 15:17:11 |
+| 39 | kubernetes-conformance-arm64 | 428 | - | 2024-08-25 15:17:11 |
+| 40 | kubernetes-conformance-ppc64le | 428 | - | 2024-08-25 15:17:11 |
+| 41 | kubernetes-conformance-s390x | 428 | - | 2024-08-25 15:17:11 |
+| 42 | kubernetes-etcd | 25 | - | 2024-08-25 15:17:11 |
+| 43 | kubernetes-etcd-empty-dir-cleanup | 1 | - | 2024-08-25 15:17:11 |
+| 44 | kubernetes-hyperkube | 48 | - | 2024-08-25 15:17:11 |
+| 45 | kubernetes-hyperkube-amd64 | 48 | - | 2024-08-25 15:17:12 |
+| 46 | kubernetes-hyperkube-arm | 48 | - | 2024-08-25 15:18:16 |
+| 47 | kubernetes-hyperkube-arm64 | 48 | - | 2024-08-25 15:18:16 |
+| 48 | kubernetes-hyperkube-ppc64le | 48 | - | 2024-08-25 15:18:16 |
+| 49 | kubernetes-hyperkube-s390x | 48 | - | 2024-08-25 15:18:16 |
+| 50 | kubernetes-kube-apiserver | 429 | - | 2024-08-25 15:18:16 |
+| 51 | kubernetes-kube-apiserver-amd64 | 429 | - | 2024-08-25 15:18:16 |
+| 52 | kubernetes-kube-apiserver-arm | 349 | - | 2024-08-25 15:18:16 |
+| 53 | kubernetes-kube-apiserver-arm64 | 429 | - | 2024-08-25 15:18:16 |
+| 54 | kubernetes-kube-apiserver-ppc64le | 429 | - | 2024-08-25 15:18:17 |
+| 55 | kubernetes-kube-apiserver-s390x | 429 | - | 2024-08-25 15:18:17 |
+| 56 | kubernetes-kube-controller-manager | 429 | - | 2024-08-25 15:18:17 |
+| 57 | kubernetes-kube-controller-manager-amd64 | 429 | - | 2024-08-25 15:18:17 |
+| 58 | kubernetes-kube-controller-manager-arm | 349 | - | 2024-08-25 15:18:17 |
+| 59 | kubernetes-kube-controller-manager-arm64 | 429 | - | 2024-08-25 15:18:17 |
+| 60 | kubernetes-kube-controller-manager-ppc64le | 429 | - | 2024-08-25 15:18:17 |
+| 61 | kubernetes-kube-controller-manager-s390x | 429 | - | 2024-08-25 15:18:17 |
+| 62 | kubernetes-kube-proxy | 429 | - | 2024-08-25 15:18:18 |
+| 63 | kubernetes-kube-proxy-amd64 | 429 | - | 2024-08-25 15:18:18 |
+| 64 | kubernetes-kube-proxy-arm | 349 | - | 2024-08-25 15:18:18 |
+| 65 | kubernetes-kube-proxy-arm64 | 429 | - | 2024-08-25 15:18:18 |
+| 66 | kubernetes-kube-proxy-ppc64le | 429 | - | 2024-08-25 15:18:18 |
+| 67 | kubernetes-kube-proxy-s390x | 429 | - | 2024-08-25 15:18:18 |
+| 68 | kubernetes-kube-scheduler | 429 | - | 2024-08-25 15:18:18 |
+| 69 | kubernetes-kube-scheduler-amd64 | 429 | - | 2024-08-25 15:18:18 |
+| 70 | kubernetes-kube-scheduler-arm | 349 | - | 2024-08-25 15:18:18 |
+| 71 | kubernetes-kube-scheduler-arm64 | 429 | - | 2024-08-25 15:18:18 |
+| 72 | kubernetes-kube-scheduler-ppc64le | 429 | - | 2024-08-25 15:18:19 |
+| 73 | kubernetes-kube-scheduler-s390x | 429 | - | 2024-08-25 15:18:19 |
+| 74 | kubernetes-kubectl | 59 | - | 2024-08-25 15:18:19 |
+| 75 | kubernetes-kubectl-amd64 | 59 | - | 2024-08-25 15:18:19 |
+| 76 | kubernetes-kubectl-arm64 | 59 | - | 2024-08-25 15:18:19 |
+| 77 | kubernetes-kubectl-ppc64le | 59 | - | 2024-08-25 15:18:19 |
+| 78 | kubernetes-kubectl-s390x | 59 | - | 2024-08-25 15:18:19 |
+| 79 | kubernetes-pause | 8 | - | 2024-08-25 15:18:19 |
+| 80 | kubernetes-pause-amd64 | 2 | - | 2024-08-25 15:18:19 |
+| 81 | kubernetes-pause-arm | 2 | - | 2024-08-25 15:18:19 |
+| 82 | kubernetes-pause-arm64 | 2 | - | 2024-08-25 15:18:19 |
+| 83 | kubernetes-pause-ppc64le | 2 | - | 2024-08-25 15:18:19 |
+| 84 | kubernetes-pause-s390x | 2 | - | 2024-08-25 15:18:19 |
+| 85 | kueue-kueue | 22 | - | 2024-08-25 15:18:19 |
+| 86 | kustomize-kustomize | 43 | - | 2024-08-25 15:18:20 |
+| 87 | kwok-cluster | 78 | - | 2024-08-25 15:18:20 |
+| 88 | kwok-kwok | 12 | - | 2024-08-25 15:18:20 |
+| 89 | leader-elector | 4 | - | 2024-08-25 15:18:20 |
+| 90 | liveness | 2 | - | 2024-08-25 15:18:20 |
+| 91 | loader | 5 | - | 2024-08-25 15:18:20 |
+| 92 | logexp | 2 | - | 2024-08-25 15:18:20 |
+| 93 | logexporter | 4 | - | 2024-08-25 15:18:20 |
+| 94 | logs-generator | 5 | - | 2024-08-25 15:18:21 |
+| 95 | managed-certificate-controller | 13 | - | 2024-08-25 15:18:23 |
+| 96 | metadata-proxy | 15 | - | 2024-08-25 15:18:23 |
+| 97 | metrics-server | 6 | - | 2024-08-25 15:18:23 |
+| 98 | metrics-server-amd64 | 12 | - | 2024-08-25 15:18:24 |
+| 99 | metrics-server-arm | 8 | - | 2024-08-25 15:18:24 |
+| 100 | metrics-server-arm64 | 8 | - | 2024-08-25 15:18:24 |
+| 101 | metrics-server-ppc64le | 8 | - | 2024-08-25 15:18:24 |
+| 102 | metrics-server-s390x | 8 | - | 2024-08-25 15:18:24 |
+| 103 | minikube-nvidia-driver-installer | 2 | - | 2024-08-25 15:18:24 |
+| 104 | mongodb-install | 6 | - | 2024-08-25 15:18:24 |
+| 105 | mounttest | 7 | - | 2024-08-25 15:18:24 |
+| 106 | mounttest-user | 5 | - | 2024-08-25 15:18:25 |
+| 107 | multitenancy-externalip-webhook | 1 | - | 2024-08-25 15:18:25 |
+| 108 | mungegithub | 16 | - | 2024-08-25 15:18:27 |
+| 109 | mysql-galera | 1 | - | 2024-08-25 15:18:27 |
+| 110 | mysql-healthz | 2 | - | 2024-08-25 15:18:27 |
 
 Support
 -------
