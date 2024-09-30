@@ -1,4 +1,4 @@
-Google Containers Registry autoscaling Mirrors [last sync 2024-09-30 14:53:06]
+Google Containers Registry autoscaling Mirrors [last sync 2024-09-30 15:01:14]
 -------
 
 [![autoscaling](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-autoscaling.yml)
@@ -24,33 +24,33 @@ Total of 27's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | addon-resizer | 13 | - | 2024-09-30 14:52:17 |
-| 2 | addon-resizer-amd64 | 13 | - | 2024-09-30 14:52:21 |
-| 3 | addon-resizer-arm | 13 | - | 2024-09-30 14:52:21 |
-| 4 | addon-resizer-arm64 | 13 | - | 2024-09-30 14:52:24 |
-| 5 | addon-resizer-ppc64le | 13 | - | 2024-09-30 14:52:26 |
-| 6 | addon-resizer-s390x | 13 | - | 2024-09-30 14:52:27 |
-| 7 | cluster-autoscaler | 73 | - | 2024-09-30 14:52:27 |
-| 8 | cluster-autoscaler-amd64 | 58 | - | 2024-09-30 14:52:29 |
-| 9 | cluster-autoscaler-arm64 | 58 | - | 2024-09-30 14:52:32 |
-| 10 | vpa-admission-controller | 15 | - | 2024-09-30 14:52:32 |
-| 11 | vpa-admission-controller-amd64 | 13 | - | 2024-09-30 14:52:34 |
-| 12 | vpa-admission-controller-arm | 13 | - | 2024-09-30 14:52:35 |
-| 13 | vpa-admission-controller-arm64 | 13 | - | 2024-09-30 14:52:37 |
-| 14 | vpa-admission-controller-ppc64le | 13 | - | 2024-09-30 14:52:38 |
-| 15 | vpa-admission-controller-s390x | 13 | - | 2024-09-30 14:52:38 |
-| 16 | vpa-recommender | 15 | - | 2024-09-30 14:52:38 |
-| 17 | vpa-recommender-amd64 | 13 | - | 2024-09-30 14:52:38 |
-| 18 | vpa-recommender-arm | 13 | - | 2024-09-30 14:52:46 |
-| 19 | vpa-recommender-arm64 | 13 | - | 2024-09-30 14:52:46 |
-| 20 | vpa-recommender-ppc64le | 13 | - | 2024-09-30 14:52:48 |
-| 21 | vpa-recommender-s390x | 13 | - | 2024-09-30 14:52:59 |
-| 22 | vpa-updater | 15 | - | 2024-09-30 14:52:59 |
-| 23 | vpa-updater-amd64 | 13 | - | 2024-09-30 14:52:59 |
-| 24 | vpa-updater-arm | 13 | - | 2024-09-30 14:52:59 |
-| 25 | vpa-updater-arm64 | 13 | - | 2024-09-30 14:53:03 |
-| 26 | vpa-updater-ppc64le | 13 | - | 2024-09-30 14:53:03 |
-| 27 | vpa-updater-s390x | 13 | - | 2024-09-30 14:53:06 |
+| 1 | addon-resizer | 13 | - | 2024-09-30 15:00:04 |
+| 2 | addon-resizer-amd64 | 13 | - | 2024-09-30 15:00:04 |
+| 3 | addon-resizer-arm | 13 | - | 2024-09-30 15:00:04 |
+| 4 | addon-resizer-arm64 | 13 | - | 2024-09-30 15:00:04 |
+| 5 | addon-resizer-ppc64le | 13 | - | 2024-09-30 15:00:04 |
+| 6 | addon-resizer-s390x | 13 | - | 2024-09-30 15:00:04 |
+| 7 | cluster-autoscaler | 73 | - | 2024-09-30 15:00:24 |
+| 8 | cluster-autoscaler-amd64 | 58 | - | 2024-09-30 15:00:24 |
+| 9 | cluster-autoscaler-arm64 | 58 | - | 2024-09-30 15:00:24 |
+| 10 | vpa-admission-controller | 15 | - | 2024-09-30 15:00:33 |
+| 11 | vpa-admission-controller-amd64 | 13 | - | 2024-09-30 15:00:33 |
+| 12 | vpa-admission-controller-arm | 13 | - | 2024-09-30 15:00:33 |
+| 13 | vpa-admission-controller-arm64 | 13 | - | 2024-09-30 15:00:34 |
+| 14 | vpa-admission-controller-ppc64le | 13 | - | 2024-09-30 15:00:38 |
+| 15 | vpa-admission-controller-s390x | 13 | - | 2024-09-30 15:00:38 |
+| 16 | vpa-recommender | 15 | - | 2024-09-30 15:00:55 |
+| 17 | vpa-recommender-amd64 | 13 | - | 2024-09-30 15:00:55 |
+| 18 | vpa-recommender-arm | 13 | - | 2024-09-30 15:00:55 |
+| 19 | vpa-recommender-arm64 | 13 | - | 2024-09-30 15:00:55 |
+| 20 | vpa-recommender-ppc64le | 13 | - | 2024-09-30 15:00:55 |
+| 21 | vpa-recommender-s390x | 13 | - | 2024-09-30 15:00:55 |
+| 22 | vpa-updater | 15 | - | 2024-09-30 15:01:14 |
+| 23 | vpa-updater-amd64 | 13 | - | 2024-09-30 15:01:14 |
+| 24 | vpa-updater-arm | 13 | - | 2024-09-30 15:01:14 |
+| 25 | vpa-updater-arm64 | 13 | - | 2024-09-30 15:01:14 |
+| 26 | vpa-updater-ppc64le | 13 | - | 2024-09-30 15:01:14 |
+| 27 | vpa-updater-s390x | 13 | - | 2024-09-30 15:01:14 |
 
 Support
 -------
