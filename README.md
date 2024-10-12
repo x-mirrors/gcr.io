@@ -1,4 +1,4 @@
-Google Containers Registry ingress-nginx Mirrors [last sync 2024-10-12 06:43:14]
+Google Containers Registry ingress-nginx Mirrors [last sync 2024-10-12 06:54:13]
 -------
 
 [![ingress-nginx](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml/badge.svg?branch=main)](https://github.com/x-mirrors/gcr.io/actions/workflows/k8s.gcr.io-ingress-nginx.yml)
@@ -24,17 +24,17 @@ Total of 11's k8s.gcr.io images
 
 | No  | name | tags count | total size | last sync time |
 | --- | ----- | ---------- | ---------- | -------------- |
-| 1 | controller | 77 | - | 2024-10-12 06:43:00 |
-| 2 | controller-chroot | 40 | - | 2024-10-12 06:43:00 |
-| 3 | e2e-test-cfssl | 10 | - | 2024-10-12 06:43:01 |
-| 4 | e2e-test-echo | 18 | - | 2024-10-12 06:43:14 |
-| 5 | e2e-test-fastcgi-helloserver | 9 | - | 2024-10-12 06:43:14 |
-| 6 | e2e-test-httpbin | 4 | - | 2024-10-12 06:43:14 |
-| 7 | e2e-test-runner | 57 | - | 2024-10-12 06:43:14 |
-| 8 | kube-webhook-certgen | 19 | - | 2024-10-12 06:43:14 |
-| 9 | nginx | 49 | - | 2024-10-12 06:43:14 |
-| 10 | nginx-errors | 12 | - | 2024-10-12 06:43:14 |
-| 11 | opentelemetry | 16 | - | 2024-10-12 06:43:14 |
+| 1 | controller | 77 | - | 2024-10-12 06:54:06 |
+| 2 | controller-chroot | 40 | - | 2024-10-12 06:54:06 |
+| 3 | e2e-test-cfssl | 10 | - | 2024-10-12 06:54:06 |
+| 4 | e2e-test-echo | 18 | - | 2024-10-12 06:54:13 |
+| 5 | e2e-test-fastcgi-helloserver | 9 | - | 2024-10-12 06:54:13 |
+| 6 | e2e-test-httpbin | 4 | - | 2024-10-12 06:54:13 |
+| 7 | e2e-test-runner | 57 | - | 2024-10-12 06:54:13 |
+| 8 | kube-webhook-certgen | 19 | - | 2024-10-12 06:54:13 |
+| 9 | nginx | 49 | - | 2024-10-12 06:54:13 |
+| 10 | nginx-errors | 12 | - | 2024-10-12 06:54:13 |
+| 11 | opentelemetry | 16 | - | 2024-10-12 06:54:13 |
 
 Support
 -------
